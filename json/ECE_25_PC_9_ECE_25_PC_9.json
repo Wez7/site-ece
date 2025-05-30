@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "concentration_HCl_initial": "5.0 × 10⁻¹ mol·L⁻¹",
+    "concentration_HCl_final": "2.0 × 10⁻¹ mol·L⁻¹",
+    "volume_HCl_initial": "20.0 mL",
+    "volume_HCl_final": "50.0 mL",
+    "temps_transformation_concentration_elevee": "30 s",
+    "temps_transformation_concentration_faible": "60 s",
+    "temps_transformation_temperature_elevee": "20 s",
+    "temps_transformation_temperature_faible": "50 s"
+  },
+  "correction": "1. **Préparation d'une solution par dilution** : Pour préparer 50,0 mL d'une solution d'acide chlorhydrique à 2,0 × 10⁻¹ mol·L⁻¹ à partir d'une solution à 5,0 × 10⁻¹ mol·L⁻¹, on utilise la relation de dilution C₁V₁ = C₂V₂. On calcule V₁ = (C₂V₂)/C₁ = (2,0 × 10⁻¹ × 50,0)/5,0 × 10⁻¹ = 20,0 mL. On prélève donc 20,0 mL de la solution initiale à l'aide d'une pipette jaugée de 20,0 mL et on les verse dans une fiole jaugée de 50,0 mL. On complète avec de l'eau distillée jusqu'au trait de jauge et on homogénéise.\n\n2. **Protocoles expérimentaux** :\n   - **Protocole 1 (Affirmation 1)** : Préparer deux mélanges avec des concentrations initiales différentes en ions thiosulfate (par exemple, 0,1 mol·L⁻¹ et 0,2 mol·L⁻¹) en gardant la concentration en H₃O⁺ constante. Mesurer le temps de disparition de la croix pour chaque mélange. Si le temps est plus court pour la concentration plus élevée, l'affirmation est validée.\n   - **Protocole 2 (Affirmation 2)** : Préparer deux mélanges identiques et les placer à des températures différentes (par exemple, 20°C et 40°C). Mesurer le temps de disparition de la croix. Si le temps est plus court à la température plus élevée, l'affirmation est invalidée (car une température plus élevée accélère la réaction).\n\n3. **Résultats** :\n   - **Protocole 1** : Pour une concentration élevée en S₂O₃²⁻, le temps de transformation est de 30 s, tandis que pour une concentration faible, il est de 60 s. Cela valide l'affirmation 1.\n   - **Protocole 2** : À 40°C, le temps de transformation est de 20 s, tandis qu'à 20°C, il est de 50 s. Cela invalide l'affirmation 2 (car une température plus élevée réduit le temps de réaction).\n\n4. **Conclusion** :\n   - **Affirmation 1** : Validée, car une concentration initiale plus élevée des réactifs diminue la durée de la transformation.\n   - **Affirmation 2** : Invalidée, car une température plus élevée diminue la durée de la transformation (elle l'accélère)."
+}

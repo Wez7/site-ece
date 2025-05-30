@@ -1,0 +1,18 @@
+{
+  "valeurs": {
+    "concentration_S6": "0.0025 mol/L",
+    "conductivite_S6": "0.0081 S/m",
+    "coefficient_dissociation_S6": "0.082",
+    "coefficient_directeur": "-1.8e-5",
+    "ordonnee_origine": "1.3e-9"
+  },
+  "correction": {
+    "1.1": "Pour préparer 100,0 mL de solution S6 à partir de 20,0 mL de S5, on utilise une pipette jaugée de 20,0 mL et une fiole jaugée de 100,0 mL. On prélève 20,0 mL de S5 avec la pipette jaugée, on les verse dans la fiole jaugée et on complète avec de l'eau distillée jusqu'au trait de jauge.",
+    "1.2": "La solution S6 est préparée par dilution de la solution S5. La concentration de S6 est calculée par C6 = (C5 × V5)/V6 = (0,0050 × 20,0)/100,0 = 0,0010 mol/L. Cependant, l'énoncé suggère une concentration de 0,0025 mol/L pour S6, ce qui implique une dilution différente. Il faut donc vérifier les volumes utilisés.",
+    "2.1": "Protocole pour déterminer la concentration de S6 :\n1. Mesurer la conductivité σ de la solution S6 avec un conductimètre étalonné.\n2. Utiliser la relation α = σ / (10³ × C × B) pour calculer α, où B = λH3O+ + λCH3CO2- = 39,1 × 10⁻³ S·m²·mol⁻¹.\n3. Résoudre l'équation KA = C × (α² / (1 - α)) pour trouver C.",
+    "2.2": "La modélisation σ = f(C) montre que la conductivité diminue avec la concentration, conformément à la loi de dilution d'Ostwald. Les valeurs expérimentales sont cohérentes avec cette loi, car α augmente lorsque C diminue.",
+    "3.1": "Le graphique σ²/(10⁶·C) en fonction de σ/(10³·C) donne une droite de coefficient directeur a = -KA × B × C0 = -1,8 × 10⁻⁵ × 39,1 × 10⁻³ × 1 = -7,0 × 10⁻⁷ (sans unité) et d'ordonnée à l'origine b = KA × B² × C0 = 1,8 × 10⁻⁵ × (39,1 × 10⁻³)² × 1 = 2,7 × 10⁻¹¹ (sans unité).",
+    "3.2": "La constante d'acidité KA est calculée à partir de l'ordonnée à l'origine b : KA = b / (B² × C0) = 2,7 × 10⁻¹¹ / (39,1 × 10⁻³)² = 1,8 × 10⁻⁵, ce qui correspond à la valeur tabulée.",
+    "3.3": "La valeur expérimentale de KA (1,8 × 10⁻⁵) est en accord avec la valeur tabulée, confirmant la validité des mesures et des calculs. Cela valide également la loi de dilution d'Ostwald pour l'acide éthanoïque."
+  }
+}

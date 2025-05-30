@@ -1,0 +1,15 @@
+{
+  "valeurs": {
+    "absorbance_initiale_sans_catalyseur": "0.8",
+    "absorbance_finale_sans_catalyseur": "0.75",
+    "temps_suivi": "200",
+    "delta_A_sans_catalyseur": "0.05",
+    "delta_t": "200",
+    "vitesse_moyenne_sans_catalyseur": "2.5e-4",
+    "absorbance_initiale_avec_catalyseur": "0.8",
+    "absorbance_finale_avec_catalyseur": "0.4",
+    "delta_A_avec_catalyseur": "0.4",
+    "vitesse_moyenne_avec_catalyseur": "2.0e-3"
+  },
+  "correction": "1. Manipulation préalable : Pour préparer 100 mL d'une solution d'amidon à 1% à partir d'une solution à 5%, il faut effectuer une dilution. Le facteur de dilution est de 5, donc on prélève 20 mL de la solution à 5% que l'on verse dans une fiole jaugée de 100 mL, puis on complète avec de l'eau distillée jusqu'au trait de jauge. Homogénéiser ensuite la solution.\n\n2. Étude sans catalyseur : Après avoir suivi le protocole de suivi cinétique, on mesure une absorbance initiale de 0.8 et une absorbance finale de 0.75 après 200 secondes. La variation d'absorbance ΔA est de 0.05, ce qui donne une vitesse moyenne de réaction de -ΔA/Δt = -0.05/200 = -2.5e-4 s^-1. La valeur négative indique une diminution de l'absorbance au cours du temps, cohérente avec la disparition de l'amidon.\n\n3. Étude avec catalyseur : Le protocole est similaire, mais on ajoute 1.0 mL de solution d'amylase avant de lancer le suivi cinétique. Les résultats montrent une absorbance initiale de 0.8 et une absorbance finale de 0.4 après 200 secondes, soit une ΔA de 0.4. La vitesse moyenne est alors de -0.4/200 = -2.0e-3 s^-1, significativement plus élevée qu'en absence de catalyseur. Cela confirme que l'amylase catalyse bien l'hydrolyse de l'amidon, en accélérant la réaction."
+}

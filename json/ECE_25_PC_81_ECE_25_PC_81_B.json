@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "Umax": "3.3 V",
+    "Umin": "1.221 V",
+    "tau": "1.5 s",
+    "T": "1.5 s",
+    "frequence_initiale": "0.67 Hz",
+    "frequence_souhaitee": "1.08 Hz",
+    "R_nouvelle": "9.3 kΩ",
+    "C_nouvelle": "100 µF",
+    "tau_nouvelle": "0.93 s"
+  },
+  "correction": "1.1. La courbe Uc(t) montre une phase de charge quasi-instantanée (impulsion) jusqu'à 3.3 V, suivie d'une décharge exponentielle. L'impulsion correspond à la phase de charge. La période mesurée est T = 1.5 s (soit 40 battements/min), avec Umax = 3.3 V et Umin = 1.221 V (37% de Umax).\n\n1.2. Deux inadaptations :\n- La fréquence initiale (40 battements/min) est bien en dessous de la plage normale pour une personne âgée (65 ± 8 battements/min).\n- Le seuil de déclenchement dans le programme (2.0 V) ne correspond pas à 37% de Umax (1.221 V).\n\n2. Modifications nécessaires :\n- Changer R pour obtenir τ = 0.93 s (fréquence 1.08 Hz ≈ 65 battements/min). Avec C = 100 µF, la nouvelle résistance doit être R = τ/C = 9.3 kΩ.\n- Modifier la ligne 10 du programme : remplacer 'while (Uc >= 2.0)' par 'while (Uc >= 1.221)'.\n\n3. Après modifications :\n- La nouvelle période mesurée doit être proche de 0.93 s (65 battements/min).\n- Vérifier que les impulsions se déclenchent bien à Uc = 1.221 V.\n- La fréquence obtenue doit maintenant être dans la plage 57-73 battements/min, adaptée à une personne âgée."
+}

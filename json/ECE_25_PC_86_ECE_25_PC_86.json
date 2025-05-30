@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "pH_SV": 10.0,
+    "absorbance_Sd": 0.65,
+    "longueur_onde": 340,
+    "concentration_Sd": 2.4e-05,
+    "concentration_Sv": 0.00024,
+    "pourcentage_massique": 0.83
+  },
+  "correction": "1. **Préparation de la vanilline à doser**\n   - **Mesure du pH de SV** : Le pH mesuré est de 10.0, ce qui est supérieur au pKa de la vanilline (7.40). Ainsi, la vanilline est majoritairement sous forme d'ion vanillinate (sa base conjuguée) dans cette solution.\n   - **Dilution** : Pour préparer 50.0 mL de solution Sd à partir de SV (facteur 10), on prélève 5.0 mL de SV avec une pipette jaugée de 5 mL et on les verse dans une fiole jaugée de 50 mL. On complète avec la solution d'hydroxyde de sodium à 0.1 mol·L⁻¹ jusqu'au trait de jauge.\n\n2. **Dosage de la vanilline**\n   - **Protocole** :\n     1. Régler le spectrophotomètre à la longueur d'onde de 340 nm (maximum d'absorption des ions vanillinate).\n     2. Mesurer l'absorbance de Sd. La valeur obtenue est 0.65.\n     3. Tracer la droite d'étalonnage (A en fonction de C) à partir des solutions étalons fournies.\n     4. Déterminer la concentration Cd de Sd en utilisant la droite d'étalonnage (ici, Cd = 2.4 × 10⁻⁵ mol·L⁻¹).\n     5. Calculer Cv = Cd × 10 = 2.4 × 10⁻⁴ mol·L⁻¹ (car dilution au 1/10).\n\n3. **Teneur en vanilline**\n   - **Calcul** :\n     %m = 100 × (0.250 × 152 × 2.4 × 10⁻⁴) / 1.10 = 0.83 %.\n   - **Commentaire** : La teneur en vanilline (0.83 %) est supérieure au seuil minimal de 0.2 %, donc l'extrait respecte bien la norme pour porter l'indication « arôme de vanille »."
+}

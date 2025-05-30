@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "distance1": "0.049 m",
+    "distance2": "0.196 m",
+    "distance3": "0.441 m",
+    "temps1": "0.100 s",
+    "temps2": "0.200 s",
+    "temps3": "0.300 s",
+    "accélération": "9.81 m/s²"
+  },
+  "correction": "1.1. Pour valider la conclusion de Galilée, il faut tracer la distance parcourue (d) en fonction du carré du temps (t²). En abscisse, on place t² et en ordonnée, on place d. Si la relation est linéaire, cela confirme que d est proportionnelle à t².\n\n1.2. On s'attend à obtenir une droite passant par l'origine, car la distance parcourue est proportionnelle au carré du temps (d = k·t², où k est une constante).\n\n1.3. Protocole expérimental :\n- Installer un plan incliné avec un angle faible pour ralentir le mouvement.\n- Lâcher une bille du haut du plan sans vitesse initiale.\n- Mesurer les distances parcourues (d) à des intervalles de temps réguliers (t) à l'aide d'un chronomètre et d'une règle.\n- Tracer d en fonction de t² et vérifier la linéarité.\n\n2. Mise en œuvre :\n- Les mesures donnent par exemple d1 = 0.049 m à t1 = 0.100 s, d2 = 0.196 m à t2 = 0.200 s, etc.\n- Le modèle mathématique est d = ½·a·t², où a est l'accélération. Si a est constant, la loi de Galilée est validée.\n\n3. Positions des clochettes :\n- Pour t = 0.100 s : d = ½·9.81·(0.100)² = 0.049 m\n- Pour t = 0.200 s : d = ½·9.81·(0.200)² = 0.196 m\n- Pour t = 0.300 s : d = ½·9.81·(0.300)² = 0.441 m\n\nConclusion : Les résultats confirment la loi de Galilée, car d est proportionnelle à t²."
+}

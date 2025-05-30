@@ -1,0 +1,7 @@
+{
+  "valeurs": {
+    "pH1": "3.5",
+    "pH2": "2.0"
+  },
+  "correction": "1. Mesure de pH et espèce prédominante dans la solution S :\n- Le pH1 mesuré est de 3.5. En comparant avec les pKa des additifs :\n  - Acide benzoïque (pKa = 4.2) : pH < pKa → forme acide (acide benzoïque) prédominante.\n  - Acide citrique (pKa1 = 3.13) : pH > pKa1 → forme ionique (ion citrate) prédominante pour le premier proton.\n  - Acide fumarique (pKa1 = 3.03) : pH > pKa1 → forme ionique (ion fumarate) prédominante pour le premier proton.\n\n2. Extraction :\n- Après ajout d'acide chlorhydrique, le pH2 mesuré est de 2.0. En comparant avec les pKa :\n  - Acide benzoïque : pH < pKa → forme acide prédominante.\n  - Acide citrique : pH < pKa1 → forme acide prédominante.\n  - Acide fumarique : pH < pKa1 → forme acide prédominante.\n\n3. Identification :\n3.1. Après ajout d'acide, tous les additifs sont sous forme acide.\n3.2. Élimination de l'acide citrique : sa solubilité élevée (592 g/L) empêche sa cristallisation dans ces conditions.\n3.3. Protocole proposé :\n  - Mesurer la température de fusion du solide obtenu.\n  - Comparer avec les températures de fusion des additifs restants (acide benzoïque : 122°C, acide fumarique : 287°C).\n3.4. Identification :\n  - Si la température de fusion est proche de 122°C → acide benzoïque.\n  - Si proche de 287°C → acide fumarique.\n  - Justification : la température de fusion est une propriété caractéristique permettant d'identifier une substance pure."
+}

@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "UC_max": "5.0 V",
+    "UC_min": "1.85 V",
+    "tau": "1.5 s",
+    "T": "1.5 s",
+    "fréquence_cardiaque_initiale": "40 battements/min",
+    "fréquence_cardiaque_souhaitée": "65 battements/min"
+  },
+  "correction": "1.1. La courbe UC(t) présente une phase de charge quasi-instantanée (montée verticale à ~5V) suivie d'une phase de décroissance exponentielle lors de la décharge. L'impulsion cardiaque correspond à la phase de charge (tension élevée sur un temps très court).\n\n1.2. Deux inadaptations :\n- La période T = τ = RC = 15kΩ×100µF = 1.5s correspond à 40 battements/min (60/1.5), bien en dessous des 65±8 battements/min souhaités pour une personne âgée.\n- Le seuil de déclenchement dans le programme (3.0V) ne correspond pas à UC,min = 37%×5V = 1.85V comme spécifié.\n\n2. Modifications nécessaires :\n- Changer R pour obtenir τ = 60/65 = 0.92s ⇒ R = τ/C = 0.92/100×10⁻⁶ ≈ 9.2kΩ\n- Modifier la ligne 15 du programme : remplacer 'while (Uc >= 3.0)' par 'while (Uc >= 1.85)'\n\n3. Vérification :\nAprès modification, on doit mesurer :\n- Une nouvelle période T ≈ 0.92s ⇒ 65 battements/min\n- Un seuil de déclenchement à 1.85V\n- La constante de temps τ = R×C ≈ 0.92s confirmée par la décroissance exponentielle."
+}

@@ -1,0 +1,10 @@
+{
+  "valeurs": {
+    "volume_equivalence_VE": "10.0 mL",
+    "conductivite_initial": "2.5 mS/cm",
+    "conductivite_final": "4.0 mS/cm",
+    "concentration_S_prime": "0.02 mol/L",
+    "masse_magnesium_verre": "48.6 mg"
+  },
+  "correction": "1. **Dilution de la solution S** : Pour diluer la solution S d'un facteur 5, prélever 20,0 mL de S et les introduire dans une fiole jaugée de 100,0 mL. Compléter avec de l'eau distillée jusqu'au trait de jauge. Agiter pour homogénéiser. La solution obtenue est S' de concentration 5 fois moindre que S.\n\n2. **Titrage de la solution S'** : \n   - **Montage** : Schématiser une burette contenant la solution titrante (NaOH 0,10 mol/L) au-dessus d'un bécher contenant 20,0 mL de S' diluée dans 100 mL d'eau. La cellule conductimétrique est plongée dans le bécher, avec un agitateur magnétique.\n   - **Résultats** : Les valeurs de conductivité augmentent progressivement jusqu'à l'équivalence (VE = 10,0 mL), puis la pente change en raison de l'excès d'ions HO⁻.\n\n3. **Cure de fond** : \n   - **Calcul** : À l'équivalence, n(Mg²⁺) = n(HO⁻)/2 = (0,10 × 10,0)/2 = 0,5 mmol dans 20 mL de S'. Donc, dans 200 mL (un verre), n(Mg²⁺) = 5 mmol, soit m(Mg) = 5 × 24,3 = 121,5 mg. \n   - **Conclusion** : Un verre apporte 121,5 mg de Mg, ce qui est inférieur aux 300 mg recommandés. Il faudrait boire environ 2,5 verres par jour pour atteindre la dose."
+}

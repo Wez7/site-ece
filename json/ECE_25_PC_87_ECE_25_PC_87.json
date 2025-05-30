@@ -1,0 +1,33 @@
+{
+  "valeurs": {
+    "masse_menthol": "2.0 g",
+    "volume_acide_ethanoique": "10 mL",
+    "volume_eau_de_javel": "18 mL",
+    "concentration_eau_de_javel": "4.8%",
+    "masse_menthone_obtenue": "1.6 g",
+    "masse_molaire_menthol": "156 g/mol",
+    "masse_molaire_menthone": "154 g/mol",
+    "rendement_initial": "63%"
+  },
+  "correction": {
+    "1_synthese_menthone": {
+      "modifications_securite": "Pour assurer la sécurité lors de la synthèse, il est recommandé d'utiliser une hotte aspirante pour éviter l'inhalation de vapeurs toxiques. De plus, un bain de glace peut être utilisé pour contrôler l'exothermie de la réaction en maintenant une température basse.",
+      "amelioration_rendement": "Pour améliorer le rendement, on peut augmenter le temps de réaction au-delà de 5 minutes ou légèrement chauffer le mélange réactionnel (sans dépasser 40°C pour éviter la décomposition des produits). Une autre option est d'utiliser un excès d'eau de Javel pour déplacer l'équilibre vers la formation de menthone."
+    },
+    "2_extraction_menthone": {
+      "protocole_extraction": "1. Transférer le mélange réactionnel dans une ampoule à décanter. \n2. Ajouter 20 mL de dichlorométhane (solvant organique) et agiter doucement. \n3. Laisser décanter pour séparer les deux phases. \n4. Récupérer la phase organique (inférieure, contenant la menthone) et laver avec une solution saturée de NaHCO3 pour éliminer l'acide résiduel. \n5. Sécher la phase organique avec du sulfate de magnésium anhydre. \n6. Filtrer et évaporer le solvant pour isoler la menthone."
+    },
+    "3_identification_rendement": {
+      "test_menthone": "Le test à la 2,4-DNPH est approprié pour identifier la menthone (cétone). Un précipité jaune orangé confirme sa présence. \nProtocole : Dans un tube à essai, ajouter 1 mL de solution de 2,4-DNPH et quelques gouttes de l'échantillon. Observer la formation d'un précipité.",
+      "calcul_rendement": {
+        "etapes": [
+          "Calcul de la quantité de menthol initial : n(menthol) = masse / masse molaire = 2.0 g / 156 g/mol = 0.0128 mol.",
+          "D'après l'équation, 1 mol de menthol donne 1 mol de menthone, donc le rendement théorique est de 0.0128 mol de menthone.",
+          "Masse théorique de menthone : m = n * masse molaire = 0.0128 mol * 154 g/mol = 1.97 g.",
+          "Rendement = (masse réelle / masse théorique) * 100 = (1.6 g / 1.97 g) * 100 ≈ 81%."
+        ],
+        "conclusion": "Le rendement de 81% est meilleur que le rendement initial de 63%, ce qui confirme l'efficacité des modifications apportées au protocole (ex. temps de réaction prolongé ou contrôle de température)."
+      }
+    }
+  }
+}

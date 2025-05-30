@@ -1,0 +1,20 @@
+{
+  "valeurs": {
+    "distance_focale_Lobjectif1": "353 mm",
+    "distance_focale_Lobjectif2": "507 mm",
+    "A1B1_Lobjectif1": "10.0 mm",
+    "A2B2_Lobjectif1": "2.5 mm",
+    "A1B1_Lobjectif2": "15.0 mm",
+    "A2B2_Lobjectif2": "2.5 mm",
+    "f_oeil": "20 mm",
+    "alpha_Lobjectif1": "0.0283 rad",
+    "alpha_prime_Lobjectif1": "0.125 rad",
+    "G_Lobjectif1": "4.4",
+    "alpha_Lobjectif2": "0.0296 rad",
+    "alpha_prime_Lobjectif2": "0.125 rad",
+    "G_Lobjectif2": "4.2",
+    "G_Lobjectif3": "6.9",
+    "G_Lobjectif4": "9.5"
+  },
+  "correction": "1. **Schéma d'une lunette afocale** :\n   - Les trois dispositifs sont :\n     1. Modélisation de l'objet lointain (lanterne + lentille L0).\n     2. Lunette afocale (objectif Lobjectif1 + oculaire Loculaire).\n     3. Modélisation de l'œil (lentille Loeil + écran rétine).\n   - Les foyers sont placés comme suit :\n     - Fobj et F'obj pour l'objectif.\n     - Focul et F'ocul pour l'oculaire, avec F'obj coïncidant avec Focul.\n   - Le rayon lumineux est prolongé à travers les lentilles pour former A1B1 (image intermédiaire) et A2B2 (image sur la rétine).\n   - Les angles α (angle d'entrée) et α' (angle de sortie) sont repérés.\n   - La distance entre l'objectif et l'oculaire est la somme des distances focales : f'objectif + f'oculaire.\n\n2. **Mesures de distances focales** :\n   - La méthode d'autocollimation donne :\n     - Lobjectif1 : f' = 353 mm.\n     - Lobjectif2 : f' = 507 mm.\n\n3. **Grossissement de la lunette afocale** :\n   - Pour Lobjectif1 :\n     - A1B1 = 10.0 mm, A2B2 = 2.5 mm.\n     - tan(α) = A1B1 / f'objectif = 10.0 / 353 ≈ 0.0283 rad.\n     - tan(α') = A2B2 / f'oeil = 2.5 / 20 = 0.125 rad.\n     - G = α' / α ≈ 0.125 / 0.0283 ≈ 4.4.\n   - Pour Lobjectif2 :\n     - A1B1 = 15.0 mm, A2B2 = 2.5 mm.\n     - tan(α) = 15.0 / 507 ≈ 0.0296 rad.\n     - tan(α') = 0.125 rad (identique).\n     - G ≈ 0.125 / 0.0296 ≈ 4.2.\n\n4. **Influence de l'objectif sur le grossissement** :\n   - Le tableau complété montre que G augmente avec la distance focale de l'objectif (Lobjectif4 donne G = 9.5).\n   - Pour maximiser le grossissement, il faut choisir un objectif avec une grande distance focale et un oculaire avec une petite distance focale (G = f'objectif / f'oculaire)."
+}

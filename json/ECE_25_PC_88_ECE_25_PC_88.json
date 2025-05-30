@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "tension_pile_Cu_Fe": "0.78 V",
+    "tension_pile_Fe_Zn": "0.32 V",
+    "intensite_courant": "0.15 A",
+    "masse_anode": "10.0 kg",
+    "masse_molaire_Zn": "65.4 g/mol",
+    "constante_Faraday": "96500 C/mol"
+  },
+  "correction": "1. Préparation de la solution d'ions Fe2+ :\n   - Calculer la quantité de matière nécessaire : n = C × V = 1,0 × 10^-2 mol/L × 0,100 L = 1,0 × 10^-3 mol.\n   - Calculer la masse de sel de Mohr : m = n × M = 1,0 × 10^-3 mol × 392,18 g/mol = 0,392 g.\n   - Peser 0,392 g de sel de Mohr, dissoudre dans un bécher avec de l'eau distillée, puis transvaser dans une fiole jaugée de 100 mL et compléter jusqu'au trait de jauge.\n\n2. Étude des piles :\n   - Pile Cuivre-Fer :\n     - Tension mesurée : 0,78 V.\n     - La borne positive est le cuivre (Cu) car son potentiel standard est plus élevé que celui du fer (Fe).\n   - Pile Fer-Zinc :\n     - Tension mesurée : 0,32 V.\n     - Intensité mesurée : 0,15 A.\n     - Les électrons circulent de l'électrode de zinc (Zn) vers l'électrode de fer (Fe), le courant circule en sens inverse.\n     - Demi-équations :\n       - Zn → Zn2+ + 2e- (oxydation)\n       - Fe2+ + 2e- → Fe (réduction)\n     - Équation globale : Zn + Fe2+ → Zn2+ + Fe.\n\n3. Anode sacrificielle :\n   - Le zinc est oxydé à la place du fer, protégeant ainsi le fer de la corrosion. C'est pourquoi on l'appelle 'anode sacrificielle'.\n   - Durée de vie de l'anode :\n     - Masse à perdre : 5,0 kg (moitié de 10,0 kg).\n     - Quantité de matière de zinc : n = m / M = 5000 g / 65,4 g/mol ≈ 76,5 mol.\n     - Charge électrique : Q = n × 2 × F = 76,5 mol × 2 × 96500 C/mol ≈ 1,48 × 10^7 C.\n     - Durée : Δt = Q / I = 1,48 × 10^7 C / 0,15 A ≈ 9,87 × 10^7 s ≈ 3,1 ans.\n   - Commentaire : La durée de vie de l'anode est d'environ 3 ans, ce qui est cohérent avec les pratiques industrielles."
+}

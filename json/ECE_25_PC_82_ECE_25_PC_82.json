@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "temperature_air": "29°C",
+    "vitesse_son_29C": "348 m/s",
+    "frequence_emission": "800 Hz",
+    "vitesse_formule1": "335 km/h",
+    "vitesse_formule1_m_s": "93.06 m/s",
+    "frequence_approche_theorique": "1076 Hz",
+    "frequence_eloignement_theorique": "610 Hz"
+  },
+  "correction": "1. Mise en évidence du phénomène :\n1.3. Lors de l'approche, la fréquence entendue est plus élevée que lors de l'éloignement. Ceci est cohérent avec l'effet Doppler : quand la source sonore se rapproche, les ondes sont comprimées (fréquence perçue augmentée), et quand elle s'éloigne, les ondes sont étirées (fréquence perçue diminuée).\n\n2. Détermination de la vitesse :\n2.1. Protocole :\n- Enregistrer le son produit par le buzzer lors de l'approche et de l'éloignement.\n- Utiliser un logiciel d'analyse spectrale pour déterminer les fréquences fa (approche) et fe (éloignement).\n- Calculer la vitesse avec la formule v0 = vson * (fa - fe)/(fa + fe).\n\n2.2. Mise en œuvre :\nSupposons qu'on mesure fa = 1050 Hz et fe = 620 Hz (valeurs plausibles proches des valeurs théoriques).\nCalcul : v0 = 348 * (1050 - 620)/(1050 + 620) ≈ 348 * 430/1670 ≈ 89.6 m/s (322 km/h).\nCette valeur est proche mais légèrement inférieure aux 335 km/h annoncés.\n\n3. Modification du programme :\n3.1. La vitesse calculée (322 km/h) est légèrement inférieure à la vitesse réelle (335 km/h). Il faut donc ajuster les fréquences.\n\n3.2. Calcul des fréquences théoriques :\nfa = 800 / (1 - 93.06/348) ≈ 1076 Hz\nfe = 800 / (1 + 93.06/348) ≈ 610 Hz\n\n3.3. Modification du programme Arduino :\nRemplacer les fréquences dans le code par 1076 Hz (approche) et 610 Hz (éloignement) dans la fonction tone()."
+}
