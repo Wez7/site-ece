@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "Ccalorimètre": "10 J·K⁻¹",
+    "m2": "150 g",
+    "θi": "20.0 °C",
+    "θ2": "100.0 °C",
+    "θf": "25.0 °C",
+    "meau": "500 g",
+    "volume_eau_initial": "100 mL",
+    "volume_eau_final": "120 mL"
+  },
+  "correction": "1. Propriétés des matériaux du Kachelofe :\nPour un bon accumulateur, on cherche une diffusivité thermique (D) basse et une effusivité thermique (E) élevée. La diffusivité D = λ/(ρ·c) doit être basse, donc ρ·c doit être élevé. L'effusivité E = √(λ·ρ·c) doit être élevée, ce qui confirme que ρ·c doit être grand. Ainsi, un bon accumulateur a un produit ρ·c élevé.\n\n2. Détermination de la masse volumique :\n2.1. Protocole :\n- Mesurer la masse m des morceaux avec une balance.\n- Remplir partiellement une éprouvette graduée avec de l'eau et noter le volume V₁.\n- Plonger les morceaux dans l'éprouvette et noter le nouveau volume V₂.\n- Le volume des morceaux est V = V₂ - V₁.\n- Calculer la masse volumique ρ = m/V.\n\n2.2. Résultats :\n- Masse m = 150 g.\n- Volume initial V₁ = 100 mL, volume final V₂ = 120 mL.\n- Volume V = 20 mL = 20 cm³.\n- Masse volumique ρ = 150 g / 20 cm³ = 7.5 g·cm⁻³.\n\n3. Détermination de la capacité thermique massique :\n- Bilan énergétique : Énergie cédée par les morceaux = Énergie reçue par l'eau + calorimètre.\n- m₂·c₂·(θ₂ - θf) = (m_eau·c_eau + C_calorimètre)·(θf - θi).\n- c₂ = [(500 g × 4.18 J·g⁻¹·K⁻¹ + 10 J·K⁻¹) × (25.0 - 20.0)] / [150 g × (100.0 - 25.0)].\n- c₂ ≈ 0.92 J·g⁻¹·K⁻¹.\n\n4. Exploitation des résultats :\n- Pour le matériau testé : ρ·c = 7.5 g·cm⁻³ × 0.92 J·g⁻¹·K⁻¹ ≈ 6.9 J·cm⁻³·K⁻¹.\n- Pour le fer : ρ·c = 7.86 g·cm⁻³ × 0.44 J·g⁻¹·K⁻¹ ≈ 3.46 J·cm⁻³·K⁻¹.\n- Le matériau testé a un ρ·c plus élevé que le fer, donc c'est un meilleur accumulateur."
+}

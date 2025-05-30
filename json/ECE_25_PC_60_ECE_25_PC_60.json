@@ -1,0 +1,62 @@
+{
+  "valeurs": {
+    "V_en_mL": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "t_en_min_s": [
+      {
+        "min": 0,
+        "s": 45
+      },
+      {
+        "min": 1,
+        "s": 30
+      },
+      {
+        "min": 2,
+        "s": 15
+      },
+      {
+        "min": 3,
+        "s": 10
+      },
+      {
+        "min": 4,
+        "s": 20
+      },
+      {
+        "min": 5,
+        "s": 0
+      },
+      {
+        "min": 5,
+        "s": 50
+      },
+      {
+        "min": 6,
+        "s": 45
+      },
+      {
+        "min": 7,
+        "s": 50
+      }
+    ]
+  },
+  "correction": {
+    "1.1": "Le suivi cinétique est réalisé en notant le temps d'apparition de la couleur bleue après chaque ajout de thiosulfate. Les valeurs fournies sont cohérentes avec une réaction lente.",
+    "1.2": "Le graphique V = f(t) montre une évolution linéaire du volume de thiosulfate versé en fonction du temps, ce qui est attendu pour une réaction d'ordre 1.",
+    "2.1": "L'espèce ayant disparu au moment de l'apparition de la couleur bleue est l'ion thiosulfate (S2O3^2-), car c'est sa disparition qui permet au diiode de s'accumuler et de réagir avec l'amidon.",
+    "2.2": "D'après les équations [1] et [2], la stoechiométrie montre que 1 mole de H2O2 réagit avec 2 moles de I-, qui produisent 1 mole de I2, laquelle réagit avec 2 moles de S2O3^2-. Ainsi, la consommation de 1 mole de S2O3^2- correspond à la consommation de 0,5 mole de H2O2.",
+    "2.3": "La relation [H2O2] = (0,49 * 3,0 * 10^-3 - 0,5 * 0,2 * 10^-3 * V) / (83 + V) * 10^-3 est établie en considérant les quantités initiales de H2O2 et la consommation proportionnelle au volume de thiosulfate versé, divisée par le volume total de la solution.",
+    "3.1": "Le graphique [H2O2] = f(t) montre une décroissance exponentielle, caractéristique d'une réaction d'ordre 1.",
+    "3.2": "La courbe ln([H2O2]) = f(t) est une droite, confirmant que la réaction est d'ordre 1 par rapport à H2O2. La pente de cette droite donne la constante de vitesse k."
+  }
+}

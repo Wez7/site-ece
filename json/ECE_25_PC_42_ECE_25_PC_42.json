@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "VE1": "14.8 mL",
+    "VE2": "12.2 mL",
+    "CB": "0.050 mol/L",
+    "volume_S1": "10.0 mL"
+  },
+  "correction": "1. **Choix de la concentration de la solution titrante** :\n   - La concentration la plus adaptée est **CB = 5,00 × 10⁻² mol·L⁻¹** (simulation 2).\n   - Justification : Le volume équivalent (VE) estimé pour CB = 0,50 mol·L⁻¹ est trop faible (environ 1,5 mL, simulation 1), ce qui rend le titrage peu précis. Avec CB = 0,050 mol·L⁻¹, le VE est plus grand (environ 15 mL, simulation 2), améliorant la précision.\n\n2. **Protocole de titrage pH-métrique** :\n   - **Matériel** : Bécher (10,0 mL de S1), pH-mètre étalonné, agitateur magnétique, burette graduée (solution titrante NaOH), indicateur coloré (optionnel).\n   - **Schéma** : Burette versant NaOH dans le bécher contenant S1, pH-mètre et agitateur immergés.\n   - **Étapes** :\n     1. Rincer la burette avec la solution titrante.\n     2. Ajouter progressivement NaOH tout en relevant le pH après chaque ajout.\n     3. Repérer l'équivalence (point d'inflexion sur la courbe pH = f(VB)).\n\n3. **Dilution de la solution titrante** :\n   - **Matériel** : Fiole jaugée (100 mL ou 250 mL selon besoin), pipette graduée, solution mère NaOH à 1,0 mol·L⁻¹.\n   - **Calcul** : Pour obtenir CB = 0,050 mol·L⁻¹ à partir de 1,0 mol·L⁻¹, diluer 5 fois (ex : 50 mL de solution mère dans 250 mL).\n\n4. **Interprétation des résultats** :\n   - **Calcul des concentrations** :\n     - Pour S1 : C1 = (CB × VE1) / V = (0,050 × 14,8) / 10,0 = 0,074 mol·L⁻¹.\n     - Pour S2 : C2 = (0,050 × 12,2) / 10,0 = 0,061 mol·L⁻¹.\n   - **Conclusion** : C2 < C1, donc il y a bien dégradation de l'acide ascorbique lors du chauffage (perte d'environ 18 %)."
+}

@@ -1,0 +1,36 @@
+{
+  "valeurs": {
+    "h": "0.20 m",
+    "g": "9.81 m/s²",
+    "S": "0.0001 m²",
+    "rho_eau": "1000 kg/m³",
+    "temps_ecoulement": "10 s",
+    "masses_eau": [
+      "200 g",
+      "205 g",
+      "198 g",
+      "202 g",
+      "201 g"
+    ],
+    "debits_volumiques": [
+      "2.00E-05 m³/s",
+      "2.05E-05 m³/s",
+      "1.98E-05 m³/s",
+      "2.02E-05 m³/s",
+      "2.01E-05 m³/s"
+    ],
+    "v_mesuree": "0.20 m/s",
+    "u_v_mesuree": "0.01 m/s",
+    "v_theorique": "1.98 m/s",
+    "u_v_theorique": "0.01 m/s"
+  },
+  "correction": {
+    "1.1": "Le débit volumique Q est donné par Q = V/Δt. Comme la masse volumique ρ = m/V, on peut écrire V = m/ρ. Ainsi, Q = (m/ρ)/Δt = m/(ρΔt).",
+    "1.2": "Protocole expérimental :\n1. Remplir le bidon avec de l'eau jusqu'à une hauteur h = 20 cm.\n2. Percer un trou de surface S connue dans le bidon.\n3. Placer un récipient de masse connue sous le trou pour recueillir l'eau.\n4. Chronométrer un temps Δt d'écoulement (par exemple 10 s).\n5. Peser la masse d'eau recueillie.\n6. Calculer Q = m/(ρΔt).\n7. Répéter l'expérience plusieurs fois pour une meilleure précision.",
+    "2": "Les valeurs expérimentales sont présentées dans le tableau. Le débit volumique moyen est d'environ 2.01E-05 m³/s.",
+    "3": "Le programme Python calcule la vitesse expérimentale v_exp = Q/S. Avec Q moyen = 2.01E-05 m³/s et S = 0.0001 m², on obtient v_exp ≈ 0.20 m/s.",
+    "4.1": "La vitesse théorique est donnée par v_th = √(2gh) = √(2*9.81*0.20) ≈ 1.98 m/s. L'incertitude-type est donnée comme 0.01 m/s.",
+    "4.2": "Le quotient |v_mes - v_th|/√(u(v_mes)² + u(v_th)²) = |0.20 - 1.98|/√(0.01² + 0.01²) ≈ 178 >> 2. La mesure n'est pas compatible avec la théorie.",
+    "4.3": "La relation de Bernoulli suppose un écoulement idéal (sans frottements, stationnaire, incompressible). Ici, les frottements dans le trou et la turbulence peuvent expliquer l'écart. De plus, la hauteur constante n'est peut-être pas parfaitement maintenue."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "masse_du_solide": "50.0 g",
+    "volume_de_la_solution": "100.0 mL",
+    "concentration_initiale": "1.0 mol/L",
+    "temperature_initiale": "20.0 °C",
+    "temperature_finale": "25.5 °C",
+    "capacite_calorifique": "4.18 J/g°C",
+    "masse_molaire_du_solide": "40.0 g/mol"
+  },
+  "correction": "Pour résoudre cette épreuve, nous allons suivre les étapes suivantes :\n\n1. **Calcul de la quantité de matière du solide** : \n   Utilisation de la formule n = m / M, où m est la masse du solide et M sa masse molaire.\n   n = 50.0 g / 40.0 g/mol = 1.25 mol.\n\n2. **Calcul de la chaleur absorbée par la solution** : \n   Utilisation de la formule Q = m * c * ΔT, où m est la masse de la solution (supposée égale à son volume en grammes pour l'eau), c la capacité calorifique, et ΔT la variation de température.\n   Q = 100.0 g * 4.18 J/g°C * (25.5°C - 20.0°C) = 2299 J.\n\n3. **Calcul de l'enthalpie de dissolution** : \n   Utilisation de la formule ΔH = Q / n, où Q est la chaleur échangée et n la quantité de matière.\n   ΔH = 2299 J / 1.25 mol = 1839.2 J/mol ≈ 1.84 kJ/mol.\n\n4. **Interprétation** : \n   La valeur positive de ΔH indique que la dissolution est endothermique (elle absorbe de la chaleur).\n\nLes valeurs expérimentales fournies sont cohérentes avec un protocole typique de calorimétrie en solution."
+}

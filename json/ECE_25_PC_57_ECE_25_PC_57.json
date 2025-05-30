@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "longueur_onde": "480 nm",
+    "absorbance_solution_diluee": "0.45",
+    "concentration_diluee": "6.5 mg/L",
+    "masse_engrais": "10.0 g",
+    "masse_fer_II": "0.13 g",
+    "titre_massique": "1.3%"
+  },
+  "correction": "1.1. La longueur d'onde à régler sur le spectrophotomètre est celle correspondant au maximum d'absorption du complexe [Fe(SCN)]2+, qui est rouge. D'après la couleur complémentaire, cette longueur d'onde se situe autour de 480 nm (bleu-vert).\n\n1.2. Après réglage du spectrophotomètre à 480 nm, on mesure les absorbances des solutions étalons. Les valeurs obtenues permettent de tracer une droite d'étalonnage A = f(C).\n\n1.3. La courbe obtenue est modélisée par une droite passant par l'origine (loi de Beer-Lambert), d'équation A = k·C. Le coefficient directeur k est déterminé graphiquement.\n\n2.1. Protocole de dilution : Prélever 5,00 mL de solution mère à l'aide d'une pipette jaugée de 5 mL + pipeteur. Introduire dans une fiole jaugée de 100 mL. Compléter avec de l'eau distillée jusqu'au trait de jauge. Agiter pour homogénéiser.\n\n2.2. La solution diluée est préparée selon le protocole indiqué.\n\n2.3. L'absorbance mesurée pour la solution diluée est Ad = 0,45.\n\n2.4. En utilisant la droite d'étalonnage, on trouve Cd = 6,5 mg/L pour la solution diluée. La concentration de la solution mère est donc Cm = 20×Cd = 130 mg/L.\n\n3.1. Dans 1 L de solution mère (130 mg/L), il y a m(Fe2+) = 130 mg = 0,13 g d'ions fer II.\n\n3.2. Le titre massique est w = (0,13 g / 10,0 g) × 100 = 1,3%. Ce résultat est cohérent avec la composition typique d'un engrais anti-mousse."
+}

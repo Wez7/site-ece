@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "VE": "12.0 mL",
+    "CS": "1.2 × 10⁻² mol/L",
+    "CEFF": "1.2 × 10⁻¹ mol/L",
+    "nEFF": "1.2 × 10⁻⁴ mol",
+    "Aencre_diluée": "0.45",
+    "Cencre_diluée": "5.0 × 10⁻⁵ mol/L",
+    "Cencre": "5.0 × 10⁻⁴ mol/L",
+    "nb": "3.5 × 10⁻⁷ mol"
+  },
+  "correction": "1. **Étude de la solution contenue dans l'effaceur** :\n   - **Protocole de titrage** :\n     1. Prélever 10,0 mL de solution S (diluée 10 fois) avec une pipette jaugée.\n     2. Ajouter quelques gouttes d'empois d'amidon comme indicateur coloré.\n     3. Rincer et remplir une burette avec la solution de diiode (I₂) de concentration C₂ = 1,0 × 10⁻² mol/L.\n     4. Titrer la solution S avec le diiode jusqu'à l'apparition d'une coloration bleue persistante.\n     5. Noter le volume équivalent VE (ici 12,0 mL).\n   - **Calculs** :\n     - À l'équivalence, n(SO₃²⁻) = n(I₂) ⇒ CS × VS = C₂ × VE.\n     - CS = (C₂ × VE) / VS = (1,0 × 10⁻² × 12,0) / 10,0 = 1,2 × 10⁻² mol/L.\n     - La solution SEFF est 10 fois plus concentrée : CEFF = 10 × CS = 1,2 × 10⁻¹ mol/L.\n     - Quantité de matière dans l'effaceur : nEFF = CEFF × VEFF = 1,2 × 10⁻¹ × 1,0 × 10⁻³ = 1,2 × 10⁻⁴ mol.\n\n2. **Étude de l'encre** :\n   - **Mesure d'absorbance** : Aencre_diluée = 0,45.\n   - **Détermination de la concentration** :\n     - D'après la courbe d'étalonnage (A = k × C), Cencre_diluée = 5,0 × 10⁻⁵ mol/L.\n     - La solution Sencre est 10 fois plus concentrée (dilution 1/10) : Cencre = 5,0 × 10⁻⁴ mol/L.\n     - Quantité de matière dans la cartouche : nb = Cencre × Vcartouche = 5,0 × 10⁻⁴ × 0,70 × 10⁻³ = 3,5 × 10⁻⁷ mol.\n\n3. **Capacité d'effaçage** :\n   - **Stœchiométrie** :\n     - D'après l'équation, 1 mol de SO₃²⁻ réagit avec 1 mol de bleu d'aniline.\n     - Comparaison : nEFF (1,2 × 10⁻⁴ mol) > nb (3,5 × 10⁻⁷ mol).\n   - **Conclusion** : Un effaceur contient suffisamment d'ions sulfite pour réagir avec tout le bleu d'aniline d'une cartouche. Ainsi, un seul effaceur suffit."
+}

@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "UG": "9.0 V",
+    "Δtallumage": "8.5 s",
+    "UC,max": "7.4 V",
+    "τ": "2.2 s"
+  },
+  "correction": "1. Étude du dispositif\n1.1. La tension à vide UG aux bornes de la pile est mesurée à 9,0 V. Cette valeur est typique pour une pile de 9 V.\n\n1.2. Dans le schéma du circuit :\n- Position 1 : Charge du condensateur (la pile est connectée au circuit RC).\n- Position 2 : Décharge du condensateur (le condensateur est connecté à la résistance seule, sans la pile).\n\n1.3. Le montage est réalisé et la durée d'allumage de la DEL Δtallumage est mesurée à 8,5 s. Cette durée correspond au temps pendant lequel la tension aux bornes du condensateur est supérieure à la tension de seuil de la DEL (1,6 V).\n\n2. Étude de la tension aux bornes du condensateur\n2.1. La courbe uC(t) est enregistrée. La tension maximale UC,max est mesurée à 7,4 V, ce qui est inférieur à UG en raison de la chute de tension aux bornes de la DEL. La constante de temps τ est déterminée graphiquement à 2,2 s.\n\n2.2. La durée d'allumage de la DEL (8,5 s) est proche de la durée nécessaire pour atteindre le régime stationnaire (5τ = 11 s). La DEL s'éteint donc lorsque le condensateur est presque chargé, ce qui en fait un bon témoin de charge.\n\n3. Étude de l'influence de la DEL\n3.1. La présence de la DEL ne modifie pas significativement la constante de temps τ, car sa résistance dynamique est très faible une fois allumée. La relation τ = R × C reste valable.\n\n3.2. La différence UG - UC,max = 9,0 V - 7,4 V = 1,6 V, ce qui correspond à la tension de seuil de la DEL. Cela confirme que la DEL cause une chute de tension égale à sa tension de seuil lorsqu'elle est allumée."
+}

@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "I": "10.0 mA",
+    "delta_t": "600 s",
+    "C_prime": "1.0e-2 mol/L",
+    "V_E": "12.0 mL",
+    "n_I2": "6.0e-5 mol",
+    "F_exp": "9.6e4 C/mol",
+    "F_ref": "9.65e4 C/mol",
+    "u_F": "9.6e2 C/mol",
+    "z": "0.52"
+  },
+  "correction": "1. **Préparation de la solution d'iodure de potassium** : Pour préparer 100,0 mL d'une solution aqueuse d'iodure de potassium de concentration 1,00 mol·L⁻¹, peser 16,60 g de KI (masse molaire = 166,0 g·mol⁻¹) et dissoudre dans un volume d'eau distillée inférieur à 100 mL. Transférer dans une fiole jaugée de 100,0 mL et compléter jusqu'au trait de jauge avec de l'eau distillée. Homogénéiser.\n\n2. **Électrolyse et titrage** :\n   - **Montage** : Placer deux électrodes de graphite dans la solution de KI. Brancher à un générateur réglé à 10 mA.\n   - **Repérage de l'équivalence** : L'équivalence est repérée par la disparition de la couleur bleue due au complexe diiode-amidon.\n   - **Calcul de n(I₂)** : n(I₂) = (C' × V_E) / 2 = (1,0 × 10⁻² × 12,0 × 10⁻³) / 2 = 6,0 × 10⁻⁵ mol.\n\n3. **Estimation de F** :\n   - **F_exp** : F = (I × Δt) / (2 × n(I₂)) = (10 × 10⁻³ × 600) / (2 × 6,0 × 10⁻⁵) = 9,6 × 10⁴ C/mol.\n   - **F_ref** : F = e × N_A = 1,602 × 10⁻¹⁹ × 6,022 × 10²³ = 9,65 × 10⁴ C/mol.\n   - **Incertitude et z** : u(F) = 9,6 × 10⁴ × √(0,10² + 0,01² + (0,029/12,0)² + 0,010²) ≈ 9,6 × 10² C/mol. z = |(9,6 - 9,65)| / 0,096 ≈ 0,52. Comme z ≤ 2, F_exp est en accord avec F_ref."
+}

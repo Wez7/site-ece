@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "T0": "20.0 °C",
+    "Tfl_eau": "0.0 °C",
+    "Tfl_huile": "0.0 °C",
+    "S": "0.001 m²",
+    "m": "0.050 kg",
+    "c": "400 J·K⁻¹·kg⁻¹",
+    "heau_S_mc": "0.025 s⁻¹",
+    "hhuile_S_mc": "0.010 s⁻¹"
+  },
+  "correction": "1.1. Le transfert thermique par rayonnement est fortement limité dans les conditions expérimentales choisies. En effet, la sonde est immergée dans un liquide (eau ou huile) et isolée par un bouchon, ce qui réduit considérablement les échanges thermiques par rayonnement. De plus, la température du fluide est maintenue constante avec un mélange eau-glace, ce qui permet de négliger les variations de température dues au rayonnement.\n\n1.2. Pour que la valeur de la surface immergée de la sonde n'ait pas d'influence notable sur la durée de refroidissement, il faut que la sonde soit complètement immergée dans le fluide et que la surface d'échange S soit constante tout au long de l'expérience. Cela implique de s'assurer que la sonde est toujours à la même profondeur dans le fluide et que le niveau du fluide ne varie pas.\n\n2.1-2.4. Après avoir effectué le suivi du refroidissement de la sonde dans l'eau, on obtient une courbe exponentielle décroissante. La modélisation de cette courbe permet de déterminer le quotient heau·S/(m·c) = 0.025 s⁻¹. Cela signifie que la constante de temps τ = m·c/(heau·S) = 40 s.\n\n2.5. Pour le refroidissement dans l'huile, la modélisation donne hhuile·S/(m·c) = 0.010 s⁻¹, soit une constante de temps τ = 100 s.\n\n3.1. Le quotient heau/hhuile est donné par (heau·S/(m·c))/(hhuile·S/(m·c)) = 0.025/0.010 = 2.5.\n\n3.2. Cette valeur est cohérente avec les données fournies, car les coefficients d'échange convectif pour l'eau (100-15000 W·m⁻²·K⁻¹) sont généralement plus élevés que ceux pour l'huile (50-2000 W·m⁻²·K⁻¹). Un rapport de 2.5 se situe dans la gamme attendue, confirmant que l'eau refroidit la sonde plus rapidement que l'huile."
+}

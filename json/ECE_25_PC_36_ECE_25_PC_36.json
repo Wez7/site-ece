@@ -1,0 +1,10 @@
+{
+  "valeurs": {
+    "surface_cellule": "0.01",
+    "eclairement": "500",
+    "tension_max": "0.5",
+    "intensite_max": "0.1",
+    "puissance_max": "0.05"
+  },
+  "correction": "1. **Mise en œuvre du montage** : Le montage consiste à brancher la cellule photovoltaïque en série avec un rhéostat et un ampèremètre, tandis qu'un voltmètre est branché en parallèle aux bornes de la cellule. La lampe éclaire la cellule avec un éclairement constant.\n\n2. **Proposition du protocole expérimental** : Pour obtenir la courbe P = f(U), il faut varier la résistance du rhéostat et mesurer pour chaque position la tension U aux bornes de la cellule et l'intensité I du courant. Calculer ensuite la puissance P = U·I pour chaque point. Répéter cette opération pour plusieurs valeurs de résistance afin d'obtenir suffisamment de points pour tracer la courbe.\n\n3. **Acquisition de valeurs numériques** : Après avoir réalisé les mesures, on trace la courbe P = f(U). On mesure également l'éclairement E avec un luxmètre, en convertissant les lux en W/m² si nécessaire (ici, 150 lux = 10 W/m², donc 500 W/m² pour un éclairement mesuré).\n\n4. **Interprétation des résultats** : À partir de la courbe, on identifie la puissance maximale Pmax (ici 0.05 W). On calcule la puissance lumineuse reçue Plum = E·S = 500 * 0.01 = 5 W. Le rendement η est alors η = Pmax / Plum = 0.05 / 5 = 0.01, soit 1%. Ce rendement est faible mais plausible pour une cellule de laboratoire.\n\n5. **Estimation d'une puissance électrique** : En supposant que le champ de cellules est composé de cellules identiques à celle testée, et en estimant le nombre de cellules dans le champ (par exemple, 1 million), la puissance maximale totale serait Ptotal = Pmax * nombre de cellules = 0.05 * 1 000 000 = 50 000 W, soit 50 kW. Cette estimation est simplifiée et ne tient pas compte des pertes ou des variations d'éclairement."
+}

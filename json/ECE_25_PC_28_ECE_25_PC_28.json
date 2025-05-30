@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "masse_volumique_eau_javel": "1050 g/L",
+    "volume_eau_javel_titree": "50.0 mL",
+    "volume_eau_ajoutee": "100 mL",
+    "concentration_solution_iodure": "0.10 mol/L",
+    "volume_equivalence": "7.5 mL",
+    "temperature_initiale": "20.0 °C",
+    "temperature_maximale": "25.5 °C"
+  },
+  "correction": "1. **Expression de V2eqv** :\n   D'après la relation donnée à l'équivalence : [ClO⁻] × Vtitré / 3 = [I⁻] × Veq.\n   On en déduit : Veq = ([ClO⁻] × Vtitré) / (3 × [I⁻]).\n   Avec les valeurs de l'énoncé (C1 = 1.5 mol/L, V1 = 10.0 mL, C2 = 1.0 mol/L) :\n   Veq = (1.5 × 10.0) / (3 × 1.0) = 5.0 mL.\n\n   **Programme Python** :\n   Les lignes à compléter sont :\n   - Ligne 7 : `C1 = 1.5` (concentration en ClO⁻).\n   - Ligne 9 : `C2 = 1.0` (concentration en I⁻).\n   - Ligne 11 : `V1 = 10.0` (volume titré).\n   - Ligne 13 : `Veq = (C1 * V1) / (3 * C2)`.\n\n   **Justification conductimétrie** :\n   La conductimétrie n'est pas adaptée car les ions ClO⁻ et I⁻ sont remplacés par Cl⁻ et IO₃⁻, qui ont des conductivités similaires, rendant la variation de conductivité peu visible.\n\n   **Montage thermique** :\n   Ajouter un thermomètre ou une sonde de température connectée à un dispositif d'acquisition (ExAO). Schéma : bécher avec agitateur magnétique, burette graduée, sonde de température.\n\n2. **Tableau et courbe** :\n   La température augmente progressivement jusqu'à l'équivalence (pic à Veq = 7.5 mL), puis se stabilise. Cela reflète la réaction exothermique tant que les réactifs sont en proportions stoechiométriques.\n\n3. **Calcul du % de chlore actif** :\n   - Calcul de [ClO⁻] : Veq = 7.5 mL ⇒ [ClO⁻] = (3 × [I⁻] × Veq) / Vtitré = (3 × 0.10 × 7.5) / 50.0 = 0.045 mol/L.\n   - Masse molaire Cl₂ : M(Cl₂) = 2 × 35.5 = 71.0 g/mol.\n   - %ca = (0.045 × 71.0 / 1050) × 100 ≈ 0.30%.\n   **Commentaire** : La valeur est inférieure aux standards commerciaux (2.6% ou 4.8%), suggérant une dilution ou une dégradation de l'échantillon."
+}

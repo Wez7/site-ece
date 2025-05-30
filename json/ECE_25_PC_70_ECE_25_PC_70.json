@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "volume_equivalence": "12.5 mL",
+    "concentration_thiosulfate": "0.10 mol/L",
+    "volume_eau_javel_titree": "10.0 mL",
+    "facteur_dilution": "10",
+    "volume_cuve": "400 L",
+    "concentration_massique_min": "36 mg/L",
+    "concentration_massique_max": "58 mg/L"
+  },
+  "correction": "1. **Protocole de dilution de l'eau de Javel commerciale** :\n   - Prélever 5,0 mL d'eau de Javel commerciale à l'aide d'une pipette graduée ou d'une burette.\n   - Verser dans une fiole jaugée de 50,0 mL.\n   - Compléter avec de l'eau distillée jusqu'au trait de jauge.\n   - Homogénéiser la solution.\n\n   **Justification du choix du protocole 2** :\n   Le protocole 2 est préférable car il permet de titrer directement les ions hypochlorite (ClO⁻) sans formation intermédiaire de dichlore (Cl₂), ce qui simplifie le suivi du titrage grâce à l'empois d'amidon (coloration bleue à l'équivalence). De plus, il évite les risques liés au dichlore, gaz toxique.\n\n2. **Mise en œuvre du titrage** :\n   - Prélever 10,0 mL de la solution diluée d'eau de Javel.\n   - Ajouter 20 mL de solution d'iodure de potassium (KI) à 0,10 mol/L.\n   - Agiter pendant 2 minutes.\n   - Ajouter 5 mL d'acide chlorhydrique (HCl) à 1,0 mol/L.\n   - Titrer avec une solution de thiosulfate de sodium (Na₂S₂O₃) à 0,10 mol/L jusqu'à décoloration (ajouter de l'empois d'amidon près de l'équivalence).\n   - Volume équivalent mesuré : VE = 12,5 mL.\n\n3. **Exploitation des résultats** :\n   - Calcul de c₂ (concentration en ClO⁻ dans la solution diluée) :\n     c₂ = (C' × VE) / (2 × V) = (0,10 × 12,5) / (2 × 10,0) = 0,0625 mol/L.\n   - Concentration dans l'eau de Javel commerciale (CJavel) :\n     CJavel = c₂ × facteur de dilution = 0,0625 × 10 = 0,625 mol/L.\n   - Concentration massique en ClO⁻ dans le bain de 400 L :\n     - Masse molaire de ClO⁻ = 35,5 + 16,0 = 51,5 g/mol.\n     - Concentration massique = (0,625 / 10) × 51,5 × 1000 = 32,2 mg/L (dilution supplémentaire de 1 L dans 400 L).\n   - **Conclusion** :\n     - La concentration (32,2 mg/L) est inférieure à la valeur recommandée (36 mg/L), donc le bain n'est pas assez efficace.\n     - Elle respecte la norme de sécurité (<58 mg/L)."
+}

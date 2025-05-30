@@ -1,0 +1,10 @@
+{
+  "valeurs": {
+    "m_exp": "2.8 g",
+    "m4max": "2.45 g",
+    "m4": "2.30 g",
+    "Em_mecanochimie": "0.96",
+    "Em_classique": "3.9"
+  },
+  "correction": "1. **Synthèse de la DHPM** : \n   - La masse expérimentale obtenue est de 2.8 g. Cette valeur est plausible compte tenu des quantités de réactifs utilisées et du rendement élevé (94%) mentionné.\n\n2. **Exploitation de la synthèse** :\n   - **Caractérisation par CCM** : La DHPM synthétisée et la référence migrent à la même hauteur, confirmant la réussite de la synthèse.\n   - **Rinçage à l'éthanol glacé** : L'éthanol froid permet de minimiser la dissolution de la DHPM tout en éliminant les impuretés solubles.\n   - **Calcul de m4max** : Avec 1.0 mL de benzaldéhyde (réactif limitant, masse = 1.05 g), la quantité théorique est de 2.45 g (calcul via stoechiométrie et masses molaires).\n   - **Rendement** : La masse attendue avec η=94% est de 2.30 g. La valeur expérimentale (2.8 g) suggère une légère surestimation ou des impuretés.\n\n3. **Comparaison des protocoles** :\n   - **Facteur environnemental (Em)** : La mécanochimie génère moins de déchets (Em=0.96) que le protocole classique (Em=3.9), grâce à l'absence de solvant.\n   - **Énergie consommée** : La mécanochimie utilise l'énergie mécanique (broyage), moins gourmande que l'énergie électrique pour chauffage/agitation.\n   - **Conclusion** : La mécanochimie est plus verte (moins de déchets, pas de solvant) et plus efficace (rendement supérieur)."
+}

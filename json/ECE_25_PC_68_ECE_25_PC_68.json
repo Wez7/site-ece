@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "tau_exp": "0.50 s",
+    "tau_theorique": "0.50 s",
+    "z": "0",
+    "t1": "0.8 s",
+    "t2": "8.0 s",
+    "t3": "8.0 s"
+  },
+  "correction": "1.1. Observations : Avec R = 5,0 kΩ, la DEL brille intensément. Avec R = 50 kΩ, la DEL brille faiblement ou ne brille pas. Explication : L'intensité du courant traversant la DEL dépend de la résistance. Plus R est élevée, plus l'intensité est faible, ce qui peut être inférieur au seuil de brillance ib.\n\n2. Temps caractéristique : La courbe de charge du condensateur permet de déterminer τ en identifiant le temps pour lequel uC(t) = 0,63 × E. Ici, τ_exp = 0,50 s, compatible avec τ_th = R×C = 5000×100×10^-6 = 0,50 s. Le quotient z = |0,50 - 0,50| / 0,05 = 0 < 2, donc compatible. L'écart éventuel peut venir de la précision des composants ou de la méthode de mesure.\n\n3. Extinction de la lampe : Pour augmenter la durée de brillance, il faut augmenter τ = R×C. Choisir C2 = 1000 µF (plus grande capacité) augmente τ à 5,0 s (R constant). La durée t2 ≈ 8,0 s est plus longue que t1 ≈ 0,8 s. Avec R3 = 50 kΩ et C1 = 100 µF, τ = 5,0 s et t3 ≈ 8,0 s. Conclusion : La durée d'extinction augmente avec τ, donc avec R ou C. Cependant, si R est trop élevée, l'intensité peut devenir inférieure à ib, éteignant la DEL prématurément."
+}

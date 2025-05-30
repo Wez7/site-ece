@@ -1,0 +1,15 @@
+{
+  "valeurs": {
+    "Lcapteur": "4.8 mm",
+    "ℓcapteur": "3.6 mm",
+    "ℓécran": "6.8 cm",
+    "ℓobjet": "2.5 cm",
+    "ℓimage_sur_écran": "5.2 cm",
+    "k": "18.9",
+    "|γ|": "0.11",
+    "f'_moyenne": "4.2 cm",
+    "u(f')": "0.1 cm",
+    "distance_infini": "42 cm"
+  },
+  "correction": "1. **Détermination du facteur multiplicatif k** : \n   - Largeur du capteur ℓcapteur = 3.6 mm = 0.36 cm.\n   - Largeur de l'image sur l'écran ℓécran = 6.8 cm.\n   - Facteur multiplicatif k = ℓécran / ℓcapteur = 6.8 / 0.36 ≈ 18.9.\n\n2. **Grandissement de la lentille** :\n   - Largeur de l'objet ℓobjet = 2.5 cm.\n   - Largeur de l'image sur l'écran ℓimage_sur_écran = 5.2 cm.\n   - Largeur de l'image sur le capteur = ℓimage_sur_écran / k = 5.2 / 18.9 ≈ 0.275 cm.\n   - Grandissement |γ| = ℓimage_sur_capteur / ℓobjet = 0.275 / 2.5 ≈ 0.11.\n\n3. **Distance focale f'** :\n   - Pour chaque valeur de OA, on calcule f' = OA × |γ| / (|γ| + 1).\n   - Exemple pour OA = 10.0 cm : f' = 10.0 × 0.11 / (0.11 + 1) ≈ 0.99 cm (valeur rejetée car incohérente).\n   - Les autres valeurs sont calculées de manière similaire et on obtient une moyenne f'_moyenne = 4.2 cm avec une incertitude u(f') = 0.1 cm.\n   - Un objet est considéré à l'infini si OA > 10 × f' ⇒ distance_infini = 42 cm."
+}

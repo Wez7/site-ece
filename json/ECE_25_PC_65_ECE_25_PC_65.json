@@ -1,0 +1,15 @@
+{
+  "valeurs": {
+    "R_eau_distillee": "100000 Ω",
+    "R_S1": "80000 Ω",
+    "R_S2": "60000 Ω",
+    "R_S3": "40000 Ω",
+    "R_S4": "20000 Ω",
+    "R_S5": "10000 Ω",
+    "R_Sx": "50000 Ω",
+    "concentration_Sx": "0.5 g/L",
+    "masse_phycocyanine_comprime": "50 mg",
+    "nombre_comprimes_quotidiens": "1"
+  },
+  "correction": "1. Choix du laser adapté au dispositif expérimental : Le laser bleu est le plus adapté car le spectre d'absorption de la phycocyanine montre un pic d'absorption dans le bleu (autour de 620 nm). Cela signifie que la phycocyanine absorbe fortement la lumière bleue, ce qui permettra une meilleure détection par la photorésistance.\n\n2. Tracé de la droite d'étalonnage : Pour préparer 50,0 mL de solution S1 à 2,0×10-1 g·L-1 à partir de S5 à 1,0 g·L-1, il faut effectuer une dilution. Le matériel nécessaire comprend une pipette jaugée de 10 mL, une fiole jaugée de 50 mL, et de l'eau distillée. La dilution est calculée par C1V1 = C5V5, donnant V5 = (C1V1)/C5 = (0,2×50)/1 = 10 mL. Les mesures de résistance pour chaque solution sont reportées dans le tableau et la courbe R = f(C) est tracée. La modélisation montre une relation linéaire entre R et C.\n\n3. Détermination de la quantité de phycocyanine : La solution Sx est mesurée avec le même dispositif, donnant R_Sx = 50000 Ω. En utilisant la droite d'étalonnage, on trouve C_Sx = 0,5 g/L. Pour un comprimé dissous dans 100 mL, la masse de phycocyanine est de 50 mg. Les apports quotidiens recommandés (40-80 mg) sont donc couverts par un comprimé."
+}

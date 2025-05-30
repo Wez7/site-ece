@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "masse_lineique_mg": "0.5 g/m",
+    "longueur_ruban": "0.08 m",
+    "Vfinal_exp": "42 mL",
+    "tfinal_exp": "180 s",
+    "Vmolaire_20C": "24 L/mol",
+    "Vmolaire_30C": "25 L/mol",
+    "Vtheorique": "41.2 mL",
+    "t_demi_reaction_20C": "60 s",
+    "t_demi_reaction_30C": "40 s"
+  },
+  "correction": "1.1. Deux paramètres susceptibles de modifier la cinétique de la réaction sont la température et la concentration de l'acide chlorhydrique. Une augmentation de la température accélère généralement la réaction en augmentant l'énergie cinétique des molécules. De même, une concentration plus élevée en acide chlorhydrique peut augmenter la fréquence des collisions entre les réactifs, accélérant ainsi la réaction.\n\n1.2. Pour réaliser le suivi cinétique à 30°C, on peut chauffer légèrement la solution d'acide chlorhydrique avant d'y introduire le magnésium, en utilisant par exemple un bain-marie. Il est important de mesurer la température avec un thermomètre pour s'assurer qu'elle est stable à 30°C avant de commencer l'expérience. Le protocole reste ensuite identique à celui décrit dans l'énoncé.\n\nPour exploiter les résultats, on trace la courbe du volume de gaz en fonction du temps et on détermine le temps de demi-réaction, qui est le temps nécessaire pour produire la moitié du volume final de dihydrogène. On compare ensuite les temps de demi-réaction à 20°C et 30°C pour évaluer l'effet de la température sur la vitesse de réaction.\n\n2. La longueur de ruban à prélever se calcule par la formule : longueur = masse / masse linéique. Avec m = 40 mg = 0.04 g et masse linéique = 0.5 g/m, on trouve longueur = 0.04 / 0.5 = 0.08 m.\n\n3.1. Le temps de demi-réaction à 20°C est estimé à 60 s, tandis qu'à 30°C, il est réduit à 40 s. Cela confirme que l'augmentation de la température accélère la réaction.\n\n3.2. Le volume théorique de dihydrogène se calcule par Vthéorique = (m/M) * Vmolaire. Avec m = 0.04 g, M = 24.3 g/mol, et Vmolaire = 25 L/mol à 30°C, on trouve Vthéorique = (0.04/24.3)*25 ≈ 0.0412 L = 41.2 mL. Le volume expérimental obtenu est de 42 mL, ce qui est proche de la valeur théorique.\n\nDeux sources d'écart possibles sont :\n- La dissolution partielle du dihydrogène dans l'eau, qui pourrait réduire le volume mesuré.\n- Des fuites éventuelles dans le dispositif expérimental, qui pourraient aussi affecter le volume recueilli."
+}

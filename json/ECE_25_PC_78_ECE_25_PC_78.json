@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "Amax_exp1": 0.8,
+    "t1/2_exp1": "45 s",
+    "Amax_exp2": 0.8,
+    "t1/2_exp2": "20 s"
+  },
+  "correction": "1.1. Observations après 5 minutes :\n- Tube 1 : La solution reste bleue (pas de réaction, absence d'acide ascorbique).\n- Tube 2 : La solution se décolore lentement (réaction sans catalyseur).\n- Tube 3 : La solution se décolore rapidement (réaction catalysée par HCl).\n\n1.2. Rôle des tubes :\n- Tube 1 : Témoin négatif (vérifie que le bleu de méthylène ne réagit pas seul).\n- Tube 2 : Témoin de la réaction sans catalyseur.\n- Tube 3 : Test de l'effet catalytique de HCl.\n\nExplication des volumes d'eau différents : Les volumes sont ajustés pour maintenir un volume total constant (5 mL), assurant des conditions comparables (sauf pour la variable testée).\n\n1.3. Conclusion : HCl accélère la réaction (décoloration plus rapide en sa présence) sans être consommé (caractère catalytique).\n\n1.4. Méthode quantitative : Spectrophotométrie à λ = 660 nm (pic d'absorption du bleu de méthylène). Justification : L'absorbance est proportionnelle à [bleu de méthylène], permettant de suivre sa disparition.\n\n2.1. Protocole proposé :\n- Préparer des mélanges avec des volumes variables de HCl (ex : 0, 1, 5 mL) mais des volumes constants d'autres réactifs.\n- Mesurer l'absorbance toutes les 10 s pendant 3 min.\n- Tracer A = f(t) et modéliser par une exponentielle décroissante (A = A₀·e^(-kt)).\n- Déterminer t1/2 pour chaque condition.\n\n2.2. Résultats et analyse :\n- Expérience n°1 (1 mL HCl) : t1/2 = 45 s.\n- Expérience n°2 (5 mL HCl) : t1/2 = 20 s.\n\nIntérêt de la modélisation : La fonction exponentielle confirme l'ordre 1 par rapport au bleu de méthylène et permet de calculer précisément t1/2.\n\n2.3. Conclusion : Plus la quantité de catalyseur (HCl) est élevée, plus t1/2 diminue (réaction plus rapide). La concentration en HCl influence directement la cinétique."
+}

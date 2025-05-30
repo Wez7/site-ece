@@ -1,0 +1,35 @@
+{
+  "valeurs": {
+    "distance_cm": [
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      20
+    ],
+    "amplitude_mV": [
+      200,
+      142,
+      111,
+      91,
+      77,
+      67,
+      59,
+      53,
+      50
+    ]
+  },
+  "correction": {
+    "1.1": "Protocole proposé :\n- Placer l'émetteur d'ultrasons à une position fixe.\n- Positionner le récepteur à différentes distances (de 5 cm à 20 cm) et mesurer l'amplitude U de la tension délivrée pour chaque distance.\n- Répéter chaque mesure trois fois pour améliorer la précision.\n- Noter les valeurs dans un tableau.\n- Tracer U en fonction de 1/d pour vérifier la proportionnalité inverse.",
+    "1.2": "Mise en œuvre :\nLes mesures sont effectuées selon le protocole, avec les valeurs fournies dans le tableau 'valeurs'.",
+    "1.3": "Analyse graphique :\nLa courbe U = f(1/d) est une droite passant par l'origine, confirmant que U est inversement proportionnelle à d. La modélisation linéaire est valide avec un coefficient de corrélation proche de 1.",
+    "2": "Démonstration :\nDe U = k2·p et p = k1·√I, on déduit U = k·√I (où k = k1·k2).\nComme U = a/d, alors √I = (a/k)/d, donc I = (a²/k²)/d² = a'/d², où a' = a²/k².",
+    "3.1": "Calcul de L2 :\nEn utilisant I2/I1 = (d1/d2)² et L2 = 10·log(I2/I1) + L1, on obtient L2 = 20·log(d1/d2) + L1.\nAvec d1 = 50 m, d2 = 2 m, L1 = 80 dB :\nL2 = 20·log(50/2) + 80 = 20·log(25) + 80 ≈ 20·1.4 + 80 = 108 dB.",
+    "3.2": "Commentaire :\nLe niveau sonore à 2 m (108 dB) dépasse largement le seuil de danger (85 dB) et approche le seuil de douleur (120 dB).",
+    "3.3": "Protection :\nAvec une atténuation de 25 dB, le niveau perçu serait de 83 dB, encore au-dessus du seuil de danger. Il est conseillé de rester plus loin ou d'utiliser des protections plus efficaces."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "valeurs": {
+    "f4_prime": "5.0 cm",
+    "f2_prime": "20.0 cm",
+    "u_f2_prime": "0.5 cm",
+    "f3_prime": "4.9 cm",
+    "u_f3_prime": "0.2 cm",
+    "d": "2.0 cm",
+    "d_prime": "0.5 cm",
+    "alpha": "0.02 rad",
+    "alpha_prime": "0.1 rad",
+    "G": "5.0"
+  },
+  "correction": "1. Pour que l'image de l'objet à l'infini soit nette sur l'écran, la distance O4E doit être égale à la distance focale f'4 de la lentille L4, soit 5.0 cm. Cela découle directement de la relation de conjugaison pour un objet à l'infini.\n\n2.1. La distance focale f'2 de la lentille L2 est mesurée à 20.0 cm avec une incertitude de 0.5 cm.\n\n2.2. Pour que le grossissement G soit supérieur à 1, il faut que f'objectif > f'oculaire. Ainsi, la lentille L2 (f'2 = 20.0 cm) doit être choisie comme objectif et la lentille L3 (f'3 = 4.9 cm) comme oculaire.\n\n3.2. Les mesures donnent un diamètre d de l'objet de 2.0 cm et un diamètre d' de son image de 0.5 cm.\n\n4.1. Les diamètres apparents sont calculés comme suit : α = 2*Arctan(d/(2D)) ≈ 0.02 rad et α' = 2*Arctan(d'/(2D')) ≈ 0.1 rad.\n\n4.2. Le grossissement G est le rapport α'/α ≈ 5.0.\n\n4.3. Le grossissement calculé par la relation G = f'objectif/f'oculaire = 20.0/4.9 ≈ 4.08 est proche de la valeur mesurée (5.0). Les écarts peuvent s'expliquer par des approximations dans les mesures des diamètres apparents ou des distances focales, ou par des imperfections des lentilles."
+}

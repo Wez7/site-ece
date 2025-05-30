@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "A0": "0.65",
+    "a": "50000 L.mol-1",
+    "t1/2": "45 s",
+    "k": "0.0154 s-1"
+  },
+  "correction": "1.1. Protocole pour A=f(t) :\n- Préparer le mélange dans une cuve : 10,0 mL d'érythrosine + 20 mL d'eau de Javel\n- Placer la cuve dans le spectrophotomètre réglé à λmax (environ 530 nm)\n- Lancer le chronomètre et noter A toutes les 10s pendant 5 min\n\n1.2. Pour [E]=f(t) :\nUtiliser la loi de Beer-Lambert A=a×[E] ⇒ [E]=A/a\nTracer [E] en divisant chaque A mesuré par la constante a\n\n2.1. Calcul de [E]0 :\nDilution : [E]0 = (4,0×10-5 ×10,0)/30,0 = 1,3×10-5 mol/L\n\n2.2. A0 par extrapolation :\nSur la courbe A=f(t), prolonger la courbe à t=0 ⇒ A0≈0,65\n\n2.3. Calcul de a :\na = A0/[E]0 = 0,65/1,3×10-5 = 50000 L.mol-1\n\n3.2. Méthode pour t1/2 :\n- Tracer [E]=f(t) à partir de A/a\n- Repérer [E]0/2 = 0,65×10-5 mol/L\n- Déterminer le temps correspondant\n\n3.3. t1/2 mesuré ≈45s\n\n4.2. Détermination de k :\nLa modélisation donne vdispE = 0,0154×[E] ⇒ k=0,0154 s-1\n\n4.3. Vérification :\nCalcul théorique t1/2 = ln(2)/0,0154 ≈ 45s\nLes valeurs sont cohérentes avec la relation donnée."
+}

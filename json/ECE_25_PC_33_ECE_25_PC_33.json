@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "surface_panneau": "0.5",
+    "eclairement_lux": "100",
+    "eclairement_W_m2": "1",
+    "resistance_min": "0",
+    "resistance_max": "10000",
+    "puissance_elec_max": "50",
+    "energie_utile_journaliere": "2.3e8",
+    "eclairement_soleil": "1000",
+    "surface_toit": "60"
+  },
+  "correction": "1.1. Pour calculer le rendement η d'un panneau photovoltaïque, il faut mesurer :\n- La puissance électrique maximale fournie par le panneau (Pélec max) via la tension U et l'intensité I.\n- La puissance lumineuse reçue par le panneau (Plum) via l'éclairement ε et la surface S du panneau.\n\n1.2. Schéma du montage expérimental :\n- Le panneau photovoltaïque est connecté en série avec un dipôle ohmique variable (0-10 kΩ).\n- Un voltmètre est placé en parallèle aux bornes du panneau pour mesurer U.\n- Un ampèremètre est placé en série pour mesurer I.\n- Un luxmètre est placé près du panneau pour mesurer ε.\n\n1.3. Protocole :\n1. Placer le panneau sous une source lumineuse et mesurer l'éclairement ε avec le luxmètre (100 lux = 1 W/m²).\n2. Varier la résistance du dipôle ohmique de 0 à 10 kΩ par étapes.\n3. Pour chaque valeur de résistance, relever U et I.\n4. Calculer Pélec = U × I pour chaque mesure.\n5. Tracer Pélec = f(U) et identifier Pélec max.\n6. Calculer Plum = ε × S (S = 0,5 m²).\n7. Calculer η = Pélec max / Plum.\n\n2. Mise en œuvre :\n- Réaliser une vingtaine de mesures pour R entre 0 et 10 kΩ.\n- Tracer Pélec = f(U) et déterminer Pélec max (ex: 50 W).\n\n3.1. Calcul de η :\n- Plum = ε × S = 1 W/m² × 0,5 m² = 0,5 W.\n- η = Pélec max / Plum = 50 W / 0,5 W = 100% (valeur théorique, en pratique ~15-20%).\n\n3.2. Energie lumineuse minimale Ereçue mini :\n- η = Eutile / Ereçue mini ⇒ Ereçue mini = Eutile / η = 2,3 × 10⁸ J / 0,15 = 1,53 × 10⁹ J.\n\n3.3. Surface minimale Smini :\n- Plum = εsoleil × Smini × Δt (Δt = 10 h = 36000 s).\n- Ereçue mini = Plum × Δt ⇒ Smini = Ereçue mini / (εsoleil × Δt) = 1,53 × 10⁹ / (1000 × 36000) ≈ 42,5 m².\n\n3.4. Conclusion :\n- La surface minimale requise (42,5 m²) est inférieure à celle du toit (60 m²), donc l'installation est faisable."
+}

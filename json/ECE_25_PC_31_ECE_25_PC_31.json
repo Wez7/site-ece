@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "L1_500Hz": 80.0,
+    "L2_500Hz_mousse": 65.0,
+    "L2_500Hz_laine": 60.0,
+    "L2_500Hz_bois": 70.0,
+    "L2_500Hz_mousse_double": 55.0,
+    "L1_1000Hz": 85.0,
+    "L2_1000Hz_mousse": 68.0
+  },
+  "correction": "1. **Influence de la distance entre la source sonore et le récepteur** :\n   - L'intensité sonore I est inversement proportionnelle au carré de la distance R (I = P / (4πR²)).\n   - Si on double la distance (R → 2R), I devient I' = P / (4π(2R)²) = P / (16πR²) = I/4.\n   - Le niveau d'intensité sonore L = 10 log(I/I₀).\n   - La diminution ΔL = L' - L = 10 log(I'/I₀) - 10 log(I/I₀) = 10 log(I'/I) = 10 log(1/4) = -10 × 0.6 ≈ -6 dB.\n   - **Conclusion** : Le niveau d'intensité sonore diminue de 6 dB quand on double la distance.\n\n2. **Protocole expérimental** :\n   - Utiliser un sonomètre et une source sonore (ex. buzzer).\n   - Mesurer L à 1 m de la source, puis à 2 m.\n   - Vérifier que la différence est proche de -6 dB.\n   - **Résultats attendus** : Si L(1m) = 70 dB, alors L(2m) ≈ 64 dB.\n\n3. **Atténuation phonique** :\n   - **Matériaux** : La mousse (r500 = 15 dB), la laine (r500 = 20 dB), le bois (r500 = 10 dB).\n   - **Épaisseur** : Double épaisseur de mousse → r500 = 25 dB (atténuation accrue).\n   - **Fréquence** : À 1000 Hz, r1000 = 17 dB (atténuation légèrement supérieure à 500 Hz).\n   - **Paramètres influents** :\n     - *Nature du matériau* : Plus absorbant (ex. laine) → atténuation plus forte.\n     - *Épaisseur* : Augmentation → atténuation accrue.\n     - *Fréquence* : Atténuation souvent plus élevée aux hautes fréquences."
+}

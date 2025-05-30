@@ -1,0 +1,35 @@
+{
+  "valeurs": {
+    "masse_resorcinol": "2.20 g",
+    "volume_acetylacetate_ethyle": "2.5 mL",
+    "masse_APTS": "0.18 g",
+    "volume_eau_distillee": "15 mL",
+    "volume_eau_froide_lavage": "5 mL",
+    "longueur_onde_excitation": "320 nm",
+    "longueur_onde_fluorescence": "450 nm"
+  },
+  "correction": {
+    "2.1": {
+      "protocole": "Pour isoler le solide obtenu, procéder comme suit :\n1. Filtrer sous vide le mélange réactionnel refroidi à l'aide d'un Büchner et d'un filtre adapté.\n2. Laver les cristaux avec 5 mL d'eau froide pour éliminer les impuretés solubles.\n3. Sécher les cristaux entre des feuilles de papier filtre ou dans une étuve à basse température.\n\nMatériel nécessaire : Büchner, filtre adapté, fiole à vide, entonnoir, pipette graduée, papier filtre, spatule.",
+      "justification": "La filtration sous vide est choisie pour une récupération efficace des cristaux. Le lavage à l'eau froide permet d'éliminer les résidus solubles sans dissoudre le produit."
+    },
+    "2.2": {
+      "solvant_recristallisation": "éthanol",
+      "justification": "La 7-hydroxy-4-méthylcoumarine est très peu soluble dans l'eau à froid et à chaud, mais soluble dans l'éthanol à chaud. L'éthanol est donc le solvant le plus adapté pour une recristallisation efficace, permettant une bonne dissolution à chaud et une cristallisation optimale lors du refroidissement."
+    },
+    "3.1": {
+      "courbe_excitation": "Courbe 1",
+      "courbe_fluorescence": "Courbe 1'",
+      "justification": "Le spectre d'excitation (Courbe 1) montre un pic vers 320 nm, typique de l'absorption de la 7-hydroxy-4-méthylcoumarine dans l'eau. Le spectre de fluorescence (Courbe 1') présente un pic vers 450 nm, correspondant à l'émission après excitation. Ces valeurs sont cohérentes avec les propriétés fluorescentes du composé."
+    },
+    "3.2": {
+      "lambda_excitation": "320 nm",
+      "lambda_fluorescence": "450 nm",
+      "justification": "D'après les spectres, la longueur d'onde d'excitation optimale est 320 nm (pic d'absorption). La fluorescence émise a un maximum à 450 nm (pic d'émission)."
+    },
+    "3.3": {
+      "observation": "La solution éclairée par la lampe UV émet une lumière bleue-verte caractéristique.",
+      "confrontation": "Cette observation confirme que le produit synthétisé est bien fluorescent, avec une émission autour de 450 nm comme prédit par le spectre."
+    }
+  }
+}

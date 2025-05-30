@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "mmétal": "150.0 g",
+    "cmétal": "0.385 J∙g⁻¹∙°C⁻¹",
+    "C": "150 J∙°C⁻¹",
+    "mliquide": "350.0 g",
+    "θi": "20.0 °C",
+    "θmétal": "80.0 °C",
+    "θeq": "25.0 °C",
+    "cliquide": "3.42 J∙g⁻¹∙°C⁻¹"
+  },
+  "correction": "1.1. La ligne 20 du programme Python doit être complétée comme suit pour calculer la capacité thermique massique du liquide de refroidissement :\n\ncliquide = (mmétal * cmétal * (θmétal - θeq)) / (mliquide * (θeq - θi)) - (C / mliquide)\n\n1.2. Les valeurs mesurées sont :\n- mliquide = 350.0 g\n- θi = 20.0 °C\n- θmétal = 80.0 °C\n- θeq = 25.0 °C\n\n1.3. En exécutant le programme avec ces valeurs, on obtient :\ncliquide = 3.42 J∙g⁻¹∙°C⁻¹\n\n2.1. En utilisant le graphique fourni, une capacité thermique massique de 3.42 J∙g⁻¹∙°C⁻¹ correspond à une proportion d'environ 50% d'éthylène glycol et donc 50% d'eau.\n\n2.2. La capacité thermique massique de l'eau (4.18 J∙g⁻¹∙°C⁻¹) est supérieure à celle du liquide de refroidissement (3.42 J∙g⁻¹∙°C⁻¹). Cela signifie que l'eau peut absorber plus de chaleur par gramme pour une même variation de température. Cependant, l'eau pure gèle à 0°C et bout à 100°C, ce qui n'est pas idéal pour un liquide de refroidissement dans des conditions extrêmes.\n\n2.3. Le mélange eau-éthylène glycol est utilisé car il combine les avantages des deux substances :\n- L'eau a une capacité thermique élevée pour un bon refroidissement\n- L'éthylène glycol abaisse le point de congélation (jusqu'à -37°C pour un mélange 60/40) et élève le point d'ébullition (jusqu'à 197°C)\n- Le mélange optimise donc les propriétés thermiques tout en évitant le gel ou l'évaporation dans des conditions climatiques variées."
+}

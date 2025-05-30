@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "P_atm": "1013 hPa",
+    "hauteur_recommandee": "80 cm",
+    "P_artère_systolique": "160 hPa",
+    "P_artère_diastolique": "107 hPa",
+    "P_veine": "20 hPa",
+    "masse_volumique_eau": "1000 kg/m³",
+    "accélération_pesanteur": "9.81 m/s²"
+  },
+  "correction": "1. **Protocole expérimental** :\n   - Mesurer la pression atmosphérique (Patm) avec un baromètre (ex: 1013 hPa).\n   - Utiliser une seringue remplie d'eau reliée à un pressiomètre, avec une réserve d'air pour protéger l'appareil.\n   - Varier la hauteur (h) de la seringue par rapport au point de mesure (C) et noter la pression (P) affichée.\n   - Tracer P = f(h) en prenant au moins 5 points (ex: h = 20, 40, 60, 80, 100 cm).\n   - La relation attendue est linéaire : P = Patm + ρ·g·h (ρ: masse volumique de l'eau, g: pesanteur).\n\n2. **Résultats expérimentaux** :\n   - La courbe P = f(h) est une droite de pente ρ·g ≈ 98,1 hPa/m (soit 0,0981 hPa/cm).\n   - Exemple pour h = 80 cm : P = 1013 + (1000 × 9,81 × 0,8)/100 ≈ 1013 + 78,5 = 1091,5 hPa.\n   - Modélisation : P = 1013 + 0,981·h (h en cm, P en hPa).\n\n3. **Compatibilité avec artère/veine** :\n   - **Artère** : La pression artérielle maximale est 160 hPa (systolique). À h = 80 cm, P_liquide ≈ 78,5 hPa (sans Patm). Or 78,5 hPa < 160 hPa : **insuffisant** pour perfuser une artère (risque de reflux sanguin).\n   - **Veine** : La pression veineuse est 20 hPa. À h = 80 cm, 78,5 hPa > 20 hPa : **compatible** (le liquide s'écoule bien).\n   - **Conclusion** : La hauteur de 80 cm convient pour une veine, mais pas pour une artère (nécessiterait une hauteur bien supérieure, ex: > 160 cm)."
+}

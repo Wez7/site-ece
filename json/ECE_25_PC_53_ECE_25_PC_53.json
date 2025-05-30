@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "absorbance_S8": "0.45",
+    "pH_S8": "5.2",
+    "longueur_onde": "620 nm",
+    "Amax": "0.90"
+  },
+  "correction": "1. Pour mesurer l'absorbance de la solution S8 de vert de bromocrésol, on choisit une longueur d'onde où seule la forme basique Ind- absorbe. D'après le spectre fourni, une longueur d'onde de 620 nm est appropriée car c'est à cette longueur que la forme basique absorbe le plus tandis que la forme acide n'absorbe pas.\n\n2. Après avoir préparé la solution S8 et mesuré son absorbance et son pH, on obtient une absorbance de 0.45 et un pH de 5.2. Ces valeurs sont reportées dans le tableau. Le diagramme de distribution est tracé en utilisant les relations fournies : %Ind- = 100 × (A/Amax) et %HInd = 100 × (1 - A/Amax), où Amax est l'absorbance de la solution S11 (0.90 dans cet exemple).\n\n3.1. Dans le programme Python, ligne 4, il faut indiquer la concentration globale de l'indicateur coloré, ici Ci = 2.1×10-5 mol·L-1 pour l'hélianthine.\n\n3.2. Les lignes 10 et 11 du programme Python doivent être complétées pour calculer les pourcentages des formes acide et basique en fonction du pH, en utilisant les équations fournies dans l'énoncé.\n\n3.3. Pour choisir l'indicateur coloré approprié pour le titrage de l'ammoniaque par l'acide chlorhydrique, on compare les zones de virage des indicateurs avec le pH à l'équivalence du titrage (environ 5.5 d'après la courbe de titrage fournie). Le vert de bromocrésol, dont la zone de virage est autour de pH 5, est le plus adapté car il change de couleur près du pH d'équivalence. L'hélianthine (zone de virage autour de pH 3.4) et le bleu de bromothymol (zone de virage autour de pH 7) ne conviennent pas car leurs zones de virage sont trop éloignées du pH d'équivalence."
+}

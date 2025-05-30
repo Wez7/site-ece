@@ -1,0 +1,15 @@
+{
+  "valeurs": {
+    "A_S0": 1.2,
+    "A_S1": 0.24,
+    "A_S2": 0.12,
+    "A_S3": 0.06,
+    "A_Seau": 0.18,
+    "concentration_Cu_complexe": "6.0 × 10⁻⁴ mol/L",
+    "concentration_NO3": "4.0 × 10⁻⁴ mol/L",
+    "concentration_massique_NO3": "24.8 mg/L",
+    "DJA_personne_60kg": "222 mg/jour",
+    "volume_eau_max": "8.95 L/jour"
+  },
+  "correction": "1. **Détermination de la concentration en ions complexes tétraamminecuivre (II)**\n   - Les solutions filles S1, S2 et S3 sont préparées par dilution de S0. Leurs concentrations sont respectivement 2,0 × 10⁻³ mol/L, 1,0 × 10⁻³ mol/L et 5,0 × 10⁻⁴ mol/L.\n   - Les absorbances mesurées sont cohérentes avec une relation linéaire entre l'absorbance et la concentration (loi de Beer-Lambert).\n   - La courbe d'étalonnage A = f([Cu(NH₃)₄²⁺]) est tracée et permet de déterminer [Cu(NH₃)₄²⁺] dans Seau par interpolation. Pour A = 0,18, on trouve [Cu(NH₃)₄²⁺] = 6,0 × 10⁻⁴ mol/L.\n\n2. **Détermination de la concentration en masse des ions nitrate**\n   - La longueur d'onde de 600 nm est choisie car elle correspond au maximum d'absorption de l'ion complexe (visible sur le spectre fourni), assurant une sensibilité optimale.\n   - La courbe d'étalonnage est linéaire, confirmant la validité des mesures et la proportionnalité entre absorbance et concentration.\n   - D'après la relation [NO₃⁻] = (2/3) × [Cu(NH₃)₄²⁺], on calcule [NO₃⁻] = 4,0 × 10⁻⁴ mol/L.\n   - Conversion en concentration massique : Cmassique = [NO₃⁻] × M(NO₃⁻) = 4,0 × 10⁻⁴ × 62,0 = 24,8 mg/L.\n\n3. **Utilisation pour une consommation quotidienne**\n   - DJA pour 60 kg : 3,7 mg/kg/jour × 60 kg = 222 mg/jour.\n   - Volume d'eau maximal : 222 mg/jour ÷ 24,8 mg/L ≈ 8,95 L/jour.\n   - Conclusion : La concentration en NO₃⁻ (24,8 mg/L) étant inférieure à 50 mg/L, l'eau peut être consommée quotidiennement, y compris par les nourrissons (sous réserve d'autres paramètres non étudiés ici)."
+}

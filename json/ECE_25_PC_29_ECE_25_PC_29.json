@@ -1,0 +1,23 @@
+{
+  "valeurs": {
+    "L": "1.00",
+    "alpha": "4",
+    "r": "0.01",
+    "t1": "2.45",
+    "t2": "2.47",
+    "t3": "2.46",
+    "g_ref": "9.8"
+  },
+  "correction": {
+    "1.1": "Le candidat doit réaliser trois mesures de la durée que met la bille pour parcourir la distance L. Les valeurs plausibles pour ces mesures pourraient être t1 = 2.45 s, t2 = 2.47 s, t3 = 2.46 s.",
+    "1.2": "La durée moyenne est calculée par la formule : t̅exp 1 = (t1 + t2 + t3) / 3 = (2.45 + 2.47 + 2.46) / 3 = 2.46 s.",
+    "1.3": "L'incertitude-type est calculée par la formule : u(texp 1) = s(X) / √N, où s(X) est l'écart-type. Calcul de s(X) : s(X) = √[((2.45-2.46)² + (2.47-2.46)² + (2.46-2.46)²) / (3-1)] = √[(0.0001 + 0.0001 + 0) / 2] = √0.0001 = 0.01 s. Donc u(texp 1) = 0.01 / √3 ≈ 0.006 s.",
+    "2.1": "Une hypothèse possible est que la masse de la bille influence la durée du mouvement. Une bille plus massive pourrait avoir une durée de parcours différente en raison de son inertie.",
+    "2.2": "Protocole : utiliser deux billes de masses différentes mais de même rayon. Les lâcher sans vitesse initiale du même point sur le plan incliné et mesurer le temps de parcours pour chaque bille. Répéter chaque mesure trois fois pour calculer une moyenne et une incertitude.",
+    "2.3": "Si les durées moyennes des deux billes sont compatibles selon le critère de compatibilité (|t1 - t2| / √(u(t1)² + u(t2)²) < 2), alors la masse n'a pas d'influence significative sur la durée. Sinon, l'hypothèse est validée.",
+    "3.1": "Calcul de gexp : g = (14 * L) / (5 * sin(α) * t̅exp 1²). Avec L = 1.00 m, α = 4°, t̅exp 1 = 2.46 s. sin(4°) ≈ 0.0698. Donc gexp = (14 * 1.00) / (5 * 0.0698 * (2.46)²) ≈ 14 / (5 * 0.0698 * 6.0516) ≈ 14 / 2.112 ≈ 6.63 m·s⁻².",
+    "3.2": "Calcul de u(L) : u(L) = r / √3 = 0.01 / √3 ≈ 0.0058 m. Calcul de u(gexp) : u(gexp) = gexp * √[(2 * u(texp 1) / texp 1)² + (u(L) / L)²] = 6.63 * √[(2 * 0.006 / 2.46)² + (0.0058 / 1.00)²] ≈ 6.63 * √[(0.00488)² + (0.0058)²] ≈ 6.63 * √[0.0000238 + 0.0000336] ≈ 6.63 * √0.0000574 ≈ 6.63 * 0.00757 ≈ 0.050 m·s⁻².",
+    "3.3": "Critère de compatibilité : |gexp - gref| / √(u(gexp)² + u(gref)²) = |6.63 - 9.8| / √(0.050² + 0²) = 3.17 / 0.050 = 63.4 > 2. Les valeurs ne sont pas compatibles, ce qui suggère une erreur systématique ou une mauvaise modélisation.",
+    "3.4": "Amélioration possible : augmenter la distance L pour réduire l'impact relatif des incertitudes sur le temps et la distance. Utiliser un système de chronométrage plus précis (cellule photoélectrique) pour diminuer u(t). Vérifier l'angle d'inclinaison avec un rapporteur plus précis."
+  }
+}

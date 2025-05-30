@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "VE1": "17.5 mL",
+    "VE2": "8.2 mL",
+    "cB": "1.0 mol/L",
+    "rendement": "53.1%"
+  },
+  "correction": "Pour optimiser le rendement de la réaction d'estérification, il est proposé d'utiliser un large excès d'un des réactifs, par exemple l'éthanol, afin de déplacer l'équilibre vers la formation de l'ester selon le principe de Le Chatelier. Les précautions de sécurité incluent le port de lunettes et de gants, et l'utilisation obligatoire d'une hotte pour manipuler l'acide sulfurique concentré.\n\nPour la synthèse, le protocole expérimental est suivi avec un chauffage à reflux de 20 minutes. Les titrages colorimétriques avant et après synthèse donnent respectivement VE1 = 17.5 mL et VE2 = 8.2 mL. La quantité d'ester formé est calculée par la différence des volumes équivalents, multipliée par la concentration de la solution d'hydroxyde de sodium (1.0 mol/L). Le rendement est ensuite calculé à l'aide de la formule fournie, donnant un résultat de 53.1%, ce qui est inférieur au rendement théorique de 67% dans les conditions stœchiométriques, suggérant une optimisation possible par un excès plus important ou d'autres modifications des conditions réactionnelles."
+}

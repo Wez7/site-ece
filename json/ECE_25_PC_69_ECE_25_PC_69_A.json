@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "Umax": "4.5 V",
+    "Umin": "2.0 V",
+    "Uref": "3.25 V",
+    "temps_reponse": "0.8 s",
+    "r_optimal": "50 kΩ",
+    "Uref_nouveau": "3.0 V",
+    "variable_tension": "tensionA0",
+    "variable_croix": "caractereCroix"
+  },
+  "correction": "1.1. La durée de l'acquisition est de 10 s et la période d'échantillonnage est de 100 ms. La tension est mesurée sur la broche A0 du microcontrôleur. Les grandeurs affichées à l'écran sont le temps (t) et la tension (UC).\n\n1.3. La courbe UC = f(t) montre une décroissance exponentielle lors de la fermeture de l'interrupteur (phase 1) et une croissance exponentielle lors de son ouverture (phase 2). Les valeurs mesurées sont Umax = 4.5 V et Umin = 2.0 V. La tension de référence Uréf est calculée comme (4.5 + 2.0)/2 = 3.25 V. Le temps de réponse est le temps nécessaire pour que UC passe de 4.5 V à 3.25 V, mesuré à 0.8 s.\n\n2.1. Le dispositif répond partiellement aux critères : la diminution de tension (4.5 - 2.0 = 2.5 V) est bien supérieure à 100 mV, mais le temps de réponse (0.8 s) est proche de la limite de 1 s. Une optimisation est possible.\n\n2.2. Pour réduire le temps de réponse, il faut diminuer la résistance r. Avec r = 50 kΩ, le temps de réponse devient 0.4 s, ce qui est acceptable. La nouvelle tension de référence Uréf est recalculée avec les nouvelles valeurs de Umax et Umin (par exemple, 4.0 V et 2.0 V), donnant Uréf = 3.0 V.\n\n3.1. La variable qui enregistre la tension mesurée est 'tensionA0'.\n\n3.2. La variable qui enregistre le caractère 'croix' est 'caractereCroix'.\n\n3.3. Oui, une croix s'affiche aux coordonnées (A ; 0) si la tension mesurée est inférieure à Uréf.\n\n3.4. La ligne à modifier est celle qui compare la tension mesurée à Uréf. Il faut s'assurer que la condition 'if (tensionA0 < Uréf)' utilise la bonne valeur de Uréf (3.25 V initialement, puis 3.0 V après optimisation)."
+}

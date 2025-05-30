@@ -1,0 +1,18 @@
+{
+  "valeurs": {
+    "R1": "10000 Ω",
+    "τ1": "1.0 s",
+    "C1_1": "100 μF",
+    "R2": "20000 Ω",
+    "τ2": "2.0 s",
+    "R3": "30000 Ω",
+    "τ3": "3.0 s",
+    "R4": "40000 Ω",
+    "τ4": "4.0 s",
+    "R5": "50000 Ω",
+    "τ5": "5.0 s",
+    "C1_2": "100 μF",
+    "C1_mesuree": "105 μF"
+  },
+  "correction": "1. Étude du programme :\n- Le temps à la ligne 6 doit être modifié si la capacité augmente car le temps caractéristique τ = R⋅C augmente. La durée totale de charge (5τ) doit donc être ajustée pour capturer toute la charge.\n- Modification de la ligne 13 : Pour afficher τ au lieu de la durée totale, remplacer la variable de temps totale par τ calculé (par exemple, en divisant la durée totale par 5).\n\n2. Mesure de la capacité :\n2.1. Méthode 1 :\n- Mesure de R1 = 10 kΩ.\n- Après modification du programme, τ1 = 1.0 s, donc C1_1 = τ1 / R1 = 1.0 / 10000 = 100 μF.\n\n2.2. Méthode 2 :\n- Tableau rempli avec les valeurs fournies.\n- La courbe τ = f(R) est une droite passant par l'origine, de pente C1_2 = 100 μF.\n\n3. Exploitation :\n- C1 mesurée = 105 μF.\n- C1_2 est plus précise car elle utilise une régression linéaire, réduisant les erreurs aléatoires.\n- Pour C2 = 220 nF, le programme doit être ajusté car τ sera beaucoup plus petit (ex : τ ≈ 2.2 ms pour R = 10 kΩ), nécessitant un temps d'acquisition plus court."
+}

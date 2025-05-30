@@ -1,0 +1,24 @@
+{
+  "valeurs": {
+    "resistance_faible": "10 kΩ",
+    "resistance_modere": "5 kΩ",
+    "resistance_fort": "1 kΩ",
+    "capacite_condensateur": "100 µF",
+    "tension_generateur": "5 V",
+    "tau_faible": "1 s",
+    "tau_modere": "0.5 s",
+    "tau_fort": "0.1 s",
+    "temps_charge_faible": "5 s",
+    "temps_charge_modere": "2.5 s",
+    "temps_charge_fort": "0.5 s"
+  },
+  "correction": {
+    "1.1": "Pour vérifier le comportement de la photorésistance, on peut utiliser un ohmmètre. Le protocole est le suivant :\n1. Brancher l'ohmmètre aux bornes de la photorésistance (bornes COM et VΩ).\n2. Placer la photorésistance dans un environnement à éclairement faible (obscurité) et noter la résistance mesurée.\n3. Répéter la mesure pour un éclairement modéré (lumière tamisée) et un éclairement fort (pleine lumière).\n4. Comparer les valeurs obtenues avec la courbe caractéristique fournie.",
+    "1.2": "Les mesures pour les trois éclairements sont :\n- Faible : 10 kΩ\n- Modéré : 5 kΩ\n- Fort : 1 kΩ\n\nConclusion : La résistance de la photorésistance diminue lorsque l'éclairement augmente, ce qui est cohérent avec son comportement attendu.",
+    "2.1": "Pour charger le condensateur, l'interrupteur K doit être en position 1. Pour le décharger, il doit être en position 2. Les branchements de l'interface d'acquisition doivent être connectés aux bornes du condensateur pour mesurer la tension uC(t).",
+    "2.2": "Le montage est mis en œuvre avec les valeurs fournies. L'acquisition est configurée pour 2000 points sur 5 minutes, permettant de visualiser trois cycles de charge-décharge.",
+    "2.3": "Le temps caractéristique τ est déterminé en identifiant le temps pour lequel uC(t) = 0.63 × E. Les valeurs sont :\n- Faible : τ = 1 s, 5τ = 5 s\n- Modéré : τ = 0.5 s, 5τ = 2.5 s\n- Fort : τ = 0.1 s, 5τ = 0.5 s",
+    "2.4": "L'éclairement influence directement le temps de charge : plus l'éclairement est fort, plus la résistance de la photorésistance est faible, ce qui réduit le temps caractéristique τ et donc le temps de charge totale 5τ.",
+    "2.5": "Dans les conditions testées, le temps de charge totale le plus long est de 5 s (éclairement faible), ce qui est bien inférieur à 30 s. Ainsi, la luminosité ambiante ne déclenchera pas l'alarme dans ce cas. Cependant, si la capacité du condensateur ou la résistance dans l'obscurité étaient plus élevées, le temps de charge pourrait dépasser 30 s."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "valeurs": {
+    "masse_alcool_benzylique": "12.96 g",
+    "masse_acide_ethanoique": "15.75 g",
+    "quantite_alcool_benzylique": "0.12 mol",
+    "quantite_acide_ethanoique": "0.2625 mol",
+    "rendement_synthese": "70%",
+    "masse_ethanoate_benzyle": "12.6 g"
+  },
+  "correction": {
+    "1.2": {
+      "hypothese_1": {
+        "phase_aqueuse": "Phase inférieure (plus dense, eau salée saturée)",
+        "phase_organique": "Phase supérieure (moins dense), contenant principalement de l'éthanoate de benzyle et éventuellement des traces d'acide éthanoïque"
+      },
+      "hypothese_2": {
+        "phase_aqueuse": "Phase inférieure (eau salée saturée avec acide éthanoïque soluble)",
+        "phase_organique": "Phase supérieure, contenant de l'éthanoate de benzyle, de l'alcool benzylique non consommé et éventuellement de l'acide éthanoïque"
+      }
+    },
+    "1.3": {
+      "analyse_CCM": "Pour confirmer la synthèse, il faut déposer :\n- Un témoin d'éthanoate de benzyle pur (T)\n- La phase organique obtenue (P)\n- Un dépôt d'alcool benzylique pur (R)\n\nLa comparaison des Rf permettra :\n- De confirmer la présence d'éthanoate de benzyle (tache P alignée avec T)\n- D'identifier si l'alcool benzylique est encore présent (tache P alignée avec R)"
+    },
+    "3": {
+      "conclusion": "La transformation n'est pas totale. Justification :\n- Sur la CCM, on observe une tache correspondant à l'alcool benzylique (R) dans la phase organique (P), ce qui prouve que le réactif limitant n'a pas été entièrement consommé.\n- La présence simultanée de taches pour le produit (T) et le réactif (R) dans P indique un équilibre chimique, caractéristique d'une réaction non totale.\n- Même après une heure de chauffage (conditions forcées), les espèces coexistent, confirmant le caractère limité de la transformation."
+    }
+  }
+}

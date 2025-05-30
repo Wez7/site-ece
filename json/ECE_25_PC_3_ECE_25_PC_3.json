@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "distance_focale_calculée": 100.0,
+    "distance_focale_moyenne": 102.0,
+    "écart_type": 3.5,
+    "incertitude_type_position_objet": 0.408,
+    "étendue_position_écran": 10.0,
+    "incertitude_type_position_écran": 2.887,
+    "incertitude_composée_focale": 4.0,
+    "quotient_z": 0.5
+  },
+  "correction": "1. Calcul de la distance focale à partir du grossissement :\n   - La relation donnée est G = 0,25 / f' (avec f' en mètres).\n   - On a G = 2,5, donc f' = 0,25 / 2,5 = 0,1 m = 100 mm.\n   - À ce stade, on ne peut pas appliquer le critère de compatibilité car on n'a pas encore d'incertitude associée à cette valeur calculée.\n\n2. Protocole expérimental :\n   - Utiliser un banc optique avec une source lumineuse (objet), la lentille convergente (loupe) et un écran.\n   - Placer l'objet à une position X fixe (origine du repère).\n   - Déplacer la lentille et l'écran jusqu'à obtenir une image nette sur l'écran. Noter la position X' de l'écran.\n   - Répéter pour différentes positions X de l'objet.\n   - Calculer f' pour chaque mesure avec la relation f' = (X - X²/X').\n   - Calculer la moyenne et l'écart-type des valeurs de f'.\n\n3. Incertitudes :\n   - Incertitude-type de la position de l'objet (type B) : u(x) = 1 graduation / √6 ≈ 0,408 mm (si graduation = 1 mm).\n   - Pour X = 500 mm, l'étendue de l'intervalle pour une image nette est estimée à 10 mm, donc u_position_écran = 10 / √12 ≈ 2,887 mm.\n   - L'incertitude composée u_focale est calculée via le programme 2 en combinant les incertitudes de type A et B. Résultat : 4,0 mm.\n\n4. Compatibilité :\n   - Valeur expérimentale : f' = 102,0 ± 4,0 mm.\n   - Valeur de référence : f' = 100 mm.\n   - Calcul de z = |102,0 - 100| / 4,0 = 0,5.\n   - Comme z < 2, la mesure est compatible avec la valeur du fabricant."
+}

@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "tension_vide": "0.76 V",
+    "resistance_interne": "50 Ω",
+    "tension_seuil_DEL": "1.5 V",
+    "nombre_cellules_necessaires": 2
+  },
+  "correction": "1. **Protocole pour tracer la caractéristique de la cellule élémentaire** :\n   - **Matériel** : Une cellule élémentaire (plaques de Zn et Cu, pont salin, solution d'eau salée), un conducteur ohmique variable (200 Ω à 80 kΩ), un voltmètre, un ampèremètre, des fils de connexion.\n   - **Montage** : Brancher la cellule élémentaire en série avec le conducteur ohmique variable, l'ampèremètre, et le voltmètre en parallèle aux bornes de la cellule.\n   - **Procédure** : Pour différentes valeurs de résistance (par exemple 200 Ω, 500 Ω, 1 kΩ, 10 kΩ, 80 kΩ), mesurer la tension U et l'intensité I. Noter les valeurs dans un tableau.\n   - **Schéma** : [Schéma du montage avec cellule, résistance variable, ampèremètre en série et voltmètre en parallèle sur la cellule.]\n\n2. **Modélisation et résultats** :\n   - **Courbe U = f(I)** : Les points expérimentaux sont modélisés par une droite d'équation U = 0.76 - 50×I (tension à vide e = 0.76 V, résistance interne r = 50 Ω).\n   - **Tension à vide** : e = 0.76 V (ordonnée à l'origine de la droite).\n\n3. **Alimentation de la DEL** :\n   - **Analyse** : La tension à vide d'une cellule (0.76 V) est inférieure à la tension de seuil de la DEL (1.5 V). Une seule cellule ne peut donc pas allumer la DEL.\n   - **Solution** : En associant des cellules en série, la tension totale est additive. Pour atteindre 1.5 V, il faut au moins 2 cellules (2 × 0.76 V = 1.52 V > 1.5 V).\n   - **Conclusion** : 2 cellules élémentaires en série sont nécessaires pour allumer la DEL rouge."
+}

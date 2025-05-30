@@ -1,0 +1,10 @@
+{
+  "valeurs": {
+    "vitesse_son_air": "340 m/s",
+    "vitesse_son_eau": "1480 m/s",
+    "distance_seuil": "30 cm",
+    "temps_exemple": "1000 µs",
+    "distance_calculee": "17 cm"
+  },
+  "correction": "1. Montage expérimental : Relier le module ultrason (Trig et Echo) aux broches digitales de l'Arduino (ex. D2 et D3), et le buzzer à une autre broche digitale (ex. D4) et la masse (GND).\n\n2.1. Schéma : Module ultrason → Onde émise → Obstacle → Onde réfléchie → Module ultrason. Distance 'd' entre module et obstacle.\n\n2.2. Ligne 22 : La distance (cm) = (temps (µs) * vitesse (cm/µs)) / 2. Avec v = 340 m/s = 0.034 cm/µs, donc distance = (temps * 0.034) / 2. Code : `distance = temps * 0.017;` (car 0.034/2 = 0.017).\n\n2.3. Ligne 23 : Condition pour activer le buzzer si distance < 30 cm. Code : `if (distance < 30) { tone(buzzerPin, 1000); } else { noTone(buzzerPin); }`.\n\n2.4. Ligne 25 : Afficher la distance dans le moniteur série. Code : `Serial.print(\"Distance: \"); Serial.print(distance); Serial.println(\" cm\");`.\n\n3.1. Validation : Placer un obstacle à <30 cm → buzzer sonne ; à >30 cm → buzzer silencieux.\n\n3.2. Sources d'écarts : 1) Angle de réflexion de l'onde non optimal, 2) Température/pression affectant la vitesse du son.\n\n3.3. Obstacle très proche : Le module peut ne pas détecter l'écho si le délai est trop court (temps de récupération du capteur).\n\n3.4. Positions non détectées : 1) Obstacle incliné (onde réfléchie ailleurs), 2) Obstacle absorbant (ex. tissu épais).\n\n3.5. Dans l'eau : Modifier la vitesse du son dans le calcul (remplacer 0.034 cm/µs par 0.148 cm/µs). Code : `distance = temps * 0.074;` (0.148/2)."
+}

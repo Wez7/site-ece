@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "période_T_Io": "1.77 jours",
+    "rayon_orbite_Io": "4.22×10^8 m",
+    "période_T_Europe": "3.52 jours",
+    "rayon_orbite_Europe": "7.00×10^8 m",
+    "période_T_Ganymède": "7.10 jours",
+    "rayon_orbite_Ganymède": "1.11×10^9 m",
+    "masse_Jupiter_expérimentale": "1.88×10^27 kg"
+  },
+  "correction": "1. Détermination de la période de révolution T de Io autour de Jupiter :\n   - À partir du fichier 'positions-Io', on trace la position x de Io en fonction du temps.\n   - On identifie deux passages successifs de Io à la même position (par exemple, le maximum de x) pour déterminer la période T.\n   - La période trouvée est T = 1.77 jours (soit environ 42.5 heures).\n\n   Détermination du rayon r de l'orbite de Io :\n   - L'orbite de Io est considérée comme circulaire avec un rayon constant.\n   - On mesure la distance maximale (ou minimale) de Io par rapport à Jupiter dans le repère (Jxy).\n   - Le rayon trouvé est r = 4.22×10^8 m.\n\n2. Détermination de la masse de Jupiter :\n   2.1 La troisième loi de Kepler indique que r³/T² = constante. Ainsi, la courbe r³ = f(T²) est une droite passant par l'origine, de pente égale à (G·M_Jupiter)/(4π²).\n\n   2.2 On utilise les données des trois satellites (Io, Europe, Ganymède) pour tracer r³ en fonction de T². On réalise une régression linéaire pour obtenir la pente de la droite.\n\n   2.3 La pente de la droite est égale à (G·M_Jupiter)/(4π²). En isolant M_Jupiter, on trouve :\n       M_Jupiter = (pente × 4π²)/G.\n       Avec les valeurs expérimentales, on obtient M_Jupiter ≈ 1.88×10^27 kg.\n\n3. Comparaison des résultats :\n   3.1 La valeur expérimentale (1.88×10^27 kg) est cohérente avec la valeur théorique (1.90×10^27 kg), l'écart étant inférieur à 2%.\n\n   3.2 Sources d'écart possibles :\n       - L'approximation des orbites circulaires (en réalité légèrement elliptiques).\n       - Les erreurs de mesure sur les positions des satellites dans la vidéo.\n       - L'inclinaison du plan orbital de Io non strictement nulle."
+}

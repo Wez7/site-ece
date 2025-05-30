@@ -1,0 +1,32 @@
+{
+  "valeurs": {
+    "R_5000": {
+      "I": "0.10 mA",
+      "U": "1.10 V"
+    },
+    "R_3000": {
+      "I": "0.17 mA",
+      "U": "1.09 V"
+    },
+    "R_1000": {
+      "I": "0.50 mA",
+      "U": "1.07 V"
+    },
+    "R_500": {
+      "I": "1.00 mA",
+      "U": "1.05 V"
+    },
+    "R_250": {
+      "I": "2.00 mA",
+      "U": "1.00 V"
+    },
+    "R_125": {
+      "I": "4.00 mA",
+      "U": "0.90 V"
+    },
+    "e": "1.12 V",
+    "r": "5.0 Ω",
+    "Icc": "224 mA"
+  },
+  "correction": "1. **Caractéristique de la pile Daniell** :\n   - Le montage est correctement branché avec un ampèremètre en série et un voltmètre en parallèle avec la pile.\n   - Les mesures de U et I sont effectuées pour différentes valeurs de R. Les données sont rentrées dans un tableur pour tracer U = f(I).\n   - La modélisation linéaire donne une équation de la forme U = -r·I + e. Ici, on trouve e = 1.12 V (ordonnée à l'origine) et r = 5.0 Ω (pente négative).\n   - Comparaison avec une pile alcaline (r < 1 Ω) : la pile Daniell a une résistance interne plus élevée, ce qui est cohérent avec sa constitution (pont salin, solutions ioniques).\n\n2. **Paramètres influençant r** :\n   - **Concentration des solutions ioniques** : une concentration plus élevée facilite les transferts de charges, diminuant r.\n   - **Surface des électrodes** : une plus grande surface réduit r en améliorant le contact.\n   - **Nature du pont salin** : un électrolyte plus conducteur diminue r.\n\n3. **Méthode du court-circuit** :\n   - Mesure de e = 1.12 V (identique à la modélisation).\n   - Mesure de Icc = 224 mA, d'où r = e/Icc ≈ 5.0 Ω, en accord avec la première méthode.\n\n4. **Protocole d'étude** :\n   - **Influence de la concentration** : préparer des solutions de Cu²⁺/Zn²⁺ à différentes concentrations, mesurer e et Icc pour chaque cas.\n   - **Influence de la surface des électrodes** : utiliser des électrodes de tailles variées, mesurer r.\n   - Résultats attendus : r diminue avec la concentration et la surface.\n\n5. **Explication pour les piles alcalines** :\n   - L'électrolyte (K⁺/HO⁻) est très conducteur, et la poudre de zinc offre une grande surface de contact, minimisant r.\n   - Les matériaux (graphite, acier) optimisent les transferts de charges.\n\nConclusion : La résistance interne dépend fortement de la conception de la pile. Les piles alcalines sont optimisées pour avoir un r très faible, contrairement à la pile Daniell utilisée ici."
+}

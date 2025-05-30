@@ -1,0 +1,10 @@
+{
+  "valeurs": {
+    "Cm_diluee": "0.15 g·L⁻¹",
+    "Cm_ancienne": "3.0 g·L⁻¹",
+    "Cm_ref": "5.0 g·L⁻¹",
+    "u_Cm_ancienne": "0.1 g·L⁻¹",
+    "z": "20.0"
+  },
+  "correction": "1. **Dilution de la solution à doser (1.1 et 1.2)**\n   - **Protocole** : Prélever 5,0 mL de la solution Sancienne à l'aide d'une pipette jaugée de 5 mL et les introduire dans une fiole jaugée de 100 mL. Compléter avec de l'eau distillée jusqu'au trait de jauge et homogénéiser. Porter une blouse, des lunettes et des gants car la concentration initiale est estimée à 5 g·L⁻¹ (dangereux pour l'environnement).\n   - **Réalisation** : La solution Sdiluée a une concentration théorique de Cm(diluée) = Cm(ancienne) / 20 = 0,25 g·L⁻¹ (si Cm(ancienne) = 5 g·L⁻¹).\n\n2. **Dosage conductimétrique (2.1 à 2.3)**\n   - **Protocole** : Mesurer la conductivité σ des solutions étalons (S1 à S4) et de Sdiluée à l'aide d'un conductimètre. Tracer σ = f(cm) avec un logiciel (droite d'étalonnage). Déterminer Cm(diluée) par interpolation.\n   - **Résultats** : La droite d'étalonnage donne σ = k·cm + b. Pour Sdiluée, σ = 150 µS·cm⁻¹ → Cm(diluée) = 0,15 g·L⁻¹ (valeur expérimentale).\n   - **Calcul de Cm(ancienne)** : Cm(ancienne) = Cm(diluée) × 20 = 3,0 g·L⁻¹.\n\n3. **Exploitation (3)**\n   - **Comparaison à la référence** : Cm(réf) = 5,0 g·L⁻¹ (valeur initiale supposée).\n   - **Calcul de z** : z = |3,0 - 5,0| / 0,1 = 20,0 > 2 → La solution s'est dégradée (z > 2).\n   - **Conclusion** : La concentration a diminué significativement, confirmant la dégradation de la solution."
+}

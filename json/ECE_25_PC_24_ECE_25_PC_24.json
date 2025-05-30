@@ -1,0 +1,27 @@
+{
+  "valeurs": {
+    "longueur_onde_choisie": "525 nm",
+    "coefficient_absorption_molaire": "2250 L·mol⁻¹·cm⁻¹",
+    "largeur_cuve": "1.0 cm",
+    "concentration_S0": "1.00×10⁻² mol·L⁻¹",
+    "concentration_S1": "1.00×10⁻³ mol·L⁻¹",
+    "volume_S1_a_preparer": "100.0 mL",
+    "volume_S0_a_prelever": "10.0 mL",
+    "vd_max": "5.0×10⁻⁵ mol·L⁻¹·s⁻¹",
+    "temps_vd_max": "120 s"
+  },
+  "correction": {
+    "1.1": "Pour préparer 100,0 mL de solution S1 à 1,00×10⁻³ mol·L⁻¹ à partir de S0 à 1,00×10⁻² mol·L⁻¹, on utilise une dilution par 10. Protocole :\n1. Prélever 10,0 mL de S0 avec une pipette jaugée de 10 mL.\n2. Verser dans une fiole jaugée de 100 mL.\n3. Compléter avec de l'eau distillée jusqu'au trait de jauge.\n4. Homogénéiser par retournements.",
+    "1.2": {
+      "longueur_onde": "La longueur d'onde choisie est 525 nm car le coefficient d'absorption molaire (ε = 2250 L·mol⁻¹·cm⁻¹) y est maximal, assurant une meilleure sensibilité de mesure.",
+      "relation_vd_A": "D'après la loi de Beer-Lambert : A = ε·l·[MnO₄⁻]. En dérivant par rapport au temps : dA/dt = ε·l·d[MnO₄⁻]/dt. Or, vd = -d[MnO₄⁻]/dt, donc vd = - (1/(ε·l)) · dA/dt.",
+      "grandeurs_necessaires": "Pour calculer vd, il faut :\n- ε (coefficient d'absorption molaire)\n- l (largeur de la cuve)\n- La pente de la tangente à la courbe A = f(t) à chaque instant (dA/dt).",
+      "graphique": "Il faut tracer vd en fonction du temps (vd = f(t)) en calculant vd à différents instants à partir des pentes de tangentes à A = f(t)."
+    },
+    "2": "Protocole expérimental :\n1. Régler le spectrophotomètre à λ = 525 nm.\n2. Faire le blanc avec un mélange acide oxalique + acide sulfurique.\n3. Préparer le mélange réactionnel (5 mL acide oxalique + 10 mL acide sulfurique).\n4. Ajouter 5 mL de S1 et lancer l'acquisition.\n5. Tracer A = f(t), puis déterminer vd(t) via les pentes.",
+    "3": {
+      "explication_vd": "La vitesse vd augmente initialement car les ions Mn²⁺ produits catalysent la réaction (autocatalyse). Puis vd diminue car la concentration en MnO₄⁻ (réactif) devient limitante.",
+      "determination_vd_max": "Sur le graphique vd = f(t), le maximum est atteint à t = 120 s avec vd_max = 5.0×10⁻⁵ mol·L⁻¹·s⁻¹ (valeur lue à l'intersection du pic avec l'axe des ordonnées)."
+    }
+  }
+}

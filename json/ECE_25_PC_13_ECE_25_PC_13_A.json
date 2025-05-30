@@ -1,0 +1,18 @@
+{
+  "valeurs": {
+    "R1": "10000 Ω",
+    "τ1": "0.1 s",
+    "C1_1": "10 μF",
+    "R2": "20000 Ω",
+    "τ2": "0.2 s",
+    "R3": "30000 Ω",
+    "τ3": "0.3 s",
+    "R4": "40000 Ω",
+    "τ4": "0.4 s",
+    "R5": "50000 Ω",
+    "τ5": "0.5 s",
+    "C1_2": "10 μF",
+    "C1_mesure": "10.2 μF"
+  },
+  "correction": "1. Étude du programme :\n- Le temps à la ligne 12 doit être modifié si la capacité augmente car le temps caractéristique τ = R⋅C augmente proportionnellement avec C. Ainsi, le temps total de charge (5τ) sera plus long, nécessitant une augmentation du délai dans le programme.\n- Modification de la ligne 20 : Pour afficher τ au lieu du temps total, il faut diviser la durée mesurée par 5. Par exemple, remplacer `Serial.print(temps)` par `Serial.print(temps/5)`.\n\n2. Mesure de la capacité :\n2.1. Méthode 1 :\n- Mesure de R1 : 10 kΩ.\n- τ1 mesuré : 0.1 s.\n- Calcul de C1,1 : C = τ/R = 0.1/10000 = 10 μF.\n\n2.2. Méthode 2 :\n- Tableau rempli avec les valeurs fournies.\n- Courbe τ = f(R) : Une droite passant par l'origine, de pente C1,2. La pente donne C1,2 = 10 μF (car τ/R = C).\n\n3. Exploitation des résultats :\n- C1 mesuré avec le multimètre : 10.2 μF.\n- Comparaison : C1,2 est plus précise car elle utilise une régression linéaire, réduisant les erreurs aléatoires.\n- Choix de R pour C2 = 10 μF : Pour garder un τ mesurable (ex : 1 s), choisir R = τ/C = 1/10e-5 = 100 kΩ."
+}

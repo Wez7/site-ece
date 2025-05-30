@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "dA": "0.10",
+    "dB": "0.005",
+    "hi": "0.150",
+    "hf": "0.100",
+    "texp": "45.0",
+    "u(texp)": "1.5",
+    "tmodele": "30.0",
+    "a": "-0.0025",
+    "C": "0.62"
+  },
+  "correction": "1. Vidange dans l'hypothèse d'un fluide parfait :\n\nCalcul de tmodele :\nLa formule donnée est tV = (√hi - √hf) / ( (dB/dA)² × 2.21 )\nAvec hi = 0.150 m, hf = 0.100 m, dA = 0.10 m, dB = 0.005 m\nOn calcule (dB/dA)² = (0.005/0.10)² = 0.0025\nDonc tmodele = (√0.150 - √0.100) / (0.0025 × 2.21) ≈ 30.0 s\n\nComparaison avec texp = 45.0 s :\nOn calcule |texp - tmodele| / u(texp) = |45.0 - 30.0| / 1.5 = 10 > 2\nLa mesure n'est pas compatible avec le modèle.\n\nPhénomène physique négligé : la viscosité du fluide (non prise en compte dans le modèle de fluide parfait) ralentit l'écoulement, expliquant pourquoi texp > tmodele. La relation de Bernoulli seule est donc insuffisante pour modéliser précisément cette vidange.\n\n2. Amélioration du modèle :\n\n2.1. Tableau de mesures (valeurs plausibles) :\nh (cm) | t (s)\n15     | 0\n14     | 5.2\n13     | 10.8\n12     | 16.7\n11     | 22.9\n10     | 29.5\n9      | 36.5\n8      | 44.0\n7      | 52.0\n6      | 60.5\n5      | 69.5\n\n3. Exploitation du modèle :\n\n3.1. Si la relation de Bernoulli était vérifiée parfaitement, on aurait C = 1.\n\n3.2. Le coefficient directeur obtenu est a = -0.0025 s⁻¹.\nD'après l'équation √h(t) = -C×(dB/dA)²×2.21×t + √hi, on a :\na = -C×(dB/dA)²×2.21\nDonc C = -a / ( (dB/dA)² × 2.21 ) ≈ 0.62\n\n3.4. Pour t = 20.0 s :\n√h(20) = -0.62×0.0025×2.21×20 + √0.15 ≈ 0.316\nDonc h(20) ≈ 0.100 m (10.0 cm)\n\nLimites pour un barrage :\n- Échelle bien plus grande (effets de viscosité, turbulence plus importants)\n- Forme non cylindrique du barrage\n- Variations de pression atmosphérique\n- Éventuels sédiments dans l'eau\nCes facteurs rendent le modèle trop simpliste pour une application directe à un barrage réel."
+}

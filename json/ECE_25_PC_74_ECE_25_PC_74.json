@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "masse_volant": "5.35 g",
+    "longueur_regle": "1.81 m",
+    "intensite_pesanteur": "9.81 m·s⁻²",
+    "vitesse_initiale": "10.2 m·s⁻¹",
+    "altitude_maximale": "2.5 m",
+    "energie_cinetique_initiale": "0.278 J",
+    "energie_potentielle_maximale": "0.131 J"
+  },
+  "correction": "1.1 Hypothèse : La différence de trajectoire entre le volant en plastique et le volant en plumes est due à la résistance de l'air, plus importante pour le volant en plumes à cause de sa jupe qui augmente les frottements. Cela explique la trajectoire 'parachute' du volant en plumes.\n\n1.2 Grandeur physique à étudier : L'énergie mécanique EM du volant au cours du temps. En comparant la variation de EM pour les deux types de volants, on peut vérifier l'influence des frottements.\n\n1.3 Protocole expérimental : \n- Utiliser le logiciel de pointage pour extraire les positions (x, y) du volant dans la vidéo.\n- Calculer la vitesse v à chaque instant à partir des positions.\n- Calculer l'énergie cinétique EC et l'énergie potentielle EP à chaque instant.\n- Tracer EM = EC + EP en fonction du temps.\n- Comparer la décroissance de EM pour les deux volants (si disponible).\n\n2. Mise en œuvre : \n- Importer les données de la vidéo dans le programme Python.\n- Calculer v, EC, EP et EM.\n- Tracer les courbes demandées.\n\n3.1 Analyse des résultats : Si l'énergie mécanique diminue plus rapidement pour le volant en plumes, cela confirme que les frottements sont plus importants, validant l'hypothèse.\n\n3.2 Pour augmenter la vitesse, le joueur doit plier les plumes vers l'intérieur pour réduire la surface exposée à l'air et donc diminuer les frottements."
+}

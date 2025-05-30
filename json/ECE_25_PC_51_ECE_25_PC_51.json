@@ -1,0 +1,37 @@
+{
+  "valeurs": {
+    "Rf_vanilline": "0.45",
+    "Rf_ethylvanilline": "0.60",
+    "Rf_acetate_vanilline": "0.30",
+    "solvant_saccharose": "eau",
+    "solvant_extracteur": "dichlorométhane",
+    "hauteur_elution_echantillon": "4.5 cm",
+    "hauteur_front_eluant": "10 cm",
+    "Rf_echantillon": "0.45"
+  },
+  "correction": {
+    "1.1": {
+      "solvant_saccharose": "L'eau est choisie pour solubiliser le sucre aromatisé car le saccharose a une solubilité élevée dans l'eau, tandis que l'arôme de vanille a une solubilité faible dans l'eau.",
+      "solvant_extracteur": "Le dichlorométhane est choisi comme solvant extracteur car il est non miscible avec l'eau et l'arôme de vanille a une solubilité élevée dans le dichlorométhane."
+    },
+    "1.2": {
+      "verrerie": "Pour prélever les liquides, on utilise une pipette graduée ou une éprouvette graduée pour mesurer précisément les volumes. Une pipette jaugée peut également être utilisée pour une précision accrue."
+    },
+    "1.3": {
+      "schema_ampoule": "Dans l'ampoule à décanter, la phase aqueuse (eau + saccharose) se trouve en haut car sa densité est inférieure à celle du dichlorométhane. La phase organique (dichlorométhane + arôme de vanille) se trouve en bas.",
+      "justification": "Le dichlorométhane a une densité de 1.3, supérieure à celle de l'eau (1.0), donc il se place en dessous de la phase aqueuse."
+    },
+    "2.1": {
+      "depots_CCM": "Sur la plaque de CCM, on dépose :\n- Une tache de vanilline pure (témoin)\n- Une tache d'éthylvanilline pure (témoin)\n- Une tache de l'extrait obtenu après extraction (échantillon)\nLa ligne de dépôt est tracée à environ 1 cm du bas de la plaque."
+    },
+    "2.2": {
+      "precautions": "Précautions prises :\n- Ne pas toucher la surface de la plaque avec les doigts pour éviter toute contamination.\n- S'assurer que la ligne de dépôt est au-dessus du niveau de l'éluant dans la cuve.\n- Fermer la cuve pour saturer l'atmosphère en vapeur d'éluant.\n- Utiliser une lampe UV avec des lunettes de protection pour révéler les taches."
+    },
+    "2.3": {
+      "chromatogramme": "Après élution, le chromatogramme montre :\n- Une tache pour la vanilline pure à Rf = 0.45\n- Une tache pour l'éthylvanilline pure à Rf = 0.60\n- Une tache pour l'échantillon à Rf = 0.45"
+    },
+    "2.4": {
+      "conclusion": "L'échantillon contient de la vanilline, car la tache de l'échantillon a le même Rf (0.45) que la vanilline pure. De plus, la tache de l'échantillon ne correspond pas à l'éthylvanilline (Rf = 0.60). La justification quantitative est basée sur la comparaison des Rf, qui sont identiques pour la vanilline et l'échantillon."
+    }
+  }
+}

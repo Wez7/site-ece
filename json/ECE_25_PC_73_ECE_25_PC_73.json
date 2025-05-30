@@ -1,0 +1,17 @@
+{
+  "valeurs": {
+    "OA_prime": [
+      200,
+      210,
+      220,
+      230,
+      240
+    ],
+    "f_prime": 200,
+    "d_lim": 1.2,
+    "Tr_max": 220,
+    "Tr_min": 200,
+    "t_max": 20
+  },
+  "correction": "1. **Détermination de la distance focale de la lentille L**\n   - **Valeurs expérimentales** : Les distances lentille-image OA' mesurées sont [200, 210, 220, 230, 240] mm pour les distances lentille-objet OA = [-350, -400, -450, -500, -550] mm.\n   - **Relation de conjugaison** : La distance focale OF' est donnée par la formule : \n     \\[ OF' = \\left( \\frac{1}{OA'} - \\frac{1}{OA} \\right)^{-1} \\]\n   - **Programme Python** : La ligne 4 doit être complétée avec les valeurs mesurées de OA' : `d_ima = np.array([200, 210, 220, 230, 240])`. La ligne 5 calcule la distance focale pour chaque mesure : `foc = 1 / (1/d_ima - 1/d_obj)`.\n   - **Variable f_val** : Elle représente la moyenne des distances focales calculées pour chaque mesure.\n   - **Résultat** : La distance focale obtenue est OF' = f' = 200 mm.\n\n2. **Déplacement maximal Tr(max) de l'objectif**\n   - **Distance de mise au point limite** : d_lim = 1,20 m.\n   - **Schéma expérimental** : Le montage consiste à placer un objet à 1,20 m de la lentille et à mesurer la distance entre la lentille et l'écran (Tr(max)) lorsque l'image est nette.\n   - **Valeur mesurée** : Tr(max) = 220 mm.\n\n3. **Déplacement maximum t_max de l'objectif**\n   - **Tr(min)** : Lors de la mise au point à l'infini, Tr(min) = OF' = 200 mm.\n   - **Calcul de t_max** : t_max = Tr(max) - Tr(min) = 220 mm - 200 mm = 20 mm."
+}

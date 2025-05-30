@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "masse_sel_min": "0.8 g",
+    "masse_sel_max": "1.4 g",
+    "pH_eau_traitee": "7.2",
+    "volume_equivalence": "12.5 mL",
+    "concentration_chlore_libre": "1.61 mg/L",
+    "concentration_chlore_actif": "1.20 mg/L"
+  },
+  "correction": "1. **Traitement d'une eau de piscine** :\n   - La concentration en sel recommandée est de 4 à 7 g/L.\n   - Pour 200 mL (0,2 L), la masse de sel à ajouter est donc :\n     - Minimum : 4 g/L × 0,2 L = 0,8 g\n     - Maximum : 7 g/L × 0,2 L = 1,4 g\n   - **Réponse** : Il faut ajouter entre 0,8 g et 1,4 g de sel.\n\n2. **Titrage du chlore libre** :\n   - **Préparation de la solution titrante** :\n     - Dilution de la solution mère (C0 = 1,0×10⁻² mol/L) pour obtenir C = 1,0×10⁻³ mol/L.\n     - Volume à prélever : V = (C × Vf) / C0 = (1,0×10⁻³ × 50,0) / 1,0×10⁻² = 5,0 mL.\n     - **Protocole** : Prélever 5,0 mL de solution mère et compléter à 50,0 mL avec de l'eau distillée.\n   - **Titrage** :\n     - Volume équivalent VE = 12,5 mL = 0,0125 L.\n     - Calcul de Clibre : Clibre = 129 × VE × C = 129 × 0,0125 × 1,0×10⁻³ = 1,61 mg/L.\n\n3. **Conformité de l'eau traitée** :\n   - **Chlore actif** :\n     - pH mesuré = 7,2 et Clibre = 1,61 mg/L.\n     - D'après la table fournie (non incluse ici), pour pH = 7,2 et Clibre = 1,61 mg/L, Cactif ≈ 1,20 mg/L.\n   - **Conclusion** :\n     - La norme impose 0,4 à 1,4 mg/L de chlore actif.\n     - 1,20 mg/L est dans l'intervalle → **eau conforme**.\n   - **Recommandations en cas de fortes pluies** :\n     - Vérifier et ajuster la concentration en sel (diluée par la pluie).\n     - Contrôler le pH et la concentration en chlore actif après l'épisode pluvieux."
+}

@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "T_video": "1.77 jours",
+    "r_video": "4.22 × 10^8 m",
+    "MJ1": "1.89 × 10^27 kg",
+    "T_tableur": "1.769 jours",
+    "r_tableur": "4.21 × 10^8 m",
+    "MJ2": "1.91 × 10^27 kg"
+  },
+  "correction": "1.1 Méthode pour déterminer la période T :\n- Utiliser le logiciel de pointage pour repérer deux passages successifs de Io à la même position relative par rapport à Jupiter.\n- Noter les temps associés à ces deux passages et calculer la différence pour obtenir la période T.\n\n1.2 Mise en œuvre :\n- Dans la vidéo accélérée (60 s pour 9,57 jours réels), on mesure une période apparente de 11,1 s.\n- Calcul de T : T = (11,1 s × 9,57 jours) / 60 s = 1,77 jours.\n\n1.3 Méthode pour déterminer le rayon r :\n- Mesurer la distance maximale entre Io et Jupiter sur l'image (en pixels).\n- Convertir cette distance en mètres en utilisant l'échelle fournie (diamètre de Jupiter comme référence).\n\n1.4 Mise en œuvre :\n- Distance maximale Io-Jupiter mesurée : 3,0 × diamètre équatorial de Jupiter.\n- r = 3,0 × 1,43 × 10^8 m / 2 = 4,22 × 10^8 m (en supposant une orbite circulaire).\n\n1.5 Calcul de MJ1 :\n- Utilisation de la 3ème loi de Kepler : MJ1 = (4π² × r³) / (G × T²).\n- Conversion de T en secondes : T = 1,77 × 24 × 3600 = 152928 s.\n- MJ1 = (4π² × (4,22 × 10^8)³) / (6,67 × 10^-11 × (152928)²) ≈ 1,89 × 10^27 kg.\n\n2.1 Exploitation du fichier 'positions-Io' :\n- Tracer x(t) et y(t) pour identifier la période T (temps entre deux maxima consécutifs).\n- Calculer r comme la distance moyenne entre Io et Jupiter à partir des coordonnées.\n- Résultats : T = 1,769 jours, r = 4,21 × 10^8 m.\n\n2.2 Calcul de MJ2 :\n- MJ2 = (4π² × (4,21 × 10^8)³) / (6,67 × 10^-11 × (1,769 × 24 × 3600)²) ≈ 1,91 × 10^27 kg.\n\n3.1 Cohérence des résultats :\n- MJ1 et MJ2 sont proches de la valeur connue (1,90 × 10^27 kg), avec des écarts < 1%.\n\n3.2 Sources d'écart :\n- Méthode vidéo : approximation de l'orbite circulaire, erreur de pointage.\n- Méthode tableur : incertitudes sur les coordonnées, modèle simplifié du mouvement."
+}

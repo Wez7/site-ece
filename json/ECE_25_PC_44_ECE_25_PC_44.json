@@ -1,0 +1,21 @@
+{
+  "valeurs": {
+    "solvant_choisi": "dichlorométhane",
+    "Rf_theine": "0.45",
+    "pH_the_infuse": "9.0",
+    "volume_solvant": "15 mL",
+    "nombre_extractions": "2",
+    "hauteur_front_eluant": "8.0 cm",
+    "hauteur_tache_theine": "3.6 cm"
+  },
+  "correction": {
+    "1.1": "Le solvant choisi pour extraire la théine est le dichlorométhane. Trois arguments justifient ce choix :\n1. La théine est très soluble dans le dichlorométhane, ce qui permet une extraction efficace.\n2. Le dichlorométhane a une température d'ébullition basse (39,6°C), facilitant son évaporation ultérieure pour isoler la théine.\n3. Le dichlorométhane est peu miscible avec l'eau, ce qui permet une séparation nette des phases après décantation.",
+    "1.2": "Après décantation, la phase organique (dichlorométhane) se trouvera en bas de l'ampoule à décanter car sa densité (1,33) est supérieure à celle de l'eau (1,00). La phase aqueuse sera donc au-dessus.",
+    "2.1": "Pour fixer le pH du thé à 9, on ajoute goutte à goutte une solution de carbonate de sodium (Na2CO3) de concentration 1 mol.L−1 jusqu'à ce que le pH-mètre indique pH = 9. Cela permet de maintenir les colorants en solution dans la phase aqueuse.",
+    "2.2": "Le protocole d'extraction est mis en œuvre comme suit :\n- Introduire le thé infusé (pH ajusté à 9) dans une ampoule à décanter.\n- Ajouter 15 mL de dichlorométhane.\n- Agiter l'ampoule pour favoriser l'extraction.\n- Laisser décanter et séparer les phases.\n- Récupérer la phase organique (dichlorométhane contenant la théine) dans un bécher.\n- Répéter l'extraction une seconde fois avec 15 mL de dichlorométhane.\n- Combiner les phases organiques.",
+    "3.1": "Sur la plaque de silice, on représente :\n- Une ligne de dépôts à 1 cm du bas.\n- Cinq dépôts superposés de l'extrait organique concentré.\n- Un dépôt de référence de théine pure à côté.",
+    "3.2": "La révélation sous lampe UV est justifiée car la théine absorbe les UV, ce qui permet de visualiser les taches sur la plaque de CCM. Cette méthode est non destructive et spécifique aux composés absorbant les UV.",
+    "3.3": "Après élution, le chromatogramme montre une tache à Rf = 0,45 (calculé comme h/H = 3,6 cm / 8,0 cm). Cette tache correspond à la théine, identifiée par comparaison avec la référence.",
+    "4": "En exploitant le chromatogramme, on observe que la tache de l'extrait a le même rapport frontal (Rf = 0,45) que la théine pure. Cela permet d'émettre l'hypothèse que l'espèce chimique extraite est bien la théine. De plus, le spectre UV fourni confirme la présence de la théine par ses bandes d'absorption caractéristiques."
+  }
+}

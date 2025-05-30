@@ -1,0 +1,15 @@
+{
+  "valeurs": {
+    "surface_panneau": "1.32e-2 m²",
+    "eclairement": "200 W/m²",
+    "tension_generateur": "12 V",
+    "masse_porte": "300 g",
+    "hauteur_levage": "30 cm",
+    "intensite_moteur": "0.5 A",
+    "puissance_max_panneau": "2.64 W",
+    "puissance_moteur": "6 W",
+    "puissance_solaire_surfacique": "100 W/m²",
+    "rendement_panneau": "10%"
+  },
+  "correction": "1.1. Protocole expérimental pour tracer P(U): \n- Brancher le panneau solaire à une résistance variable et un voltmètre en parallèle, un ampèremètre en série.\n- Varier la résistance et noter U et I pour chaque point.\n- Calculer P = U × I pour chaque point et tracer P en fonction de U.\n\n1.2. Détermination du rendement:\n- À partir de la courbe P(U), identifier Pmax.\n- Calculer le rendement r = Pmax / (E × S). Avec Pmax = 2.64 W, E = 200 W/m², S = 1.32e-2 m², r = 10%.\n\n2.1. Montage pour mesurer la puissance du moteur:\n- Ajouter un ampèremètre en série et un voltmètre en parallèle avec le moteur.\n\n2.2. Masse adaptée:\n- Choisir une masse de 300 g pour simuler la porte.\n\n2.3. Calcul de la puissance du moteur:\n- Mesurer U = 12 V et I = 0.5 A.\n- P = U × I = 6 W.\n\n3.1. Puissance solaire surfacique:\n- En décembre en Bretagne à 9h, E = 100 W/m².\n\n3.2. Puissance électrique fournie par le panneau:\n- P = r × E × S = 0.10 × 100 × 1.32e-2 = 1.32 W.\n\n3.3. Suffisance du panneau solaire:\n- La puissance nécessaire est de 6 W, le panneau fournit 1.32 W. Non suffisant, il faudrait augmenter la surface ou le rendement."
+}

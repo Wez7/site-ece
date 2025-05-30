@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "mzn_initial": "15.00 g",
+    "mFe_initial": "10.00 g",
+    "I": "0.70 A",
+    "Δt": "1200 s",
+    "mzn_final": "14.85 g",
+    "mFe_final": "10.15 g",
+    "mth": "0.30 g",
+    "mexp": "0.15 g"
+  },
+  "correction": "1.1. Schéma du montage :\n- Sens conventionnel du courant : de la borne + du générateur vers la plaque de zinc (anode), puis vers la plaque de fer (cathode), et retour à la borne -.\n- Sens des électrons : opposé au sens conventionnel du courant (de la cathode vers l'anode).\n- Anode : plaque de zinc (oxydation).\n- Cathode : plaque de fer (réduction).\n\n1.2. Changement observé : La plaque de fer devient progressivement recouverte d'une couche gris-bleuté de zinc.\n\n1.3. Demi-équations :\n- Anode (oxydation du zinc) : Zn(s) → Zn²⁺(aq) + 2e⁻.\n- Cathode (réduction des ions zinc) : Zn²⁺(aq) + 2e⁻ → Zn(s).\n\n2.1. Calcul de mth :\nDonnées : I = 0.70 A, Δt = 1200 s, MZn = 65.4 g/mol, F = 96500 C/mol.\nFormule : mth = (I × Δt × MZn) / (2 × F).\nCalcul : mth = (0.70 × 1200 × 65.4) / (2 × 96500) ≈ 0.30 g.\n\n2.2. Masse finale :\n- Plaque de zinc : mzn_final = 14.85 g (perte de 0.15 g).\n- Plaque de fer : mFe_final = 10.15 g (gain de 0.15 g).\nCohérence : La perte de masse du zinc correspond au gain de masse du fer, confirmant le dépôt de zinc.\n\n2.3. Masse expérimentale : mexp = mFe_final - mFe_initial = 0.15 g.\n\n2.4. Comparaison : mexp (0.15 g) < mth (0.30 g).\nExplications possibles :\n- Rendement non parfait (pertes d'ions Zn²⁺ dans la solution).\n- Erreurs de mesure (intensité non strictement constante, durée inexacte).\n\n3.1. Identification des clous :\n- Clou gris-bleuté : acier recouvert de zinc.\n- Clou gris argenté : acier non recouvert.\n\n3.2. Observations et justification :\n- Clou en acier non recouvert : apparition d'une coloration bleue (formation d'ions Fe²⁺, corrosion).\n- Clou en acier recouvert de zinc : précipité blanc (présence d'ions Zn²⁺, pas de corrosion du fer).\nUtilité du zinc : Protection cathodique (le zinc, plus réducteur, se corrode à la place du fer)."
+}

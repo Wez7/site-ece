@@ -1,0 +1,10 @@
+{
+  "valeurs": {
+    "OA_prime_8cm": "24.0",
+    "OA_prime_9cm": "18.0",
+    "OA_prime_10cm": "15.0",
+    "OA_prime_11cm": "13.2",
+    "OA_prime_12cm": "12.0"
+  },
+  "correction": "1.1. Pour déterminer la distance focale de la lentille L, nous avons mesuré les distances lentille-écran (OA') pour différentes distances objet-lentille (OA). Les valeurs obtenues sont cohérentes avec les lois de l'optique géométrique.\n\n1.2. En traçant 1/OA' en fonction de 1/OA, nous obtenons une droite dont l'équation est de la forme y = x + 1/f'. La pente de cette droite est égale à 1, ce qui confirme la relation de conjugaison. L'ordonnée à l'origine permet de déterminer la distance focale f'. Avec nos mesures, nous trouvons f' = 6,0 cm.\n\n1.3. La diagonale d'un négatif 24×36 mm est d'environ 43,3 mm. Comme f' = 6,0 cm > 4,33 cm, la lentille satisfait la contrainte.\n\n2.1. Pour un négatif 24×36 mm et un tirage standard 10×15 cm, le grandissement est γ = -15/3,6 ≈ -4,17 (le signe négatif indique une image inversée).\n\n2.2. En utilisant les relations fournies et f' = 6,0 cm :\n- OA = f'(1 - 1/γ) = 6(1 - 1/-4,17) ≈ 7,44 cm\n- OA' = γ·OA ≈ -4,17×7,44 ≈ -31,0 cm\n- AA' = OA' - OA ≈ -31,0 - 7,44 ≈ -38,4 cm\n\nCes valeurs permettent de régler correctement l'agrandisseur pour obtenir le grandissement souhaité."
+}

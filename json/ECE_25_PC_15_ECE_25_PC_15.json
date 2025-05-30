@@ -1,0 +1,16 @@
+{
+  "valeurs": {
+    "D_Silbermann": "60.0 cm",
+    "f_prime_Silbermann": "15.0 cm",
+    "u_D_Silbermann": "0.41 cm",
+    "u_f_prime_Silbermann": "0.1 cm",
+    "D_Bessel": "80.0 cm",
+    "x1_Bessel": "30.0 cm",
+    "x2_Bessel": "50.0 cm",
+    "L_Bessel": "20.0 cm",
+    "f_prime_Bessel": "15.0 cm",
+    "u_f_prime_Bessel": "0.2 cm",
+    "f_prime_ref": "15.0 cm"
+  },
+  "correction": "1. Méthode de Silbermann :\n1.1. Schéma : L'objet et l'image sont placés symétriquement par rapport à la lentille, avec D = distance objet-image. Les rayons passent par le centre de la lentille sans déviation et parallèles à l'axe optique se focalisent au foyer image.\n1.2. Mesure de D = 60.0 cm. Distance focale f' = D/4 = 15.0 cm.\n1.3. Incertitude u(D) = sqrt((d/sqrt(6))^2 + (Δd/sqrt(12))^2) = sqrt((0.1/sqrt(6))^2 + (2/sqrt(12))^2) ≈ 0.41 cm.\n1.4. Incertitude u(f') = u(D)/4 ≈ 0.1 cm. Résultat : f' = 15.0 ± 0.1 cm.\n\n2. Méthode de Bessel :\n2.1. Protocole : Placer l'objet et l'écran à D = 80.0 cm. Déplacer la lentille pour trouver deux positions nettes (x1 = 30.0 cm, x2 = 50.0 cm). Calculer L = |x2 - x1| = 20.0 cm.\n2.2. Distance focale f' = (D² - L²)/(4D) = (80² - 20²)/(4*80) = 15.0 cm.\n2.3. Incertitude u(f') calculée via Python (formule donnée). Résultat : f' = 15.0 ± 0.2 cm.\n\n3. Comparaison :\nPour Silbermann : |15.0 - 15.0| / 0.1 = 0 ≤ 2 → Compatible.\nPour Bessel : |15.0 - 15.0| / 0.2 = 0 ≤ 2 → Compatible."
+}

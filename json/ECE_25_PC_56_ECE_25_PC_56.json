@@ -1,0 +1,8 @@
+{
+  "valeurs": {
+    "VE": "12.5 mL",
+    "masse_acide": "0.035 g",
+    "taux_acidite": "0.38 %"
+  },
+  "correction": "1. **Schéma du montage** : Le montage consiste en une burette graduée contenant la solution d'hydroxyde de sodium (NaOH) de concentration 1,00 × 10-2 mol·L-1, placée au-dessus d'un bécher contenant le mélange huile d'olive (10,0 mL) et éthanol (20,0 mL) avec 10 gouttes de rouge de crésol. Un agitateur magnétique est utilisé pour homogénéiser la solution pendant le titrage.\n\n2. **Titrage de l'acide oléique** : Le volume équivalent VE obtenu est de 12,5 mL. À l'équivalence, les quantités de matière d'acide oléique (AH) et d'ions hydroxyde (HO-) sont égales : n(AH) = n(HO-) = c × VE = 1,00 × 10-2 × 12,5 × 10-3 = 1,25 × 10-4 mol.\n\n3. **Calcul de la masse d'acide** : La masse d'acide oléique est donnée par m = n × M = 1,25 × 10-4 × 282 = 0,035 g.\n\n4. **Taux d'acidité** : La masse d'huile dosée est m_huile = ρ × V = 0,92 × 10,0 = 9,2 g. Le taux d'acidité est (0,035 / 9,2) × 100 = 0,38 %, ce qui est inférieur à 0,8 %. L'huile est donc de qualité \"extra vierge\" et peut être utilisée pour la recette du masque apaisant."
+}

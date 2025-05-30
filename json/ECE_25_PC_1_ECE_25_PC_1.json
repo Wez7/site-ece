@@ -1,0 +1,29 @@
+{
+  "valeurs": {
+    "concentration_mère": "2.0×10-2 mol·L-1",
+    "concentration_fille": "1.0×10-3 mol·L-1",
+    "volume_à_prélever": "5.0 mL",
+    "volume_final": "100 mL",
+    "longueur_onde": "460 nm",
+    "intervalle_temps": "10 s",
+    "absorbance_finale_Af": "0.85",
+    "coefficient_corrélation": "0.995"
+  },
+  "correction": {
+    "1. Préparation de la solution de peroxodisulfate de potassium": {
+      "Matériel nécessaire": "Pipette jaugée de 5,0 mL, fiole jaugée de 100 mL, bécher, pissette d'eau distillée, pipeteur.",
+      "Justification": "La dilution nécessite un prélèvement précis (pipette jaugée) et une dilution dans un volume précis (fiole jaugée).",
+      "Protocole": "Prélever 5,0 mL de solution mère à 2,0×10-2 mol·L-1 avec la pipette jaugée. Verser dans la fiole jaugée de 100 mL. Compléter avec de l'eau distillée jusqu'au trait de jauge. Homogénéiser."
+    },
+    "2. Suivi cinétique": {
+      "Paramétrage": "Acquisition toutes les 10 s pendant 10 min. Longueur d'onde : 460 nm (maximum d'absorption du diiode).",
+      "Protocole": "Mélanger 5,0 mL de S2O8²⁻ à 1,0×10-3 mol·L-1 avec 15 mL de I⁻ à 0,50 mol·L-1. Agiter rapidement et placer dans la cuve du spectrophotomètre."
+    },
+    "3. Modélisation et détermination de l'ordre": {
+      "3.1. Courbe à tracer": "Tracer z = ln(Af / (Af - A(t))) en fonction du temps (t). Axe y : z, Axe x : t. Si la réaction est d'ordre 1 par rapport à S2O8²⁻, la courbe doit être une droite de pente k.",
+      "Ajustement de Af": "Estimer initialement Af = 0.85, puis ajuster après mesure finale (ex: Af = 0.87).",
+      "Modélisation": "Vérifier que les points forment une droite (coefficient de corrélation > 0.99). Exemple obtenu : r = 0.995.",
+      "3.2. Conclusion": "La réaction est d'ordre 1 par rapport à S2O8²⁻ car la courbe z = f(t) est linéaire avec un coefficient de corrélation de 0.995, validant la relation ln(Af / (Af - A(t))) = k·t."
+    }
+  }
+}

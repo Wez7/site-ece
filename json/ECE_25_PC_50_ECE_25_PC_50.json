@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "frequence_ultrason": "40.0 kHz",
+    "longueur_onde": "8.6 mm",
+    "temperature": "20.0 °C",
+    "celerite_reference": "343.0 m/s",
+    "incertitude_longueur_onde": "0.1 mm",
+    "incertitude_frequence": "0.1 kHz"
+  },
+  "correction": "1.2. L'intensité sonore varie périodiquement entre des maxima (interférences constructives) et des minima (interférences destructives) lors du déplacement du haut-parleur.\n\n1.3. Ces variations sont dues aux interférences entre les ondes émises par les deux haut-parleurs. Lorsque la différence de marche entre les deux ondes est un multiple entier de la longueur d'onde (k·λ), les interférences sont constructives. Lorsque la différence de marche est un multiple impair de λ/2, les interférences sont destructives.\n\n2.1. En déplaçant S2, on observe des variations périodiques de l'amplitude du signal reçu, alternant entre des maxima et des minima.\n\n2.2. Protocole : \n- Mesurer la distance entre deux positions consécutives de S2 correspondant à des maxima d'intensité (ou minima). \n- Cette distance correspond à λ. Répéter plusieurs mesures pour améliorer la précision.\n\n2.3. Valeur expérimentale de λ : 8.6 mm (moyenne de plusieurs mesures).\n\n2.4. Sources d'incertitude : \n- Précision du déplacement de S2 (réglet).\n- Détermination exacte des positions des maxima/minima.\n\n3.1. Fréquence mesurée : 40.0 kHz (valeur affichée par le générateur).\n\n3.2. Source d'incertitude sur f : précision limitée du générateur de fréquence.\n\n3.3. Calcul de cair(exp) : c = λ·f = 0.0086 × 40000 = 344 m/s.\n\n3.4. Calcul de u(c) : \nu(c) = 344 × √((0.0001/0.0086)² + (100/40000)²) ≈ 4 m/s.\n\n3.5. Comparaison avec la référence :\n- cair(ref) = 331 + 0.6×20 = 343 m/s.\n- z = |344 - 343| / 4 = 0.25.\nComme z ≤ 2, la mesure est compatible avec la référence."
+}

@@ -1,0 +1,30 @@
+{
+  "valeurs": {
+    "f0_prime": "20.0 cm",
+    "f1_prime": "15.0 cm",
+    "distance_L0_L1": "10.0 cm",
+    "distance_ecran_L1": "30.0 cm",
+    "resistance_min": "500 Ω",
+    "resistance_max": "5000 Ω",
+    "f2_prime_options": [
+      "5 cm",
+      "10 cm",
+      "20 cm"
+    ],
+    "f2_prime_choisie": "5 cm",
+    "grossissement": "3.0",
+    "encombrement": "20.0 cm"
+  },
+  "correction": {
+    "1.1": "Pour former l'image à l'infini d'un objet lumineux de petite taille avec la lentille L0, l'objet doit être placé au foyer objet de la lentille L0. Ainsi, la distance entre l'objet et la lentille L0 doit être égale à la distance focale f'0 de L0, soit 20.0 cm.",
+    "1.2": "Le trajet des rayons lumineux doit être complété en montrant que les rayons issus de l'objet A, après avoir traversé L0, deviennent parallèles à l'axe optique (car l'image est à l'infini). Ces rayons parallèles sont ensuite focalisés par L1 en son foyer image F'1, où se forme l'image A'.",
+    "1.3": "En plaçant l'écran à environ 30.0 cm de L1, on observe une image nette. La distance focale f'1 de L1 est donc estimée à 15.0 cm, car la distance entre L1 et l'écran correspond à la distance focale lorsque les rayons incidents sont parallèles.",
+    "2.1": "Le dispositif avec la photorésistance est placé à la même position que l'écran précédent, soit à 30.0 cm de L1.",
+    "2.2": "En déplaçant la photorésistance, on observe une résistance minimale lorsque celle-ci est placée au foyer image de L1, car le flux lumineux y est maximal. La position où la résistance est minimale (500 Ω) correspond à la distance focale f'1, confirmant la valeur de 15.0 cm.",
+    "2.3": "L'utilisation d'une photorésistance permet une mesure plus précise et automatisable de la distance focale, ce qui est avantageux en milieu industriel pour des mesures répétées et une meilleure reproductibilité.",
+    "3.1": "La lunette afocale est schématisée avec L1 (objectif) et L2 (oculaire) alignées sur l'axe optique. Le foyer image F'1 de L1 coïncide avec le foyer objet F2 de L2. Les centres optiques O1 et O2 sont séparés par la somme des distances focales f'1 + f2, soit 20.0 cm.",
+    "3.2": "Pour obtenir un grossissement G ≥ 2 et un encombrement < 30 cm, on choisit la lentille L2 avec f'2 = 5 cm. Le grossissement G = f'1 / f'2 = 15.0 / 5.0 = 3.0 répond au cahier des charges. L'encombrement est de 15.0 + 5.0 = 20.0 cm, inférieur à 30 cm.",
+    "3.3": "La lentille L2 est placée à 20.0 cm de L1, avec F'1 et F2 confondus. L'observation à travers la lunette montre une image grossie de l'objet lointain.",
+    "3.4": "L'image observée est bien grossie, comme le confirme le grossissement calculé de 3.0. L'examinateur peut constater que l'image est nette et plus grande que l'objet observé directement."
+  }
+}

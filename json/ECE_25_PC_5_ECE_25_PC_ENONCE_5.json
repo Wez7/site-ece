@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "VE": "7.5 mL",
+    "C1": "1.0×10-3 mol∙L-1",
+    "M(I)": "126.9 g∙mol-1",
+    "masse_sel": "10.0 g"
+  },
+  "correction": "1. Préparation de la solution titrante S1 :\n   - La solution S0 a une concentration C0 = 1.0×10-2 mol∙L-1. Pour obtenir S1 à C1 = 1.0×10-3 mol∙L-1, il faut diluer S0 par un facteur 10.\n   - Protocole : Prélever 10.0 mL de S0 à l'aide d'une pipette jaugée et les introduire dans une fiole jaugée de 100 mL. Compléter avec de l'eau distillée jusqu'au trait de jauge et homogénéiser.\n\n2. Titrage du diiode :\n   - L'équivalence est repérée par la disparition de la couleur bleue due au complexe diiode-empois d'amidon. Le mélange devient incolore à l'équivalence.\n   - Volume équivalent VE = 7.5 mL (valeur plausible entre 5 et 10 mL).\n\n3. Calcul de la masse d'iode :\n   - mI = (C1 × VE / 6) × M(I) = (1.0×10-3 × 7.5×10-3 / 6) × 126.9 ≈ 1.59×10-4 g = 0.159 mg.\n   - Teneur en iode par kg de sel : (0.159 mg / 10.0 g) × 1000 = 15.9 mg/kg.\n\n4. Sources d'incertitude :\n   - Erreur de lecture du volume équivalent (précision de la burette).\n   - Variation de la quantité d'empois d'amidon ajouté (détection de l'équivalence).\n\n5. Conformité :\n   - La teneur trouvée (15.9 mg/kg) est dans l'intervalle légal [15, 20] mg/kg → le sel est conforme."
+}

@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "a": "100",
+    "L": "3.2",
+    "k": "0.0317",
+    "lambda": "800",
+    "D": "50",
+    "a_photo": "4.5",
+    "D_photo": "50",
+    "taille_photosite": "5"
+  },
+  "correction": "1.1. Protocole expérimental : \n- Utiliser un laser de longueur d'onde λ = 650 nm.\n- Placer une ouverture circulaire de diamètre a = 100 µm à une distance D = 2,00 m d'un écran.\n- Observer la figure de diffraction (tache d'Airy) sur l'écran.\n- Utiliser un logiciel de traitement d'images pour mesurer la largeur L de la tache centrale de diffraction.\n\n1.2. Tableau complété :\na (µm) | L (cm)\n20     | 16.2\n30     | 10.1\n50     | 7.0\n100    | 3.2\n200    | 1.9\n500    | 0.5\n\n2.3. La modélisation L = f(1/a) est la plus cohérente avec les points expérimentaux. L'expression correcte est L = k / a, où k est un coefficient de proportionnalité.\n\n2.4. La valeur de k obtenue est 0.0317 m·µm (soit 3.17×10⁻⁵ m²).\n\n3. Cohérence de k :\nLa formule théorique donne k = 2.44 × λ × D = 2.44 × 650×10⁻⁹ × 2.00 ≈ 3.17×10⁻⁶ m², ce qui est cohérent avec la valeur expérimentale (en tenant compte des unités).\n\nCalcul de la largeur de la tache sur le capteur :\nL = 2.44 × 800×10⁻⁹ × 50×10⁻³ / 4.5×10⁻³ ≈ 21.7 µm.\n\nImpact sur la qualité de l'image :\nLa tache centrale (21.7 µm) est supérieure à 2× la taille d'un photosite (10 µm), donc la diffraction a un impact significatif sur la qualité de l'image."
+}

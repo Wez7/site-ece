@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "tau": "250 µs",
+    "R": "1000 Ω",
+    "C": "250 nF",
+    "a": "8.85e-12 F/m"
+  },
+  "correction": "1.1. Le montage électrique doit comprendre un GBF délivrant une tension crénelée de 5,0 V, un conducteur ohmique de résistance R en série avec le condensateur artisanal, et un système d'acquisition relié aux bornes du GBF (uG) et aux bornes du condensateur (uC).\n\n1.2. Les paramètres du logiciel d'acquisition doivent être réglés comme suit : durée d'acquisition de 500 µs, déclenchement synchronisé sur le GBF avec un seuil de 0,2 V en croissant.\n\n1.3. Pour déterminer τ, on utilise la méthode graphique : on repère le temps pour lequel uC atteint 63% de sa valeur maximale (soit 3,15 V pour une tension maximale de 5,0 V). Sur la courbe, cela correspond à τ = 250 µs.\n\n1.4. La capacité C est calculée à partir de la relation τ = R∙C. Avec R = 1000 Ω et τ = 250 µs, on trouve C = τ/R = 250 nF.\n\n2.1. Le protocole consiste à mesurer la capacité C pour différentes surfaces S en empilant des pochettes (1S, 2S, etc.), en maintenant la même pression (livre posé dessus) et en répétant la mesure de τ pour chaque configuration.\n\n2.2. Les valeurs de C pour différentes surfaces pourraient être : 250 nF (1S), 500 nF (2S), 750 nF (3S), etc., montrant une proportionnalité entre C et S.\n\n3.1. La courbe C = f(S) est une droite passant par l'origine, modélisée par C = a∙S, où a est une constante.\n\n3.2. La modélisation est en accord avec les points expérimentaux si ceux-ci s'alignent sur une droite, confirmant la proportionnalité entre C et S.\n\n3.3. La relation est C = ε₀∙S/d, où ε₀ est la permittivité du vide (8.85e-12 F/m), S la surface des armatures, et d la distance entre elles. Dans l'air, ε ≈ ε₀."
+}

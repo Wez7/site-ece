@@ -1,0 +1,18 @@
+{
+  "valeurs": {
+    "mcal": "150.0",
+    "m1": "200.0",
+    "T1": "20.0",
+    "m2": "200.0",
+    "T2": "60.0",
+    "Tf": "39.5",
+    "Tf_T1": "19.5",
+    "Tf_T2": "-20.5",
+    "u_T1": "0.29",
+    "u_T2": "0.29",
+    "u_Tf": "0.29",
+    "C_cal_exp": "120.0",
+    "u_C_cal": "5.0"
+  },
+  "correction": "1. **Capacité thermique du récipient en aluminium** :\n   - Masse mesurée du récipient et de l'agitateur : mcal = 150.0 g.\n   - Calcul de la capacité thermique : C_aluminium = mcal * caluminium = 150.0 * 0.895 = 134.25 J/K.\n\n2. **Capacité thermique du calorimètre réel** :\n   - Protocole expérimental suivi avec les valeurs mesurées : m1 = 200.0 g, T1 = 20.0°C, m2 = 200.0 g, T2 = 60.0°C, Tf = 39.5°C.\n   - Tf est repérée comme la température stabilisée après mélange.\n   - Incertitudes des températures : u(T) = 0.5/√3 ≈ 0.29°C.\n   - Bilan thermique : m1*ceau*(Tf-T1) + m2*ceau*(Tf-T2) + C_cal*(Tf-T1) = 0.\n   - Résolution donne C_cal_exp = 120.0 ± 5.0 J/K.\n\n3. **Exploitation des résultats** :\n   - Comparaison entre C_aluminium (134.25 J/K) et C_cal_exp (120.0 J/K) : |(120.0-134.25)/5.0| = 2.85 > 2 → Non compatible.\n   - Amélioration possible : Répéter les mesures pour réduire les incertitudes ou vérifier l'isolation thermique du calorimètre."
+}

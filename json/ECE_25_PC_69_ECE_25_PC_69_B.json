@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "Umax": "3.3 V",
+    "Umin": "1.5 V",
+    "Uréf": "2.4 V",
+    "temps_de_réponse": "0.8 s",
+    "diminution_tension": "1.8 V",
+    "résistance_r_optimale": "50 kΩ"
+  },
+  "correction": "1.1. La durée de l'acquisition est de 10 secondes avec une période d'échantillonnage de 0.1 seconde. La tension est mesurée sur la broche 0 du microcontrôleur. Les grandeurs affichées sont le temps (t) et la tension (UC).\n\n1.2. Pour simuler le contact d'un doigt, fermez l'interrupteur K à mi-acquisition. Assurez-vous que l'interrupteur est ouvert au début de l'acquisition pour que UC(t) atteigne Umax.\n\n1.3. À partir de la courbe UC = f(t), déterminez Umax (3.3 V) et Umin (1.5 V). Calculez Uréf = (Umax + Umin)/2 = 2.4 V. Le temps de réponse est le temps pour que UC passe de Umax à Uréf, ici 0.8 s.\n\n2.1. La diminution de tension (1.8 V) est bien supérieure à 100 mV. Le temps de réponse (0.8 s) est inférieur à 1 s. Le dispositif répond donc aux deux critères.\n\n2.2. Pour réduire le temps de réponse, diminuez la résistance r. Une valeur de 50 kΩ est optimale. Remplacez r par 50 kΩ et refaites l'acquisition pour vérifier que le temps de réponse est réduit.\n\n2.3. Avec la nouvelle résistance, recalculez Uréf à partir des nouvelles valeurs de Umax et Umin.\n\n3.1. La variable enregistrant la tension est 'tension_mesuree'. La variable pour le caractère 'croix' est 'symbole_croix'.\n\n3.2. Si la croix ne s'affiche pas, modifiez la ligne du programme où la tension est comparée à Uréf. Assurez-vous que la condition 'if tension_mesuree < Uréf:' est correctement paramétrée avec la valeur de Uréf calculée. Téléversez et testez le programme modifié."
+}

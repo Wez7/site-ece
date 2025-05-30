@@ -1,0 +1,13 @@
+{
+  "valeurs": {
+    "pH_S3": 4.8,
+    "pH_S4": 5.2,
+    "pKA1": 4.6,
+    "pH_acide1": 3.2,
+    "pH_acide2": 2.8,
+    "tau_f_acide1": 0.063,
+    "tau_f_acide2": 0.158,
+    "pKA2": 3.75
+  },
+  "correction": "1. Détermination du pKA de l'acide 1 :\n- Après étalonnage du pH-mètre, les pH des solutions S3 et S4 sont mesurés et notés dans le tableau (4.8 et 5.2 respectivement).\n- Le logiciel tableur-grapheur permet de calculer log(VB/VA) pour chaque solution et de tracer pH = f(log(VB/VA)). La relation pH = pKA + log(VB/VA) montre que pKA est l'ordonnée à l'origine de la droite obtenue (quand log(VB/VA) = 0).\n- La droite tracée donne un pKA1 de 4.6.\n\n2. Détermination du taux d'avancement final :\n- Les pH des solutions d'acide 1 et 2 sont mesurés (3.2 et 2.8 respectivement).\n- Le taux d'avancement final est calculé par τf = 10^(-pH)/C, donnant 0.063 pour l'acide 1 et 0.158 pour l'acide 2.\n\n3. Exploitation des résultats :\n- Comparaison des pKA : pKA1 (4.6) > pKA2 (3.75), donc l'acide 2 est plus fort que l'acide 1.\n- Le taux d'avancement final est plus élevé pour l'acide 2, confirmant qu'un acide plus fort réagit davantage avec l'eau (τf plus grand).\n\nConclusion : Un acide plus fort (pKA plus faible) a un taux d'avancement final plus élevé, indiquant une réaction plus complète avec l'eau."
+}

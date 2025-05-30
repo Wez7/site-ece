@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "Ti": "20.0",
+    "Text": "0.0",
+    "a": "-0.0025",
+    "b": "3.0",
+    "tau_liquide": "400",
+    "tau_lave_glace": "300",
+    "tau_liquide_refroidissement": "500"
+  },
+  "correction": "Pour déterminer la nature du liquide, nous avons suivi le protocole suivant :\n\n1. **Protocole expérimental** :\n   - Préparer un bain d'eau et de glace pour maintenir une température constante Text.\n   - Remplir une éprouvette avec 20 mL du liquide à étudier et mesurer sa température initiale Ti.\n   - Plonger l'éprouvette dans le bain et relever la température T du liquide toutes les 20 secondes pendant 8 minutes.\n   - Noter la température du bain Text à la fin de l'expérience.\n\n2. **Exploitation des mesures** :\n   - Les données sont enregistrées dans un fichier CSV et traitées avec un programme Python pour tracer ln(ΔT) en fonction du temps t.\n   - La modélisation donne une droite d'équation ln(ΔT) = a*t + b, où a = -1/τ et b = ln(Ti - Text).\n   - À partir des valeurs de a et b, on calcule τ = -1/a.\n\n3. **Identification du liquide** :\n   - Le temps caractéristique τliquide obtenu est comparé aux valeurs de référence τlave-glace et τliquide refroidissement.\n   - Si τliquide est proche de τlave-glace, le liquide est du lave-glace. S'il est proche de τliquide refroidissement, c'est du liquide de refroidissement.\n   - Dans notre cas, τliquide = 400 s, ce qui est plus proche de τliquide refroidissement (500 s) que de τlave-glace (300 s). On peut donc conclure que le liquide est du liquide de refroidissement.\n\n**Conclusion** : Le liquide étudié est du liquide de refroidissement, il convient donc pour remplir le réservoir correspondant dans la voiture."
+}

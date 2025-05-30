@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "distance_obstacle": "25 cm",
+    "temps_ultrasons": "1470 µs",
+    "vitesse_son_air": "340 m/s",
+    "seuil_buzzer": "30 cm"
+  },
+  "correction": "1. Montage expérimental : Le module ultrasons doit être connecté à la carte Micro:bit comme suit : broche 1 (Trig) vers la broche 1 de la carte, broche 2 (Echo) vers la broche 0 de la carte, broche 3 (GND) vers la broche GND de la carte, et la broche VCC vers la broche 3V de la carte. Le buzzer doit être connecté à une broche numérique (par exemple broche 2) et à la masse (GND).\n\n2.1. Schéma : Représenter le module ultrasons face à un obstacle, avec une flèche indiquant la distance d entre eux.\n\n2.2. Calcul de la distance : La distance (d) est donnée par d = (temps * vitesse_son) / 2. Convertir le temps en secondes (1470 µs = 0.00147 s) et la vitesse en cm/s (34000 cm/s). Ainsi, d = (0.00147 * 34000) / 2 = 25 cm. La ligne 13 du code doit être : distance = (temps * 0.034) / 2.\n\n2.3. Ligne 15 : if distance < 30:\n\n2.4. Ligne 17 : print(\"Distance:\", distance, \"cm\")\n\n3.1. Vérification : Lorsque l'obstacle est à moins de 30 cm, le buzzer doit sonner.\n\n3.2. Sources d'écarts : - Variations de la vitesse du son due à la température. - Angles d'incidence non optimaux entre le module et l'obstacle.\n\n3.3. Obstacle très proche : Le module peut ne pas détecter l'obstacle si la distance est inférieure à sa portée minimale (environ 2 cm).\n\n3.4. Positions non détectées : - Obstacle placé à un angle trop important. - Obstacle trop petit ou absorbant les ultrasons.\n\n3.5. Propagation dans l'eau : Modifier la vitesse du son dans le programme (1480 m/s au lieu de 340 m/s). La ligne 13 devient : distance = (temps * 0.148) / 2."
+}

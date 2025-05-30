@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "U": "0.059 V",
+    "ΔE": "0.059 V",
+    "T": "298 K",
+    "ΔE_S1": "0 V",
+    "ΔE_S2": "0.059 V",
+    "ΔE_S3": "0.077 V",
+    "ΔE_S4": "0.118 V",
+    "ΔE_S5": "0.177 V",
+    "NA_exp": "6.2 x 10^23 mol^-1"
+  },
+  "correction": "1.1. Schéma de la pile de concentration : \n- Deux béchers contenant S1 et S2, reliés par un pont salin (KNO3).\n- Électrodes en argent plongeant dans chaque solution.\n- Voltmètre connecté aux électrodes pour mesurer U.\n\n1.2. La tension mesurée est U = +0.059 V (borne + côté S1), donc ΔE = 0.059 V.\nDemi-équations :\n- Demi-pile 1 (réduction) : Ag+(1) + e- → Ag(s)\n- Demi-pile 2 (oxydation) : Ag(s) → Ag+(2) + e-\n\n1.3. Équation globale : Ag+(1) + Ag(s) → Ag(s) + Ag+(2)\n\n2.1. Protocole pour S3 (dilution) :\n- Prélever 5,0 mL de S1 avec une pipette graduée.\n- Verser dans une fiole jaugée de 100,0 mL.\n- Compléter avec de l'eau distillée jusqu'au trait de jauge.\n\n2.3. Tableau complété avec les valeurs de ΔE mesurées.\n\n2.4. Courbe ΔE = f(log([Ag+]cathode/[Ag+]anode)) : droite passant par l'origine, de pente 0.059 V/décade.\n\n3.1. Modélisation : ΔE = (RT/nF) * ln(10) * log([Ag+]cathode/[Ag+]anode). Pour n=1 et T=298 K, la pente théorique est 0.059 V.\n\n3.2. Démarche :\n- Identifier la pente expérimentale (≈0.059 V).\n- Exprimer F = NA * e à partir de la pente.\n- Calculer NA = pente * n * e / (R * T * ln(10)).\n\n3.3. Valeur expérimentale : NA ≈ 6.2 x 10^23 mol^-1.\n\n3.4. Comparaison :\n- Ordre de grandeur cohérent (10^23).\nSources d'incertitude :\n- Précision des mesures de tension.\n- Variations de température non contrôlées.\n- Erreurs de dilution pour S3."
+}

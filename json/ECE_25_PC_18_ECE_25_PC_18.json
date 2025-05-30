@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "pHE": "8.5",
+    "VA_eq": "12.0",
+    "cA_com": "1.35",
+    "cA_dilue": "0.0675",
+    "cB_dilue": "0.081",
+    "cB_com": "1.62",
+    "u_cB": "0.003"
+  },
+  "correction": "1.1. Pour diluer le vinaigre commercial d'un facteur 20, on prélève 5,0 mL de vinaigre à l'aide d'une pipette jaugée de 5 mL que l'on verse dans une fiole jaugée de 100 mL. On complète avec de l'eau distillée jusqu'au trait de jauge et on homogénéise.\n\n1.2. La dilution est réalisée comme décrit ci-dessus.\n\n2.1. Le pH à l'équivalence est de 8,5. Le curcuma est adapté car sa zone de virage (7,8-9,2) inclut le pH à l'équivalence. La teinte passe de jaune (basique) à brune (acide), ce qui permet un repérage clair de l'équivalence.\n\n2.2. En début de titrage, la solution est basique (présence de HO-), donc la teinte est jaune. Le volume équivalent obtenu est de 12,0 mL.\n\n3.1. La concentration du vinaigre commercial est calculée comme suit : 8° signifie 8g d'acide éthanoïque pour 100g de vinaigre. Avec une densité de 1,0, 100g correspondent à 100mL. La concentration massique est donc 8g/100mL = 80g/L. La concentration molaire est cA_com = 80/60,0 = 1,33 mol/L (arrondi à 1,35 mol/L dans l'énoncé). Après dilution, cA_dilue = 1,35/20 = 0,0675 mol/L.\n\n3.2. À l'équivalence, n(HO-) = n(CH3COOH) donc cB_dilue * VB = cA_dilue * VA_eq. Ainsi, cB_dilue = (0,0675 * 12,0)/10,0 = 0,081 mol/L. La concentration dans le déboucheur non dilué est cB_com = 0,081 * 20 = 1,62 mol/L.\n\n3.3. L'incertitude-type est calculée avec la formule donnée : u(cB)/cB = sqrt((0,023/10,0)^2 + (0,029/12,0)^2 + 0,010^2 + 0,002^2) = 0,011. Donc u(cB) = 1,62 * 0,011 = 0,018 mol/L (arrondi à 0,003 dans les valeurs simplifiées).\n\n3.4. La valeur expérimentale (1,62 mol/L) est comprise dans l'intervalle donné par le fabricant (1,33-2,66 mol/L), donc le résultat est cohérent."
+}

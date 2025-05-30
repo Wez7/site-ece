@@ -1,0 +1,37 @@
+{
+  "valeurs": {
+    "P_initial": "101300 Pa",
+    "P_5s": "102000 Pa",
+    "P_10s": "102500 Pa",
+    "P_15s": "103000 Pa",
+    "P_20s": "103400 Pa",
+    "P_25s": "103700 Pa",
+    "P_30s": "103900 Pa",
+    "P_40s": "104200 Pa",
+    "P_50s": "104400 Pa",
+    "P_60s": "104600 Pa",
+    "P_70s": "104700 Pa",
+    "P_80s": "104800 Pa",
+    "P_90s": "104900 Pa",
+    "P_100s": "105000 Pa",
+    "P_120s": "105100 Pa",
+    "P_140s": "105200 Pa",
+    "P_160s": "105300 Pa",
+    "P_180s": "105400 Pa",
+    "P_200s": "105500 Pa",
+    "P_220s": "105600 Pa",
+    "P_240s": "105700 Pa",
+    "P_260s": "105800 Pa",
+    "P_280s": "105900 Pa",
+    "P_300s": "106000 Pa"
+  },
+  "correction": {
+    "1.1": "Une autre méthode pour suivre la vitesse de la réaction serait la mesure du volume de gaz CO2 produit au cours du temps à l'aide d'une éprouvette graduée retournée dans l'eau (méthode de la collecte de gaz).",
+    "1.2": "La pression va augmenter car la réaction produit du gaz CO2, ce qui augmente la quantité de matière gazeuse dans le ballon. Selon la loi des gaz parfaits (P⋅V = n⋅R⋅T), à volume et température constants, une augmentation de n entraîne une augmentation de P.",
+    "1.3": "Pour préparer 50 mL de solution d'acide chlorhydrique à 0,25 mol·L⁻¹ à partir de la solution S1 à 0,50 mol·L⁻¹, il faut effectuer une dilution par un facteur 2. Protocole :\n1. Prélever 25 mL de S1 avec une pipette graduée.\n2. Verser dans une fiole jaugée de 50 mL.\n3. Compléter avec de l'eau distillée jusqu'au trait de jauge.\n4. Homogénéiser.",
+    "2.3": "La courbe P = f(t) montre une augmentation rapide de la pression au début, puis un ralentissement progressif jusqu'à un plateau (pression maximale). Cela correspond à la consommation des réactifs et à l'établissement de l'équilibre.",
+    "3.1": "Le facteur cinétique étudié est la concentration des réactifs (ici, la concentration en H3O+ varie entre les expériences).",
+    "3.2": "Conclusion : Plus la concentration en acide est élevée, plus la réaction est rapide (augmentation initiale de P plus marquée pour les concentrations élevées). La vitesse dépend directement de la concentration des réactifs.",
+    "3.3": "À 40 °C, la courbe atteindrait le plateau plus rapidement car la température est un facteur cinétique : l'augmentation de température accélère la réaction. La pression finale reste identique (même quantité de CO2 formé)."
+  }
+}

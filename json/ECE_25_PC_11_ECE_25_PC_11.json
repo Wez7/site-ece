@@ -1,0 +1,15 @@
+{
+  "valeurs": {
+    "masse_volumique_solution_S": "1.033 kg/L",
+    "poids_apparent_eau": "0.55 N",
+    "poids_apparent_eau_salee": "0.52 N",
+    "poids_apparent_ethanol": "0.60 N",
+    "poids_apparent_huile": "0.57 N",
+    "volume_oeuf": "0.055 L",
+    "masse_volumique_oeuf": "1.02 kg/L",
+    "masse_oeuf": "56.1 g",
+    "masse_oeuf_apres_un_mois": "46.0 g",
+    "masse_volumique_oeuf_apres_un_mois": "0.836 kg/L"
+  },
+  "correction": "1. **Préparation de la solution S** :\n   - Protocole : Peser 10 g de NaCl, les dissoudre dans de l'eau distillée dans une fiole jaugée de 200 mL, puis compléter jusqu'au trait de jauge avec de l'eau distillée en agitant pour homogénéiser.\n   - Masse volumique de S : D'après la relation donnée, ρ(S) = 6,667.10⁻⁴ × 50 + 1,000 = 1,033 kg/L.\n\n2. **Détermination des caractéristiques de l'œuf** :\n   - Tableau des poids apparents : Les valeurs mesurées sont cohérentes avec la théorie. La courbe P' en fonction de ρ(liquide) est une droite de pente négative, confirmant la relation P' = ρ(œuf) × V × g - ρ(liquide) × V × g.\n   - Volume de l'œuf : En exploitant la pente de la droite (égale à -V × g), on trouve V ≈ 0,055 L.\n   - Masse volumique de l'œuf : À partir de P' dans l'eau (0,55 N) et V, on calcule ρ(œuf) ≈ 1,02 kg/L.\n\n3. **État de fraîcheur de l'œuf** :\n   - Justification : ρ(œuf) = 1,02 kg/L > ρ(eau) = 1,0 kg/L → l'œuf frais coule.\n   - Après un mois : La masse diminue de 18% (46,0 g), donc ρ(œuf) = 46,0 g / 0,055 L ≈ 0,836 kg/L. Comme 0,836 < 1,0, l'œuf flottera, indiquant qu'il n'est plus frais."
+}

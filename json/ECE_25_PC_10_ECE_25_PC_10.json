@@ -1,0 +1,12 @@
+{
+  "valeurs": {
+    "masse_ethanol_70": "17.75 g",
+    "volume_alcool_90": "19.44 mL",
+    "masse_initiale_fiole": "45.0 g",
+    "masse_finale_fiole": "62.5 g",
+    "masse_volumique_exp": "875 g/L",
+    "incertitude_u_rho": "8.75 g/L",
+    "masse_volumique_ref": "885 g/L"
+  },
+  "correction": "1.1. Protocole pour déterminer la masse volumique des solutions :\n- Peser une fiole jaugée vide de 25,0 mL (mi).\n- Remplir la fiole avec la solution A jusqu'au trait de jauge et peser (mfA).\n- Calculer la masse de la solution A : m_A = mfA - mi.\n- Calculer la masse volumique ρ_A = m_A / 25,0 mL.\n- Répéter les étapes pour la solution B.\n- Comparer les valeurs obtenues avec la densité attendue pour l'alcool à 90° (d=0,835 à 20°C).\n\n1.2. Résultats expérimentaux :\n- Solution A : ρ_A = 835 g/L → correspond à l'alcool à 90°.\n- Solution B : ρ_B = 800 g/L → degré déterminé à partir du graphique densité/TAV : ~60°.\n\n2. Calcul du volume de solution mère (alcool à 90°) :\n- Masse d'éthanol dans 25,0 mL d'alcool à 70° : m_ethanol = 70% × 25,0 mL × 0,789 g/mL = 17,75 g.\n- Volume d'alcool à 90° nécessaire : Vm = (17,75 g / 710 g/L) × 1000 = 19,44 mL.\n\n3. Préparation de la solution diluée :\n- Masse initiale fiole : mi = 45,0 g.\n- Masse finale fiole : mf = 62,5 g.\n- Masse solution : m = 17,5 g.\n- Masse volumique expérimentale : ρ_exp = 17,5 g / 0,025 L = 875 g/L.\n\n3.2. Calcul de l'incertitude et compatibilité :\n- u(ρ) = 875 × √((0,1/17,75)² + 4,95×10⁻⁶) ≈ 8,75 g/L.\n- |ρ_exp - ρ_ref| / u(ρ) = |875 - 885| / 8,75 ≈ 1,14 ≤ 2 → les valeurs sont compatibles."
+}

@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "irouge_monochromatique": "450 pixels",
+    "irouge_polychromatique": "420 pixels",
+    "ibleu": "323 pixels",
+    "ivert": "372 pixels"
+  },
+  "correction": "1. **Interférences en lumière monochromatique** : \n   - Le montage des fentes de Young est réalisé avec un laser rouge (λ = 630 nm). L'interfrange mesuré avec SalsaJ est irouge = 450 pixels. Cette valeur dépend de la distance entre les fentes et l'écran, ainsi que de la longueur d'onde de la lumière utilisée.\n\n2. **Interférences en lumière polychromatique** : \n   - L'image en lumière blanche est séparée en ses composantes R, V, B. Les interfrange mesurés sont : ibleu = 323 pixels, ivert = 372 pixels, irouge = 420 pixels. La différence avec la question 1 s'explique par la variation de la longueur d'onde (λ) pour chaque couleur, car i ∝ λ (loi des interférences).\n\n3. **Confrontation avec la loi proposée** : \n   - Un graphique i = f(λ) montre une droite passant par l'origine, confirmant que i est proportionnel à λ (i = (D/a) * λ, où D est la distance écran-fentes et a l'écart entre les fentes).\n   - **Explication de l'iridescence** : Les plumes de l'ibis chauve contiennent des microstructures qui agissent comme un réseau de diffraction, séparant la lumière blanche en ses composantes colorées (bleu, vert, rouge) par interférences constructives selon l'angle d'observation. Cela crée des reflets changeants (iridescence).\n\n**Schéma suggéré** : Représenter des franges d'interférences superposées pour λbleu, λvert, λrouge, avec des décalages d'interfranges correspondants."
+}

@@ -1,0 +1,21 @@
+{
+  "valeurs": {
+    "VC": "4.0 mL",
+    "VE": "8.0 mL",
+    "temps_reflux": "25 minutes"
+  },
+  "correction": {
+    "2.1": "Pour préparer 12 mL d'éluant avec 1/3 de cyclohexane et 2/3 d'éther diéthylique, on calcule les volumes comme suit :\n- Volume de cyclohexane (VC) = (1/3) × 12 mL = 4.0 mL\n- Volume d'éther diéthylique (VE) = (2/3) × 12 mL = 8.0 mL",
+    "2.4": "Le chromatogramme montre la présence de benzoïne résiduelle dans le mélange réactionnel après 5 minutes de reflux. Cela peut s'expliquer par :\n1. Un temps de reflux insuffisant pour une conversion complète.\n2. Une cinétique de réaction lente nécessitant un temps plus long.\n3. Un équilibre chimique où la réaction n'est pas totale.",
+    "2.5": "Les chromatogrammes montrent que la benzoïne disparaît progressivement avec le temps de reflux. À 25 minutes, la tache de benzoïne est presque absente, confirmant que la réaction est quasi-complète. L'hypothèse retenue est donc que le temps de reflux initial (5 min) était trop court.",
+    "2.6": "Le temps de reflux à indiquer dans le protocole est de 25 minutes, car les chromatogrammes montrent qu'à ce temps, la benzoïne est presque entièrement convertie en benzile.",
+    "3.1": {
+      "1": "Ballon à fond rond",
+      "2": "Réfrigérant à boules",
+      "3": "Chauffe-ballon",
+      "4": "Sortie d'eau du réfrigérant"
+    },
+    "3.2": "Rôles des éléments :\n- Élément 1 (Ballon) : Contient le mélange réactionnel et permet le chauffage.\n- Élément 4 (Sortie d'eau) : Évacue l'eau chaude du réfrigérant pour maintenir une condensation efficace des vapeurs.",
+    "3.3": "Plonger le ballon dans un bain d'eau glacée arrête la réaction en abaissant brutalement la température, ce qui :\n1. Ralentit ou stoppe les collisions efficaces entre les molécules.\n2. Diminue l'énergie cinétique des réactifs.\n3. Peut précipiter les produits pour faciliter leur récupération."
+  }
+}

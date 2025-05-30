@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "σ1": "450 µS·cm⁻¹",
+    "σ2a": "300 µS·cm⁻¹",
+    "σ2b": "150 µS·cm⁻¹",
+    "VE": "12.5 mL",
+    "CS": "5.00 × 10⁻³ mol·L⁻¹",
+    "C_S2a": "3.00 × 10⁻³ mol·L⁻¹",
+    "C_S2b": "1.50 × 10⁻³ mol·L⁻¹",
+    "Pextrait_simple": "40%",
+    "Pextrait_double": "70%"
+  },
+  "correction": "### Correction complète de l'épreuve ECE\n\n#### 1. Extraction de l'acide benzoïque\n- **Extraction simple** : La conductivité mesurée de la phase aqueuse S1 est **450 µS·cm⁻¹**. La concentration résiduelle en acide benzoïque est déterminée à partir de la courbe de conductivité.\n- **Extraction double** :\n  - **Première extraction (S2a)** : Conductivité mesurée = **300 µS·cm⁻¹**.\n  - **Seconde extraction (S2b)** : Conductivité mesurée = **150 µS·cm⁻¹**.\n  - Les concentrations correspondantes sont calculées via la courbe : **C_S2a = 3.00 × 10⁻³ mol·L⁻¹** et **C_S2b = 1.50 × 10⁻³ mol·L⁻¹**.\n\n#### 2. Titrage de la solution S\n- **Volume équivalent (VE)** : **12.5 mL** de NaOH à 1.00 × 10⁻² mol·L⁻¹.\n- **Calcul de CS** :\n  - À l'équivalence : *n(C6H5COOH) = n(HO⁻)* ⇒ *CS × V = Cb × VE*.\n  - Donc *CS = (Cb × VE) / V = (1.00 × 10⁻² × 12.5) / 25.0 = 5.00 × 10⁻³ mol·L⁻¹*.\n\n#### 3. Comparaison des extractions et choix du solvant\n- **Pourcentages d'extraction** :\n  - **Simple** : *Pextrait = 1 − (C_S1 / CS) = 1 − (3.00 × 10⁻³ / 5.00 × 10⁻³) = 40%*.\n  - **Double** : *Pextrait = 1 − (C_S2b / CS) = 1 − (1.50 × 10⁻³ / 5.00 × 10⁻³) = 70%*.\n  - **Conclusion** : L'extraction double est plus efficace (70% vs 40%).\n- **Avantages de l'huile de lin** (oral) :\n  - **Chimie verte** : Non toxique (pas de pictogramme de danger vs dichlorométhane cancérigène et éther inflammable).\n  - **Efficacité** : Bonne solubilité de l'acide benzoïque et non miscible à l'eau.\n  - **Densité** : Proche de l'eau (0.9), facilitant la décantation.\n\n#### Remarque finale\nL'huile de lin est un solvant écoresponsable et efficace pour cette extraction, conformément aux principes de la chimie verte."
+}

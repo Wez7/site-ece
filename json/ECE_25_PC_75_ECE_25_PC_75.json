@@ -1,0 +1,9 @@
+{
+  "valeurs": {
+    "VE": "12.0 mL",
+    "CB": "2.5 × 10^-1 mol/L",
+    "VA": "20.0 mL",
+    "M": "90.0 g/mol"
+  },
+  "correction": "1. Préparation de la solution titrante :\n\n1.1. Protocole expérimental pour la dilution :\n- Prélever 20,0 mL de la solution mère (C = 6,25 × 10^-1 mol/L) à l'aide d'une pipette jaugée de 20,0 mL.\n- Verser dans une fiole jaugée de 50,0 mL.\n- Compléter avec de l'eau distillée jusqu'au trait de jauge.\n- Homogénéiser la solution.\n\n1.2. Mise en œuvre :\nSuivre le protocole décrit ci-dessus.\n\n2. Titrage de l'acide lactique :\n\n2.1. Choix de l'indicateur coloré :\n- Le programme Python permet de simuler la courbe de titrage. Le pH à l'équivalence est d'environ 8,5.\n- L'indicateur adapté est le rouge de crésol (zone de virage 7,4 - 9,0).\n- Changement de couleur attendu : jaune (acide) à violet (basique).\n\n2.2. Schéma du dispositif expérimental :\n- Burette graduée : solution d'hydroxyde de sodium (CB = 2,5 × 10^-1 mol/L).\n- Bécher : 20,0 mL de produit laitier + 50 mL d'eau distillée + quelques gouttes de rouge de crésol.\n\n2.3. Mise en œuvre du titrage :\n- Réaliser le titrage jusqu'au changement de couleur (jaune à violet).\n- Volume équivalent relevé : VE = 12,0 mL.\n\n3. Degré Dornic du produit laitier :\n\n3.1. Calcul du degré Dornic :\n°D = (CB × VE × M × 10) / VA\n°D = (0,25 × 12,0 × 90,0 × 10) / 20,0 = 135 °D\n\n3.2. Sources d'erreur :\n- Erreur de lecture du volume équivalent.\n- Erreur due à la précision de la verrerie utilisée.\n\n3.3. Conclusion :\nLe degré Dornic de 135 °D correspond à un yaourt ou un lait fermenté. D'après la fiche du produit, il s'agit d'un lait fermenté contenant des bactéries L. casei."
+}

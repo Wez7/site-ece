@@ -1,0 +1,14 @@
+{
+  "valeurs": {
+    "lambda": "650 nm",
+    "D1": "1.0 m",
+    "L1": "4.3 mm",
+    "D2": "1.5 m",
+    "L2": "6.5 mm",
+    "D3": "2.0 m",
+    "L3": "8.6 mm",
+    "a_peigne1": "302 μm",
+    "a_peigne2": "280 μm"
+  },
+  "correction": "1. Schématisation du montage de diffraction :\nLe montage doit inclure :\n- Un laser émettant une lumière monochromatique de longueur d'onde λ.\n- Le peigne n°1 placé perpendiculairement au faisceau laser.\n- Un écran placé à une distance D du peigne pour observer la figure de diffraction.\nLes grandeurs à faire apparaître sont : λ (longueur d'onde), a (espacement des dents du peigne), D (distance peigne-écran), L (largeur de la tache centrale).\n\n2. Exploitation de la figure de diffraction :\n2.1. Les mesures sont reportées dans le tableau avec D et L pour trois distances différentes.\n2.2. Le graphe L = f(D) est une droite passant par l'origine, confirmant la relation L = (2λD)/a. La modélisation donne une équation de la forme L = k·D, où k est la pente de la droite.\n2.3. Sources d'incertitudes :\n- Imprécision sur la mesure de D (règle mal placée).\n- Imprécision sur la mesure de L (lecture sur l'écran).\n- Variation de la distance D lors des mesures.\n\n3. Étude des peignes à poux et conclusion :\nPour le peigne n°1 :\n- En utilisant la relation L = (2λD)/a, on trouve a ≈ 302 μm.\n- Comme a > 300 μm, le peigne n°1 n'est pas optimal pour retirer les lentes.\n\nPour le peigne n°2 :\n- Une mesure similaire donne a ≈ 280 μm.\n- Comme a < 300 μm, le peigne n°2 est efficace pour retirer les lentes.\n\nConclusion : Le peigne n°2 est adapté pour l'élimination des lentes, contrairement au peigne n°1."
+}

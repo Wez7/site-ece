@@ -1,0 +1,11 @@
+{
+  "valeurs": {
+    "rayon_bille": "0.0015",
+    "masse_bille": "0.002",
+    "volume_liquide": "0.0001",
+    "masse_liquide": "0.12",
+    "distance_chute": "0.1",
+    "temps_chute": "2.5"
+  },
+  "correction": "1. Pour calculer la viscosité du liquide inconnu, il faut déterminer les grandeurs suivantes : le rayon de la bille (R), la masse volumique de la bille (ρbille), la masse volumique du liquide (ρliquide), et la vitesse limite de chute de la bille (vlimite).\n\n2.1. Protocole pour déterminer la masse volumique du liquide inconnu :\n- Mesurer une certaine quantité de liquide avec une éprouvette graduée pour obtenir son volume (V).\n- Peser cette quantité de liquide avec une balance pour obtenir sa masse (m).\n- Calculer la masse volumique avec la formule ρ = m/V.\n\n2.2. Calcul de la masse volumique du liquide :\nρliquide = masse_liquide / volume_liquide = 0.12 kg / 0.0001 m³ = 1200 kg/m³.\n\n2.3. Calcul de la masse volumique de la bille :\nVolume de la bille V = (4/3) * π * R³ = (4/3) * π * (0.0015)³ ≈ 1.41 * 10^-8 m³.\nρbille = masse_bille / V = 0.002 kg / 1.41 * 10^-8 m³ ≈ 1418 kg/m³.\n\n2.4. Protocole pour mesurer la vitesse limite de chute :\n- Lâcher la bille sans vitesse initiale à la surface du liquide.\n- Mesurer le temps (t) que met la bille pour parcourir une distance (d) une fois que sa vitesse est constante (après quelques centimètres).\n- Calculer vlimite = d / t.\n\n2.5. Calcul de la vitesse limite :\nvlimite = distance_chute / temps_chute = 0.1 m / 2.5 s = 0.04 m/s.\n\n3.1. Calcul de la viscosité :\nη = (2 * R² * g) / (9 * vlimite) * (ρbille - ρliquide) = (2 * (0.0015)² * 9.81) / (9 * 0.04) * (1418 - 1200) ≈ 0.3 Pa·s.\n\n3.2. Comparaison : La viscosité obtenue (0.3 Pa·s) est comparable à celle d'une sauce au chocolat.\n\n3.3. Pour une sauce consommée chaude ayant la même viscosité que le liquide inconnu à température ambiante, sa viscosité à température ambiante devra être supérieure. En effet, la viscosité diminue avec l'augmentation de la température."
+}
