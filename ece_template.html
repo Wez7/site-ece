@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détail ECE</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titre-ece">Chargement du sujet...</h1>
+        <p><a href="index.html">&larr; Retour à la liste des sujets</a></p>
+    </header>
+    <main>
+        <section id="contenu-ece">
+            <h2>Énoncé PDF</h2>
+            <p>
+                <a id="pdf-download-link" href="#" target="_blank">Télécharger l'énoncé PDF</a>
+            </p>
+            <p>Visualisation :</p>
+            <iframe id="pdf-iframe" src="" width="100%" height="600px" title="Énoncé PDF">
+                Votre navigateur ne supporte pas les iframes. Veuillez utiliser le lien de téléchargement.
+            </iframe>
+
+            <h2>Valeurs Expérimentales Plausibles</h2>
+            <div id="valeurs-experimentales">
+                <p>Chargement...</p>
+            </div>
+
+            <h2>Correction Détaillée</h2>
+            <pre id="correction-exercice">
+                Chargement...
+            </pre>
+        </section>
+    </main>
+    <footer>
+        <p>Site statique généré pour les ECE.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

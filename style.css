@@ -1,0 +1,165 @@
+/* Styles globaux et reset simple */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    max-width: 900px; /* Limite la largeur pour meilleure lisibilité */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    color: #0779e4;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-top: 30px; /* Espace avant chaque section */
+}
+
+main h2:first-child {
+    margin-top: 0;
+}
+
+/* Liste des sujets (index.html) */
+#liste-sujets {
+    list-style: none;
+    padding: 0;
+}
+
+#liste-sujets li {
+    background: #e9e9e9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#liste-sujets li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#liste-sujets li a:hover {
+    color: #0779e4;
+}
+
+/* Page de détail ECE (ece_template.html) */
+#contenu-ece section {
+    margin-bottom: 20px;
+}
+
+#pdf-download-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0779e4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#pdf-download-link:hover {
+    background-color: #0056b3;
+}
+
+#pdf-iframe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tableau pour les valeurs expérimentales */
+.valeurs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.valeurs-table td, .valeurs-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.valeurs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.valeurs-table td:first-child { /* Colonne des clés */
+    font-weight: bold;
+    width: 30%; /* Ajustez si nécessaire */
+}
+
+
+/* Correction */
+#correction-exercice {
+    background-color: #eef;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Respecte les retours à la ligne et espaces */
+    word-wrap: break-word; /* Évite le débordement horizontal */
+    font-family: 'Courier New', Courier, monospace; /* Police à chasse fixe pour code/correction */
+    border: 1px solid #cce;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* Responsive minimal */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    #pdf-iframe {
+        height: 400px; /* Réduire la hauteur sur mobile */
+    }
+}
